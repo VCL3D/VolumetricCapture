@@ -30,7 +30,7 @@ And this last image depicts the corresponding calibration procedure from the top
 
 The formerly placed calibration structure acts as the global coordinate system anchor. 
 - The setup requires all 4 Intel RealSense sensors to be placed __perimetrically around the calibration structure and looking inwards (i.e., towards the structure)__. 
-- In order to capture the desired object in full-360<sup>o</sup>, sensors should be placed approximately at __90^o^ intervals__,
+- In order to capture the desired object in full-360<sup>o</sup>, sensors should be placed approximately at __90<sup>o</sup> intervals__,
 - Importantly, towards achieving better performance during the graph-based refinement step, sensors should be positioned diagonally, which means that __planar sides of the structure look in-between two adjacent sensors__.
 - All viewpoints should target the middle of the structure in a way that the __structure is depicted at the center of the received images__ both horizontally and vertically. 
 - Considering the specific field-of-view of the Intel RealSense and with a view to capturing a standing person at the center of the capturing space, all sensors must be positioned at a __distance from the structure ranging from 1.75 to 2.2 meters__.
