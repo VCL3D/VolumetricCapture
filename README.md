@@ -1,4 +1,4 @@
-# A Portable, Flexible and Effortless Volumetric Capture System
+# A Portable, Flexible and Facile Volumetric Capture System
 
 ## Overview
 
