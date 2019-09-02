@@ -1,4 +1,4 @@
-# Volumetric Capture Software
+# A Portable, Flexible and Effortless Volumetric Capture System
 
 ## Overview
 
@@ -10,6 +10,7 @@ It is a research oriented but flexible and optimized software that can be / has 
 * Free Viewpoint Video (FVV)
 * Immersive Applications (_i.e._ [events](https://www.youtube.com/watch?v=J3zJmMNxV0k) and/or [gaming](https://www.youtube.com/watch?v=nK7pC41YjZY)) __\[[4](#Platform)\]__
 * Motion Capture __\[[5](#DeepMoCap)\]__
+
 
 ## Design
 
@@ -24,7 +25,14 @@ Communication is handled by a broker, typically co-hosted with the controlling a
 * Multi-sensor temporal alignment via the LAN-based [Precision Time Protocol](https://en.wikipedia.org/wiki/Precision_Time_Protocol) (PTP -- IEEE 1588-2002)
 * Multi-sensor spatial alignment (currently supporting only __4__ sensors via an adaptation of __\[[6](#Markerless)\]__)
 
-Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instructions on how to assemble and the use the Volumetric Capturing System
+
+## Usage
+
+Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instructions on how to assemble and the use the Volumetric Capture system.
+
+
+# Caveats
+We currently only ship binaries for the Windows platform, supporting Windows 10.
 
 
 # References
