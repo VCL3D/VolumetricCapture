@@ -1,4 +1,6 @@
 # A Portable, Flexible and Facile Volumetric Capture System
+> Moving beyond green screens as well as stationary, expensive and hard to use setups  
+_______
 
 ## Overview
 
