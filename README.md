@@ -26,12 +26,20 @@ Communication is handled by a broker, typically co-hosted with the controlling a
 * Multi-sensor live streaming and recording (no actual restriction of number of sensors apart from the available resources, _i.e_ system processing and/or switch bandwidth)
 
 
+## Download
+
+
+
 ## Usage
 
-Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instructions on how to assemble and the use the Volumetric Capture system.
+Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instructions on how to assemble, deploy and use the Volumetric Capture system.
 
 
-# Caveats
+## Citation
+
+
+
+## Caveats
 We currently only ship binaries for the Windows platform, supporting Windows 10.
 
 
