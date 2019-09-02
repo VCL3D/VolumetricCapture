@@ -13,9 +13,12 @@ It is a research oriented but flexible and optimized software that can be / has 
 
 ## Design
 
+The toolset is designed as a distributed system where a number of processing units each manage and collect data from a single sensor using a headless application.
+A set of sensors is orchestrated by a UI application that is also the delivery point of the connected sensor streams.
+Communication is handled by a broker, typically co-hosted with the controlling application, albeit not necessary.
 
 
-## Features
+## Highlights
 
 * Multi-sensor live streaming and recording (no actual restriction of number of sensors apart from the available resources, _i.e_ system processing and/or switch bandwidth) 
 * Multi-sensor temporal alignment via the LAN-based [Precision Time Protocol](https://en.wikipedia.org/wiki/Precision_Time_Protocol) (PTP -- IEEE 1588-2002)
