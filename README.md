@@ -1,9 +1,10 @@
-![Volumetric Capture Banner](./doc/header.jpg)
-
 # A Portable, Flexible and Facile Volumetric Capture System
 > Moving beyond green screens as well as stationary, expensive and hard to use setups  
 _______
 
+![Volumetric Capture Banner](./doc/header.jpg)
+
+_______
 ## Overview
 
 This repository contains [VCL](https://vcl.iti.gr)'s evolving toolset for (multi-) RGB-D sensor 3D capturing, streaming and recording, initially presented in __\[[1](#VolCap)\]__.
