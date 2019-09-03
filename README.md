@@ -45,7 +45,7 @@ Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instru
 We currently only ship binaries for the Windows platform, supporting Windows 10.
 
 # Citation
-If you found this work useful please cite:
+If you found this work useful, please cite:
 ```
 @inproceedings{sterzentsenko2018low,
   title={A low-cost, flexible and portable volumetric capturing system},
