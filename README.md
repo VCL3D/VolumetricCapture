@@ -45,7 +45,7 @@ _______
 
 ## Download
 
-
+Check our [releases](https://github.com/VCL3D/VolumetricCapture/releases), major release coming during October 2019.
 
 ## Usage
 
