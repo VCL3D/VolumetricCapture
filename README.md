@@ -39,13 +39,7 @@ Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instru
 
 ## Citation
 
-
-
-## Caveats
-We currently only ship binaries for the Windows platform, supporting Windows 10.
-
-# Citation
-If you found this work useful, please cite:
+If you used the system or found this work useful, please cite:
 ```
 @inproceedings{sterzentsenko2018low,
   title={A low-cost, flexible and portable volumetric capturing system},
@@ -56,6 +50,10 @@ If you found this work useful, please cite:
   organization={IEEE}
 }
 ```
+
+## Caveats
+We currently only ship binaries for the Windows platform, supporting Windows 10.
+
 
 # References
 <a name="VolCap"/> __\[1\]__ Sterzentsenko, V., Karakottas, A., Papachristou, A., Zioulis, N., Doumanoglou, A., Zarpalas, D. and Daras, P., 2018, November. [A low-cost, flexible and portable volumetric capturing system](https://www.iti.gr/iti/files/document/publications/low-cost-flexible.pdf). In 2018 14th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS) (pp. 200-207). IEEE.
