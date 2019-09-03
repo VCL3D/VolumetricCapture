@@ -28,7 +28,6 @@ Communication is handled by a broker, typically co-hosted with the controlling a
 _______
 
 * Multi-sensor live streaming and recording (no actual restriction of number of sensors apart from the available resources, _i.e_ system processing and/or switch bandwidth)
-
 ![Intro Gif](./doc/intro.gif)
 
 _______
