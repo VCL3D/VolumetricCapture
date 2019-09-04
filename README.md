@@ -27,14 +27,17 @@ Communication is handled by a broker, typically co-hosted with the controlling a
 
 We currently only support [Intel RealSense D415](https://www.intelrealsense.com/) sensors.
 
-<img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="400">
+However, __[Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) is coming soon__.
+
+| RGB-Sensor  | Compatibility |
+| :-------------: | :-------------: |
+| <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="300">  | <div width="300">✔️</div>  |
+| <img alt="Azure Kinect DK" src="./doc/k4a.png" width="300">  | <div width="300">⏳</div>  |
+
 <!--
 ![Intel RealSense D415](./doc/stereo_DT_d415_front-crop1a-1.png)
 -->
 
-However, __[Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) is coming soon__.
-
-<img alt="Azure Kinect DK" src="./doc/k4a.png" width="400">
 <!--
 ![Azure Kinect DK](./doc/k4a.png)
 -->
