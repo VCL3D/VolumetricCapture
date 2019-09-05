@@ -31,16 +31,9 @@ However, __[Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-d
 
 | RGB-Sensor  | Compatibility |
 | :-------------: | :-------------: |
-| <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="300">  | <div width="300">✔️</div>  |
-| <img alt="Azure Kinect DK" src="./doc/k4a.png" width="300">  | <div width="300">⏳</div>  |
+| <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="200">  | <div width="200">✔️</div>  |
+| <img alt="Azure Kinect DK" src="./doc/k4a.png" width="150">  | <div width="200">⏳</div>  |
 
-<!--
-![Intel RealSense D415](./doc/stereo_DT_d415_front-crop1a-1.png)
--->
-
-<!--
-![Azure Kinect DK](./doc/k4a.png)
--->
 
 ## Highlights
 
