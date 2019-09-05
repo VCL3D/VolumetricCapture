@@ -29,7 +29,7 @@ We currently only support [Intel RealSense D415](https://www.intelrealsense.com/
 
 However, __[Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) is coming soon__.
 
-| RGB-Sensor  | Compatibility |
+| RGBD-Sensor  | Compatibility |
 | :-------------: | :-------------: |
 | <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="200">  | <div width="200">✔️</div>  |
 | <img alt="Azure Kinect DK" src="./doc/k4a.png" width="150">  | <div width="200">⏳</div>  |
