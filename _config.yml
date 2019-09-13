@@ -1,7 +1,7 @@
 # Site settings
 title: Project Pages
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+url: "https://vcl3d.github.io"
 
 
 
@@ -13,7 +13,7 @@ headercolor: "#FFFFFF"
 logo: /VolumetricCapture/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
+github_username:  VolumetricCapture
 project_repository: VolumetricCapture
 disqus_shortname: VolumetricCapture
 g-analytics: UA-75881392-1
@@ -41,7 +41,7 @@ defaults:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://projectpages.github.io/VolumetricCapture/'
+  siteurl: 'http://VolumetricCapture.github.io/VolumetricCapture/'
   ispp: true
   media: 'img'
   metadata:
@@ -106,7 +106,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://projectpages.github.io/VolumetricCapture/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="http://vcl3d.github.io/VolumetricCapture/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -114,7 +114,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="http://projectpages.github.io/VolumetricCapture/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="http://vcl3d.github.io/VolumetricCapture/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"
