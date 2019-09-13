@@ -1,0 +1,76 @@
+<script src="{{ site.baseurl }}/js/mermaid.min.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/mermaid.forest.css">
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<!-- Get Content for This Post and Split at Pound Signs to Find Headers -->
+{% for post in site.posts %}
+	{% if post.title == page.title and post.author == page.author and post.date == page.date %}
+		{% assign text = post.content | newline_to_br | split:"<h" %}
+	{% endif %}
+{% endfor %}
+{% assign subcount = text | size | minus:1 %}
+
+<!-- Encapsulate in Capture to Handle the Whitespace and Allow Commenting -->
+{% capture MermaidBlock %}
+
+<!-- Initialize Header Counts -->
+{% assign smallheadercount = 0 %}
+
+<!-- Initialize Flowchart -->
+graph TB
+
+<!-- Loop over Potential Headers -->
+{% for sub in (1..subcount) %}
+
+	<!-- Get Length of Potential Header String -->
+	{% assign headerlevel = text[sub] | truncate: 1 %}
+
+		<!-- If I am the First in Sequence Nowhere to Connect -->
+		{% if smallheadercount == 0 %}
+		
+			{% assign currentheader = text[sub] | newline_to_br | split:"<br />" | first | split:">" %}
+			{% assign currentheader = currentheader[1] | split:"<" | first %}
+			{% assign currentsub = sub %}
+			{% assign smallheadercount = smallheadercount | plus:1 %}
+
+			node{{ sub }}({{ currentheader }}) 
+			
+			click node{{ sub }} "{{ sub | prepend:'#' }}"
+
+		{% else %}
+		
+			{% assign prevheader = currentheader %}
+			{% assign prevsub = currentsub %}
+			{% assign currentheader = text[sub] | newline_to_br | split:"<br />" | first | split:">" %}
+			{% assign currentheader = currentheader[1] | split:"<" | first %}	
+			{% assign currentsub = sub %}
+			
+			node{{ prevsub }}({{ prevheader }}) --> node{{ sub }}({{ currentheader }})
+			
+			click node{{ sub }} "{{ sub | prepend:'#' }}"
+
+		{% endif %}
+
+	{% assign subcheck = 2 %}
+
+
+{% endfor %}
+
+<!-- Finalize Flowchart -->
+
+<!-- Finalize Capture -->
+{% endcapture %}
+
+<!-- Make the Graph -->
+<h1> Workflow Overview </h1>
+
+<!-- Strip HTML and Seperate at Line Breaks -->
+{% assign Blocks = MermaidBlock | strip_html | newline_to_br | split:"<br />" %}
+{% assign BlocksLength = Blocks | size %}
+
+<!-- Strip Each Line of Whitespace and Only Keep Lines Longer than 3 -->
+<div class="mermaid" id="mermaidworkflow" style="margin-left:100px">
+{% for line in (0..BlocksLength) %}{% assign BlockSize = Blocks[line] | size %}{% if BlockSize > 3 %}
+{{ Blocks[line] | strip | strip_newlines }}
+{% endif %}{% endfor %}
+</div>

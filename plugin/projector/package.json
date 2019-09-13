@@ -1,0 +1,12 @@
+{
+    "name": "datacratic-data-projector",
+    "version": "0.1.0",
+    "author": "Datacratic <admin@datacratic.com>",
+    "description": "3-D scatterplotting",
+    "dependencies" : 
+    {
+        "browserify":          	"2.25.0",
+        "coffeeify":          	"0.5.1"    
+    }
+
+}

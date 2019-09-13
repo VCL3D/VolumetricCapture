@@ -1,0 +1,25 @@
+# Members
+
+- name: Ahmet Cecen
+  role: Data Scientist / Materials Informatics
+  img: https://avatars1.githubusercontent.com/u/7231251?v=3&s=460
+  github: ahmetcecen
+  gplus: https://plus.google.com/+AhmetCecen-GPlus
+  bio: Ahmet Cecen is currently pursuing a PhD in Computational Science and Engineering at Georgia Institute of Technology.  He earned a bachelor’s degree in Mechanical Engineering at Drexel University. Ahmet has been doing research in the fields of computational materials science and materials informatics for the past 6 years, throughout his undergraduate and graduate studies. His current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. 
+  url: http://ahmetcecen.github.io/
+  visible: true
+   
+- name: David Brough
+  role: Data Scientist / Materials Informatics
+  img: https://avatars0.githubusercontent.com/u/4368625?v=3&s=460
+  github: davidbrough1
+  bio: David is a PhD student in the School of Computational Science and Engineering at Georgia Institute of Technology. David earned a Master’s degree in experimental condensed matter physics at Brigham Young University where he fabricated and characterized thin-films and carbon nanotubes used in nanostructured high capacity battery electrodes and in X-ray windows. As an undergraduate, David studied theoretical physics and researched the evolution of chaotic systems using neural networks at Westminster College. He is a trainee in the NSF IGERT FLAMEL program, and one of the lead developers on PyMKS materials informatics toolkit.
+  url: http://davidbrough.net 
+  visible: true
+  
+- name: Surya R. Kalidindi
+  role: Materials Informatics
+  img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
+  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
+  url: http://mined.gatech.edu/
+  visible: false

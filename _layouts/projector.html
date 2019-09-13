@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		
+		{% if site.altmetric == true %}
+
+		{% include altmetric.html %}
+
+		{% endif %}
+		
+		{% include ogmeta.html %}
+
+		<link rel="stylesheet" type="text/css" href="{{ "/plugin/projector/DataProjector.css " | prepend: site.baseurl | prepend: site.url}}">
+		
+		{% include analytics.html %}
+		
+	</head>
+	<body>
+
+		<div id="toolbar">
+			Display:
+			<span class="button" id="menuButton">[M]enu</span>
+			<span class="button" id="infoButton">[I]nfo</span><br/>
+		   Camera:
+		   <span class="button" id="perspectiveButton">[P]erspective</span>
+			<span class="button" id="orthographicButton">[O]rthographic</span>
+			<span class="button" id="dualButton">[D]ual</span>
+		   <span class="button" id="resetButton">[R]eset</span><br/>
+			Tools:
+		   <span class="button" id="clearButton">[C]lear</span>
+		   <span class="button" id="boxButton">[B]ox</span>
+		   <span class="button" id="selectButton">[S]elect</span>
+		   <span class="button" id="viewportButton">[V]iewport</span>
+		   <span class="button" id="viewTopButton">[1]Top</span>
+		   <span class="button" id="viewFrontButton">[2]Front</span>
+		   <span class="button" id="viewSideButton">[3]Side</span><br/>
+		   Animation:
+		   <span class="button" id="spinLeftButton">[&lt;]Left</span>
+		   <span class="button" id="spinStopButton">[ ]Stop</span>
+		   <span class="button" id="spinRightButton">[&gt;]Right</span>
+		   <span class="button" id="animateButton">[A]nimate</span>
+		</div>
+
+		<div id="menu">
+		   --- Main Menu ---<br/><br/>
+			Clusters:<br/><br/>
+			<span class="toggle" id="toggleAll">[+]</span><span class="button" id="buttonAll"> All</span><br/>
+		</div>
+
+		<div id="info">
+		   --- Info Console ---<br/><br/>
+		   <span id="message"></span><br/>
+		</div>
+
+		<div id="container">
+		</div>
+
+		<div id="screenshots">
+		</div>
+
+		<script src="{{ "/plugin/projector/jquery-2.0.2.min.js " | prepend: site.baseurl }}"></script>
+		<script src="{{ "/plugin/projector/three.min.js " | prepend: site.baseurl }}"></script>
+		<script src="{{ "/plugin/projector/TweenLite.min.js " | prepend: site.baseurl }}"></script>
+		<script src="{{ "/plugin/projector/TrackballControls.js " | prepend: site.baseurl }}"></script>
+		
+		<script>{% include DataProjector.js %}</script>
+		
+		{{ content }}
+
+	</body>
+</html>

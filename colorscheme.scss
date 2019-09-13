@@ -1,0 +1,13 @@
+---
+---
+$header-color: {{ site.headercolor }};
+
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  color: $header-color;
+}
+
+hr.small {
+  border-color: $header-color;
+}
