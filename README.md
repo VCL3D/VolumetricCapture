@@ -20,19 +20,17 @@ It is a research oriented but flexible and optimized software that can be / has 
 ## Design
 
 The toolset is designed as a distributed system where a number of processing units each manage and collect data from a single sensor using a headless application.
-A set of sensors is orchestrated by a UI application that is also the delivery point of the connected sensor streams.
-Communication is handled by a broker, typically co-hosted with the controlling application, albeit not necessary.
+A set of sensors is orchestrated by a centralized UI application that is also the delivery point of the connected sensor streams.
+Communication is handled by a broker, typically co-hosted with the controlling application, although not necessary.
 
 ## Sensors
 
-We currently only support [Intel RealSense D415](https://www.intelrealsense.com/) sensors.
-
-However, __[Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) is coming soon__.
+We now support [Intel RealSense D415](https://www.intelrealsense.com/) and [Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) sensors.
 
 | RGBD-Sensor  | Compatibility |
 | :-------------: | :-------------: |
 | <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="200">  | <div width="200">✔️</div>  |
-| <img alt="Azure Kinect DK" src="./doc/k4a.png" width="150">  | <div width="200">⏳</div>  |
+| <img alt="Azure Kinect DK" src="./doc/k4a.png" width="150">  | <div width="200">✔️</div>  |
 
 
 ## Highlights
