@@ -4,6 +4,7 @@ _______
 
 ![Volumetric Capture Banner](./doc/header.png)
 
+
 _______
 # News
 An early alpha release of the Kinect Azure is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/4.0.1).
