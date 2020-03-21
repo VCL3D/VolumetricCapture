@@ -2,7 +2,7 @@
 > Moving beyond green screens as well as stationary, expensive and hard to use setups  
 _______
 
-![Volumetric Capture Banner](./doc/header.jpg)
+![Volumetric Capture Banner](./doc/header.png)
 
 _______
 # News
