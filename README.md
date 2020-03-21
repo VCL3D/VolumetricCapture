@@ -5,6 +5,11 @@ _______
 ![Volumetric Capture Banner](./doc/header.jpg)
 
 _______
+# News
+An early alpha release of the Kinect Azure is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/4.0.1).
+
+
+_______
 ## Overview
 
 This repository contains [VCL](https://vcl.iti.gr)'s evolving toolset for (multi-) RGB-D sensor 3D capturing, streaming and recording, initially presented in __\[[1](#VolCap)\]__.
