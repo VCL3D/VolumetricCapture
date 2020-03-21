@@ -55,7 +55,10 @@ _______
 
 ## Download
 
-Check our [releases](https://github.com/VCL3D/VolumetricCapture/releases), major release coming during October 2019.
+Check our [releases](https://github.com/VCL3D/VolumetricCapture/releases), __an early alpha release is now available__ with:
+
+- __Kinect Azure support__, and
+- The [StructureNet](https://vcl3d.github.io/StructureNet/) volumetric alignment method that can support a flexible number of sensor .
 
 ## Usage
 
