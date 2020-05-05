@@ -1,5 +1,18 @@
 # A Portable, Flexible and Facile Volumetric Capture System
 > Moving beyond green screens as well as stationary, expensive and hard to use setups  
+
+[![Project Page](http://img.shields.io/badge/Volumetric-Capture-blueviolet.svg?style=plastic)](https://vcl3d.github.io/VolumetricCapture/)
+[![Conference](http://img.shields.io/badge/SITIS-2018-blue.svg?style=plastic)]()
+[![Paper](http://img.shields.io/badge/paper-arxiv.1909.01207-critical.svg?style=plastic)](https://arxiv.org/pdf/1909.01207.pdf)
+
+
+[![Project Page](http://img.shields.io/badge/Volumetric-Calibration-blueviolet.svg?style=plastic)](https://vcl3d.github.io/StructureNet/)
+[![Conference](http://img.shields.io/badge/IEEEVR-2020-blue.svg?style=plastic)](http://ieeevr.org/2020/)
+[![Paper](http://img.shields.io/badge/paper-arxiv.2003.10176-critical.svg?style=plastic)](https://arxiv.org/pdf/2003.10176.pdf)
+[![Conference](http://img.shields.io/badge/WSCG-2018-blue.svg?style=plastic)]()
+[![Paper](http://img.shields.io/badge/paper-iti-critical.svg?style=plastic)](https://www.iti.gr/iti/files/document/publications/S05-Markerless%20Structure-based%20Calibration.pdf)
+
+
 _______
 
 ![Volumetric Capture Banner](./doc/header.png)
