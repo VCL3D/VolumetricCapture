@@ -6,5 +6,5 @@ description: "Volumetric Capture Documentation"
 permalink: /
 ---
 
-Updated website coming soon
+**Updated website coming soon**
 {: .label .label-purple }

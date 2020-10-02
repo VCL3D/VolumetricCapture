@@ -5,6 +5,9 @@ nav_order: 7
 description: "Multi-sensor Volumetric Alignment"
 ---
 
+**TO BE UPDATED**
+{: .label .label-yellow }
+
 # Multiple Camera Calibration
 
 This is a manual to guide you through the automatic spatial alignment of a multi-sensor setup comprising of 4 Intel Real Sense cameras. The proposed method is reliant on an easily-assembled calibration structure which lifts the requirement of placing/gluing markers onto it. 

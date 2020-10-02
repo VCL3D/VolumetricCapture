@@ -6,7 +6,9 @@ description: "Multi-sensor Temporal Alignment"
 ---
 
 # Software Synchronization
-
+**TODO**
+{: .label .label-red }
 
 # Hardware Synchronization
-
+**TODO**
+{: .label .label-red }
