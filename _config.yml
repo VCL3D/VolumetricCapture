@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
 title: Volumetric Capture
 description: A low-cost, flexible and scalable multi RGB-D sensor acquisition system
 show_downloads: false
