@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kinect 4 Azure
-parent: Hardware
+parent: Hardware Setup
 nav_order: 1
 ---
 
