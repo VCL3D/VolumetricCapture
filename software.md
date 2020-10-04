@@ -13,3 +13,7 @@ description: "Installing Volumetric Capture"
 **TODO**
 {: .label .label-red }
 
+## Calibration
+**Redirect**
+{: .label .label-orange }
+
