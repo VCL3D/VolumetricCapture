@@ -7,7 +7,7 @@ baseurl: "/VolumetricCapture" # the subpath of your site, e.g. /blog
 url: "https://vcl3d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["README.md"]
+exclude: ["README.md", "/assets/"]
 
 search_enabled: true
 search:
