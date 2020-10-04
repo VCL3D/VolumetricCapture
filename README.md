@@ -15,7 +15,7 @@
 
 _______
 
-![Volumetric Capture Banner](./doc/header.png)
+![Volumetric Capture Banner](./assets/images/header.png)
 
 
 _______
@@ -49,26 +49,26 @@ We now support [Intel RealSense D415](https://www.intelrealsense.com/) and [Azur
 
 | Intel RealSense D415  |  Microsoft Kinect Azure |
 |:-------------------------:|:-------------------------:|
-| <img alt="Intel RealSense D415" src="./doc/stereo_DT_d415_front-crop1a-1.png" width="100"> | <img alt="Azure Kinect DK" src="./doc/k4a.png" width="100"> |
+| <img alt="Intel RealSense D415" src="./assets/images/stereo_DT_d415_front-crop1a-1.png" width="100"> | <img alt="Azure Kinect DK" src="./assets/images/k4a.png" width="100"> |
 
 
 ## Highlights
 
 * Multi-sensor live streaming and recording (no actual restriction of number of sensors apart from the available resources, _i.e_ system processing and/or switch bandwidth)
 
-![Intro Gif](./doc/intro.gif)
+![Intro Gif](./assets/images/intro.gif)
 
 _______
 
 * Multi-sensor spatial alignment (currently supporting only __4__ sensors via an adaptation of __\[[6](#Markerless)\]__)
 
-![Live Calibration Gif](./doc/live_calibration.gif)
+![Live Calibration Gif](./assets/images/live_calibration.gif)
 
 _______
 
 * Multi-sensor temporal alignment via the LAN-based [Precision Time Protocol](https://en.wikipedia.org/wiki/Precision_Time_Protocol) (PTP -- IEEE 1588-2002)
 
-![Synchronization Gif](./doc/synchronization.gif)
+![Synchronization Gif](./assets/images/synchronization.gif)
 
 _______
 
