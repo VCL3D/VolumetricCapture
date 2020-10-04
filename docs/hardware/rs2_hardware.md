@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Intel RealSense
-parent: Hardware
+parent: Hardware Setup
 nav_order: 2
 ---
 
