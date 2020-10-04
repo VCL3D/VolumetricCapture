@@ -134,3 +134,21 @@ if __name__ == "__main__":
         svc2 >> rs2
         svc3 >> rs3
         svc4 >> rs4
+
+    with Diagram(
+        name="Installation", 
+        show=False,
+        direction="TB", #"LR",
+        curvestyle="curved", #"ortho",
+        graph_attr=graph_attr,
+        outformat="jpg",
+        filename="./assets/images/architecture/installation"
+    ):        
+        with Cluster("NUC"):
+            k4a = Custom("k4a eye", intel_nuc_icon)
+            rs2 = Custom("rs2 eye", intel_nuc_icon)
+            rs3 = Service("monitor")
+            rs4 = Custom("led control", intel_nuc_icon)     
+        with Cluster("Workstation"):
+            volcap = Cpp("volcap")
+        message_queue = Custom("pub/sub", rabbitmq_icon)
