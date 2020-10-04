@@ -15,5 +15,5 @@ description: "Installing Volumetric Capture"
 
 ## Calibration
 **Redirect**
-{: .label .label-orange }
+{: .label .label-yellow }
 
