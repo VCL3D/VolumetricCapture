@@ -77,6 +77,6 @@ If you use this system in academic work please consider citing:
 **The software is being developed to support research workflows which are continuously evoling, therefore, backwards compatibility will often break.**
 {: .label .label-yellow }
 
-## Maintenance
+## Maintenance & Support
 Unfortunately there are no commitments to maintaining and providing continuous technical support.
 {: .label .label-red }
