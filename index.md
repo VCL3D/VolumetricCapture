@@ -38,7 +38,7 @@ It has been used in various research and development activities:
 - Immersive Applications (i.e. events and/or gaming)
 - Motion Capture
 
-## Showcase
+### Showcase
 If you successfully deploy and use this system in your activities, we would love to hear from you, please reach out:
 - via [GitHub issue](https://github.com/VCL3D/VolumetricCapture/issues), or
 - through this [form](https://docs.google.com/forms/u/0/), or,
@@ -46,7 +46,7 @@ If you successfully deploy and use this system in your activities, we would love
 
 so we can add you to our [showcase](docs/showcase.md).
 
-## Citation
+### Citation
 If you use this system in academic work please consider citing:
 ```java
 @inproceedings{sterzentsenko2018low,
@@ -69,9 +69,10 @@ If you use this system in academic work please consider citing:
 # Disclaimers
 
 ## Caveats
-- We currently only ship binaries for the Windows platform, supporting Windows 10.
+**We currently only ship binaries for the Windows platform, supporting Windows 10.**
 {: .label .label-yellow }
-- The software is being developed to support research workflows which are continuously evoling, therefore, backwards compatibility will often break.
+
+**The software is being developed to support research workflows which are continuously evoling, therefore, backwards compatibility will often break.**
 {: .label .label-yellow }
 
 ## Maintenance
