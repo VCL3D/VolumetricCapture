@@ -56,7 +56,7 @@ Options:
                               Deletes a device from the repository
   -l,--list                   List all devices in device repository.
   -p,--path TEXT=.            Directory where to store "device_repository.json" file.
-  -c,--cam_type UINT          0 for Kinect Azure, 1 for IntelRealsense D415
+  -c,--cam_type UINT          0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
 ```
 
 The supported functionalities are:
@@ -103,22 +103,22 @@ In order to peek into the file from the console to determine which devices are a
 {: .label .label-red }
 
 ## Examples
-* Adding a Kinect Azure device:
+* Adding a Kinect 4 Azure device:
 > `device_repository.exe --add device_name --cam_type 0`
-* Adding an IntelRealsense D415 device:
+* Adding an Intel RealSense 2.0 D415 device:
 > `device_repository.exe --add device_name --cam_type 1`
 * List of saved devices inside device_repository.json: 
 > `device_repository.exe --list`
 * Remove a device: 
 > `device_repository.exe --delete device_name`
 
-### _Adding an Azure Kinect device_
+### _Adding a Kinect 4 Azure device_
 
 <p align="left">
      <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_Kinect.gif" width="795"/> 
 </p>
 
-### _Adding an IntelRealsense D415 device_
+### _Adding an Intel RealSense 2.0 D415 device_
 
 <p align="left">
      <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_realsense.gif" width="795"/>
