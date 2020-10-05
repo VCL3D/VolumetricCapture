@@ -8,6 +8,7 @@ permalink: /
 
 ![Banner](assets/images/header.png)
 > Moving beyond green screens, expensive, bulky and effort-heavy volumetric setups
+
 ___
 
 Volumetric Capture is a multi-sensor (volumetric) capturing system that is:
