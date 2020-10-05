@@ -10,7 +10,7 @@ url: "https://vcl3d.github.io" # the base hostname & protocol for your site, e.g
 permalink: pretty
 exclude: ["README.md", "/assets/usage/diagrams.md"]
 
-logo: /assets/images/icons/volcap_empty.png
+logo: /assets/images/icons/logo.png
 
 search_enabled: true
 search:
