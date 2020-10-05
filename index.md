@@ -42,7 +42,7 @@ It has been used in various research and development activities:
 If you successfully deploy and use this system in your activities, we would love to hear from you, please reach out:
 - via [GitHub issue](https://github.com/VCL3D/VolumetricCapture/issues), or
 - through this [form](https://docs.google.com/forms/u/0/), or,
-- via directly contacting the [team](#Developers),
+- via directly contacting the [team](#developers),
 
 so we can add you to our [showcase](docs/showcase.md).
 
