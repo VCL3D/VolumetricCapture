@@ -66,7 +66,7 @@ In order to add a device to the repository, one just need to connect **a single*
      `device_repository.exe --add device_name`
 
 <p align="center">
-     <img src="../assets/images/__add_device.gif" width="900"/> 
+     <img src="../../assets/images/__add_device.gif" width="900"/> 
 </p>
 
 > **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the local directory), it with create one in the local directory. 
@@ -78,7 +78,7 @@ In order to change the name of the device simply execute:
      `device_repository.exe --rename old_name new_name`
 
 <p align="center"> 
-     <img src="../assets/images/__rename_device.gif" width="900"/> 
+     <img src="../../assets/images/__rename_device.gif" width="900"/> 
 </p>
 
 * **Deleting** a device from the repository.
@@ -87,7 +87,7 @@ To delete a device from the device repository, execute:
      `device_repository.exe --delete device_name`
 
 <p align="center"> 
-     <img src="../assets/images/__delete_device.gif" width="900" alt="accessibility text"> 
+     <img src="../../assets/images/__delete_device.gif" width="900" alt="accessibility text"> 
 </p>
 
 * **Listing** all devices in the repository.
@@ -96,10 +96,10 @@ In order to peek into the file from the console to determine which devices are a
      `device_repository.exe --list`
 
 <p align="center">
-     <img src="../assets/images/__list_devices.gif" width="900"/> 
+     <img src="../../assets/images/__list_devices.gif" width="900"/> 
 </p>
 
->**IMPORTANT** Old `device_repository.json` files are not compatible with this release, please re-create it.
+**IMPORTANT**: Old `device_repository.json` files are not compatible with this release, please re-create it.
 {: .label .label-red }
 
 ## Examples
@@ -115,17 +115,17 @@ In order to peek into the file from the console to determine which devices are a
 ### _Adding an Azure Kinect device_
 
 <p align="left">
-     <img src="../assets/images/device_repository_tool_WikiRelease_4.0/add_Kinect.gif" width="795"/> 
+     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_Kinect.gif" width="795"/> 
 </p>
 
 ### _Adding an IntelRealsense D415 device_
 
 <p align="left">
-     <img src="../assets/images/device_repository_tool_WikiRelease_4.0/add_realsense.gif" width="795"/>
+     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_realsense.gif" width="795"/>
 </p>
 
 ### _Removing a device_
 
 <p align="left">
-     <img src="../assets/images/device_repository_tool_WikiRelease_4.0/remove_device.gif" width="795"/>
+     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/remove_device.gif" width="795"/>
 </p>
