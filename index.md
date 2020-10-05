@@ -11,20 +11,20 @@ permalink: /
 
 ___
 
-Volumetric Capture is a multi-sensor (volumetric) capturing system that is:
+***Volumetric Capture*** is a multi-sensor (volumetric) capturing system that is:
 - Built to use low-cost commodity hardware
 - Quick to setup by offering automatic and scalable sensor connectivity
 - Easy to deploy due to a markerless and facile volumetric calibration
 - Supported via an organized documentatation
 
 # Summary
-The toolset is designed as a distributed system where a number of processing units each manage and collect data from a single sensor using a headless application, a **remote eye** (see [Remote Eyes](docs/eyes.md)). 
+The toolset is designed as a distributed system where a number of processing units each manage and collect data from a single sensor using a headless application, an **Eye** (see [Remote Eyes](docs/eyes.md)). 
 A set of sensors is orchestrated by a centralized UI application, **VolCap** (see [Volumetric Capture](docs/volcap.md)), that is also the delivery point of the connected sensor streams.
 Communication is handled by a broker, typically co-hosted with the controlling application, although not necessary.
 
 More specifically, its technical offerings are:
 - Efficient, scalable and low-resource multi-stream live sensor data acquisition and recording (see [Data Acquisition](docs/acquisition.md))
-- Integration (and mixing) of Kinect 4 Azure and Intel RealSense D415 devices (see [Hardware Setup](docs/hardware/hardware.md) and [Configuration](docs/configure.md))
+- Integration (and mixing) of Kinect 4 Azure and Intel RealSense 2.0 D415 devices (see [Hardware Setup](docs/hardware/hardware.md) and [Configuration](docs/configure.md))
 - Combined hardware (device-specific) and software (IEEE 1588 PTP) multi-stream synchronization (see [Synchronization](docs/synchronization.md))
 - Data-driven and global optimized volumetric alignment (see [Calibration](docs/calibration.md))
 
