@@ -61,8 +61,6 @@ If you use this system in academic work please consider citing:
 
 # Developers
 
-<a name="Developers"/>
-
 - *Lead*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru)
 - *Design & Architecture*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Alexandros Doumanoglou](github.com/alexd314)
 - *Core*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Vladimiros Sterzentsenko](github.com/vladster), [Antonis Karakottas](github.com/ankarako), [Alexandros Doumanoglou](github.com/alexd314)
