@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # Hardware Sync
+{: .no_toc }
 Work-in-Progress
 {: .label .label-yellow }
 

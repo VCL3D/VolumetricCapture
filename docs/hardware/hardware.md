@@ -8,6 +8,7 @@ permalink: /docs/hardware
 ---
 
 # Deploying Volumetric Capture
+{: .no_toc }
 
 The following hardware is needed in order to deploy the **Volumetric Capture** system:
 
@@ -76,5 +77,5 @@ The Capturing Station's setup is complete.
 
 > **Note**: _If you require hardware synchronization, then the parts for assembling the hardware syncing cables are different for each sensor_: 
     
-> - [Intel RealSense 2.0 sensors](/hardware/rs2_hardware)
+> - [Intel RealSense 2.0 sensors](./rs2_hardware)
 > - [Microsoft Kinect 4 Azure sensors](./k4a_hardware)
