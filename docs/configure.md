@@ -87,7 +87,7 @@ To delete a device from the device repository, execute:
      `device_repository.exe --delete device_name`
 
 <p align="center"> 
-     <img src="../../assets/images/__delete_device.gif" width="900" alt="accessibility text"> 
+     <img src="../assets\images/__delete_device.gif" width="900"/> 
 </p>
 
 * **Listing** all devices in the repository.
@@ -96,10 +96,10 @@ In order to peek into the file from the console to determine which devices are a
      `device_repository.exe --list`
 
 <p align="center">
-     <img src="../../assets/images/__list_devices.gif" width="900"/> 
+     <img src="../../assets\images/__list_devices.gif" width="900"/> 
 </p>
 
-**IMPORTANT**: Old `device_repository.json` files are not compatible with this release, please re-create it.
+**IMPORTANT**: Old **device_repository.json** files are not compatible with this release, please re-create it.
 {: .label .label-red }
 
 ## Examples
