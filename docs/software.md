@@ -6,7 +6,7 @@ description: "Installing Volumetric Capture"
 ---
 # Installing Volumetric Capture
 
-![Installers](/assets/images/architecture/installation.jpg)
+![Installers](../assets/images/architecture/installation.jpg)
 
 Volumetric Capture ships various binaries to be deployed at the workstation and the sensor processing units:
 
@@ -72,7 +72,7 @@ The following steps explain how to install and setup the RabbitMQ broker:
     * Repeat all the steps in order to create an **`Outbound Rule`** too, for the same port
     * *The same rules for port **`5672`** must be applied to each capturer processing unit (e.g. Intel-NUC) hosting the **Remote Eyes** also.*
 
-![RabbitMQ_Port_Setup](/assets/images/2018-07-16_14-29-34.gif)
+![RabbitMQ_Port_Setup](./assets/images/2018-07-16_14-29-34.gif)
 
 * Additionally, you will have to open outbound connections to port: **`15672`**, (the same way as the previous step, but putting **`15672`** instead of **`5672`** as the port number), in order to use RabbitMQ's management interface. 
 This is done by following the steps described above. You just have to create a new **`Inbound Rule`** for port **`15672`**.
