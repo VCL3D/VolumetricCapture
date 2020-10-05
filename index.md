@@ -63,7 +63,7 @@ If you use this system in academic work please consider citing:
 
 - *Lead*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru)
 - *Design & Architecture*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Alexandros Doumanoglou](github.com/alexd314)
-- *Main Developers*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Vladimiros Sterzentsenko](github.com/vladster), [Antonis Karakottas](github.com/ankarako), [Alexandros Doumanoglou](github.com/alexd314)
+- *Core*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Vladimiros Sterzentsenko](github.com/vladster), [Antonis Karakottas](github.com/ankarako), [Alexandros Doumanoglou](github.com/alexd314)
 - *Contributors*: [Anargyros Chatzitofis](https://github.com/tofis), [Leonidas Saroglou](https://github.com/leosarog)
 
 # Disclaimers
