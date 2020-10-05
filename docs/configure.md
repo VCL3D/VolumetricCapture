@@ -118,11 +118,15 @@ In order to peek into the file from the console to determine which devices are a
      <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_Kinect.gif" width="795"/> 
 </p>
 
+_____
+
 ### _Adding an Intel RealSense 2.0 D415 device_
 
 <p align="left">
      <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_realsense.gif" width="795"/>
 </p>
+
+_____
 
 ### _Removing a device_
 
