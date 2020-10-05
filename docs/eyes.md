@@ -9,6 +9,10 @@ description: "The Remote Eyes Application"
 **TODO**
 {: .label .label-red }
 
+# Manual Connection
+**TODO**
+{: .label .label-red }
+
 # Troubleshooting
 **TODO**
 {: .label .label-red }
