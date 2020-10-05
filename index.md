@@ -42,7 +42,7 @@ It has been used in various research and development activities:
 If you successfully deploy and use this system in your activities, we would love to hear from you, please reach out:
 - via [GitHub issue](https://github.com/VCL3D/VolumetricCapture/issues), or
 - through this [form](https://docs.google.com/forms/u/0/), or,
-- via directly contacting the [team](#team),
+- via directly contacting the [team](#Developers),
 
 so we can add you to our [showcase](docs/showcase.md).
 
@@ -58,6 +58,13 @@ If you use this system in academic work please consider citing:
   organization={IEEE}
 }
 ```
+
+# Developers
+
+- *Lead*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru)
+- *Design & Architecture*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Alexandros Doumanoglou](github.com/alexd314)
+- *Main Developers*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Vladimiros Sterzentsenko](github.com/vladster), [Antonis Karakottas](github.com/ankarako), [Alexandros Doumanoglou](github.com/alexd314)
+- *Contributors*: [Anargyros Chatzitofis](https://github.com/tofis), [Leonidas Saroglou](https://github.com/leosarog)
 
 # Disclaimers
 
