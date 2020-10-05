@@ -6,11 +6,8 @@ description: "Volumetric Capture Documentation"
 permalink: /
 ---
 
-![Banner](/raw/master/assets/images/header.png)
 ![Banner](/assets/images/header.png)
-![Banner](./assets/images/header.png)
-![Banner](../assets/images/header.png)
-![Banner](../../assets/images/header.png)
+![Banner](assets/images/header.png)
 > Moving beyond green screens, expensive, bulky and effort-heavy volumetric setups
 ___
 
