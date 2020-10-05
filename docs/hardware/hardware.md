@@ -21,11 +21,11 @@ The following hardware is needed in order to deploy the **Volumetric Capture** s
 
 Deployment is not restricted to the availability of internet, with the connectivity of the different components (using `4` D415 sensors) depicted in the following diagram, which also showcases its scalable, distributed architecture:
 
-![ConnectivityDiagram](assets/images/capturing_setup_hw.png)
+![ConnectivityDiagram](../assets/images/capturing_setup_hw.png)
 
 The following image shows a panoramic view of a volumetric capturing setup with `6` Kinect 4 Azure sensors.
 
-![PanoramicSetup](assets/images/setup_360.jpg)
+![PanoramicSetup](../assets/images/setup_360.jpg)
 
 Each one is mounted on a tripod, with each tripod carrying a VESA mounted Intel NUC mini-PC as seen in the following image:
 
