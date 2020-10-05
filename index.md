@@ -62,10 +62,11 @@ If you use this system in academic work please consider citing:
 # Developers
 
 - *Lead*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru)
-- *Design & Architecture*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Alexandros Doumanoglou](github.com/alexd314)
-- *Core*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru), [Vladimiros Sterzentsenko](github.com/vladster), [Antonis Karakottas](github.com/ankarako), [Alexandros Doumanoglou](github.com/alexd314)
-- *Contributors*: [Anargyros Chatzitofis](https://github.com/tofis), [Leonidas Saroglou](https://github.com/leosarog)
-- *Hardware*: [Antonis Karakottas](github.com/ankarako)
+<img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
+- *Design & Architecture*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru) <img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Alexandros Doumanoglou](github.com/alexd314) <img src="https://eu.ui-avatars.com/api/?name=Alexandros+Doumanoglou&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
+- *Core*: [Nikolaos](github.com/zokin) [Zioulis](github.com/zuru) <img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Vladimiros Sterzentsenko](github.com/vladster) <img src="https://eu.ui-avatars.com/api/?name=Vladimiros+Sterzentsenko&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Antonis Karakottas](github.com/ankarako) <img src="https://eu.ui-avatars.com/api/?name=Antonis+Karakottas&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Alexandros Doumanoglou](github.com/alexd314) <img src="https://eu.ui-avatars.com/api/?name=Alexandros+Doumanoglou&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
+- *Contributors*: [Anargyros Chatzitofis](https://github.com/tofis) <img src="https://eu.ui-avatars.com/api/?name=Anargyros+Chatzitofis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Leonidas Saroglou](https://github.com/leosarog) <img src="https://eu.ui-avatars.com/api/?name=Leonidas+Saroglou&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
+- *Hardware*: [Antonis Karakottas](github.com/ankarako) <img src="https://eu.ui-avatars.com/api/?name=Antonis+Karakottas&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
 
 # Disclaimers
 
