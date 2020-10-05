@@ -5,7 +5,7 @@ description: A low-cost, flexible and scalable multi RGB-D sensor acquisition sy
 show_downloads: false
 baseurl: "/VolumetricCapture" # the subpath of your site, e.g. /blog
 #url: "https://vcl3d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-url: "www.github.com/VCL3D/"
+url: "https://github.com/VCL3D"
 
 permalink: pretty
 exclude: ["README.md", "/assets/"]
