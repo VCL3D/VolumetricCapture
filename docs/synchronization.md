@@ -6,8 +6,9 @@ description: "Multi-sensor Temporal Alignment"
 ---
 
 # Software Synchronization
-**TODO**
-{: .label .label-red }
+
+## nPTP and PTPd Synchronization
+In order to synchronize the devices with the nPTP and PTPd methods you should also allow UDP connections on port *320* (both incoming and outgoing) on the workstation's firewall as well as on the mini-PCs
 
 # Hardware Synchronization
 **TODO**

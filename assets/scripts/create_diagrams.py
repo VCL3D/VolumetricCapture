@@ -19,6 +19,29 @@ if __name__ == "__main__":
         "bgcolor": "white", # "transparent"
         "labelloc": "top",
         "labeljust": "center",
+        "pad": "2.0",
+        #"splines": "ortho",
+        "nodesep": "0.60",
+        "ranksep": "0.75",
+        "fontname": "Sans-Serif",        
+        "fontcolor": "#2D3436",
+    }
+    node_attrs = {
+        "shape": "box",
+        "style": "rounded",
+        "fixedsize": "true",
+        "width": "1.4",
+        "height": "1.4",
+        "labelloc": "b",
+        # imagepos attribute is not backward compatible
+        # "imagepos": "tc",
+        "imagescale": "true",
+        "fontname": "Sans-Serif",
+        "fontsize": "13",
+        "fontcolor": "#2D3436",
+    }
+    edge_attrs = {
+        "color": "#7B8894",
     }
 
     with Diagram(
@@ -27,6 +50,8 @@ if __name__ == "__main__":
         direction="TB", #"LR",
         curvestyle="curved", #"ortho",
         graph_attr=graph_attr,
+        node_attr=node_attrs,
+        edge_attr=edge_attrs,
         outformat="jpg",
         filename="./assets/images/architecture/sensor_data_flow"
     ):        
@@ -52,6 +77,8 @@ if __name__ == "__main__":
         direction="TB", #"LR",
         curvestyle="curved", #"ortho",
         graph_attr=graph_attr,
+        node_attr=node_attrs,
+        edge_attr=edge_attrs,
         outformat="jpg",
         filename="./assets/images/architecture/control_data_flow"
     ):        
@@ -84,6 +111,8 @@ if __name__ == "__main__":
         direction="TB", # "TB", #"LR",
         curvestyle="curved", #"ortho",
         graph_attr=graph_attr,
+        node_attr=node_attrs,
+        edge_attr=edge_attrs,
         outformat="jpg",
         filename="./assets/images/architecture/sensor_connection"
     ):        
@@ -141,6 +170,8 @@ if __name__ == "__main__":
         direction="TB", #"LR",
         curvestyle="curved", #"ortho",
         graph_attr=graph_attr,
+        node_attr=node_attrs,
+        edge_attr=edge_attrs,
         outformat="jpg",
         filename="./assets/images/architecture/installation"
     ):        
@@ -152,3 +183,4 @@ if __name__ == "__main__":
         with Cluster("Workstation"):
             volcap = Cpp("volcap")
         message_queue = Custom("pub/sub", rabbitmq_icon)
+        #TODO: add playback and dev repo
