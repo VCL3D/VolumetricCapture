@@ -26,7 +26,8 @@ We also rely on external software:
 1. A message broker [**RabbitMQ**](https://www.rabbitmq.com/)
 2. A **Python** interpreter
 
-It is recommended for performance reasons that RabbitMQ is hosted on the same workstation where **VolCap** will run, although it is not strictly necessary.
+**IMPORTANT**: It is recommended for performance reasons that RabbitMQ is hosted on the same workstation where **VolCap** will run, although it is not strictly necessary.
+{: .label .label-yellow }
 
 # Requirements
 
