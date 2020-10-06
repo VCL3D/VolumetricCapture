@@ -11,7 +11,9 @@ nav_order: 1
 The simultaneous triggering of all acquisition processes between different cameras is realized with external hardware synchronization cables.
 
 ## Hardware Synchronization Cables
+
 The hardware synchronization of the Kinect for Azure devices is fairly easy to setup as the required synchronization cables are standard 3.5-mm audio cables. 
+
 ### Parts List
  * Cables:
     * `K - 1 x 3.5-mm` audio cable for `K` Kinect 4 Azure sensors in **daisy chain configuration**. 
