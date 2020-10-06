@@ -78,10 +78,6 @@ The following steps explain how to install and setup the RabbitMQ broker:
 * Additionally, you will have to open outbound connections to port: **`15672`**, (the same way as the previous step, but putting **`15672`** instead of **`5672`** as the port number), in order to use RabbitMQ's management interface. 
 This is done by following the steps described above. You just have to create a new **`Inbound Rule`** for port **`15672`**.
 
-<p align="center">
-    <img width=400 src="../../assets/images/release_dir_structure.png"/>
-</p>
-
 ## VolCap Setup
 
 To install the **VolCap** application you need to:
@@ -91,6 +87,9 @@ To install the **VolCap** application you need to:
 3. Create a shortcut of **volcap.exe** on your desktop if you want.
 4. If RabbitMQ has been installed on the same machine, just double click the **volcap.exe** (or the shortcut if you created one), and you are ready to go.
 
+<p align="center">
+    <img width=200 src="../../assets/images/release_dir_structure.png"/>
+</p>
 
 ## Remote Eyes Setup
 
