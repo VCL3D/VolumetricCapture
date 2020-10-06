@@ -31,7 +31,7 @@ The following image shows a panoramic view of a volumetric capturing setup with 
 Each one is mounted on a tripod, with each tripod carrying a VESA mounted Intel NUC mini-PC as seen in the following image:
 
 <p align="center">
-    <img width="100" src="../assets/images/single_tripod_unit2.png"/>
+    <img width="200" src="../assets/images/single_tripod_unit2.png"/>
 </p>
 
 Here you can find instructions regarding Hardware setup, and the assembly of the capturing station.
