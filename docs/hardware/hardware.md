@@ -31,7 +31,7 @@ The following image shows a panoramic view of a volumetric capturing setup with 
 Each one is mounted on a tripod, with each tripod carrying a VESA mounted Intel NUC mini-PC as seen in the following image:
 
 <p align="center">
-    <img height=200 src="../assets/images/single_tripod_unit.png"/>
+    <img height="200" src="../assets/images/single_tripod_unit2.png"/>
 </p>
 
 Here you can find instructions regarding Hardware setup, and the assembly of the capturing station.
@@ -42,7 +42,7 @@ The assembly of each tripod unit, comprising the tripod, a mini-PC, and a sensor
 1. Initially, each sensor is mounted on its corresponding tripod (just like a normal digital camera), by screwing the sensor on the tripod's base.
 
 <p align="center">
-    <img width=400 src="../assets/images/RealSense2Tripod.jpg"/>
+    <img width="400" src="../assets/images/RealSense2Tripod.jpg"/>
 </p>
 
 2. The Intel NUC mini-PCs also include a VESA 75/100 base mount.
