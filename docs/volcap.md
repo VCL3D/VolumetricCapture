@@ -24,7 +24,7 @@ Options:
 ## Running the application
 The application requires the availability of a `device repository file`, communication with the message broker (`broker_IP`, `broker_username`, `broker_password`) and additionally broadcasts a spawning message at a single network interface (`local_IP`).
 However, its default values are set to `localhost` and the `volumetric/capture` username/password.
-Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](/docs/configure) section.
+Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](docs/configure) section.
 If the configuration has been set up as proposed, it will match the default arguments, and with the RabbitMQ installed on the workstation running **VolCap**, then a single `double-click` on the `volcap.exe` suffices.
 
 # Workflow
@@ -33,7 +33,7 @@ If the configuration has been set up as proposed, it will match the default argu
 
 1. ___Add each sensor to the device repository___
     * Plug the sensor on the workstation to add this connected device to the device repository (**note**: _only a single sensor must be connected each time_).
-    * Follow the instructions on the device repository section of the [Configuration](docs/configure#usage) to register the sensor and add it in the `device_repository.json`.
+    * Follow the instructions on the device repository section of the [Configuration](../configure#usage) to register the sensor and add it in the `device_repository.json`.
     * Repeat for all the sensors you will be used (and for each new sensor).
 
 _If the devices' intrinsic parameters are not saved in the device repository you will not be able to calibrate the system_
@@ -86,9 +86,12 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
     Stream profiles control the resolution of the color and the depth streams. 
     The available stream profiles are the following:
 
-    * `RGB - HD, D - HD/2`: `1280 x 720` color &  `640 x 480`  (Intel RealSense 2.0) or `640 x 576` (Microsoft Kinect 4 Azure) depth resolution
-    * `RGB - HD, D - HD/4`: `1280 x 720` color & `320 x 180` (Intel RealSense 2.0) or `320 x 288` (Microsoft Kinect 4 Azure) depth resolution
-    * `RGB - HD, D - HD/4`: `640 x 360` color & `320 x 180` (Intel RealSense 2.0) or `320 x 288` (Microsoft Kinect 4 Azure) depth resolution
+    * `RGB - HD, D - HD/2`: 
+        > `1280 x 720` color &  `640 x 480`  (Intel RealSense 2.0) or `640 x 576` (Microsoft Kinect 4 Azure) depth resolution
+    * `RGB - HD, D - HD/4`:
+        > `1280 x 720` color & `320 x 180` (Intel RealSense 2.0) or `320 x 288` (Microsoft Kinect 4 Azure) depth resolution
+    * `RGB - HD, D - HD/4`:
+        > `640 x 360` color & `320 x 180` (Intel RealSense 2.0) or `320 x 288` (Microsoft Kinect 4 Azure) depth resolution
 
     If you have a slow connection, or if the network switch is not unmanaged you can select a profile with lower resolution than Full HD. 
     The default selected profile is `RGB - HD, D - HD/2` which has no problems with the recommended network switch for up to `6` K4A sensors.
@@ -102,7 +105,7 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
     
     From the drop-down menu next to the `Connect All` Button, you can select which device will be the **Master** device in a Hardware sync scenario.
     _In order to use hardware synchronization, you need to have the HW sync cables assembled and connected to the sensors in either daisy-chain or star configuration.
-    More details can be found at the [Synchronization](/docs/sychronization) section for the process itself, and for assembling the HW sync cables at the respective sections for the [Intel RealSense 2.0 D415](docs/hardware/rs2_hardware) and the [Microsoft Kinect 4 Azure](docs/hardware/k4a_hardware).
+    More details can be found at the [Synchronization](../sychronization) section for the process itself, and for assembling the HW sync cables at the respective sections for the [Intel RealSense 2.0 D415](../hardware/rs2_hardware) and the [Microsoft Kinect 4 Azure](../hardware/k4a_hardware).
 
     <p align="center">
         <img src="../../assets/images/vol_cap_wiki_hw_syncpng.png"/>
@@ -185,7 +188,7 @@ More specifically:
 Various gizmos can be toggled (_i.e._ cropping bounding box, ground plane, etc.), as well as 3D stream visualization settings (device color or actual color for the point clouds, etc) from the `Viewport Control` widget.
 
 <p align="center">
-    <img src="../../assets/image/svol_cap_wiki_view_control.png"/>
+    <img src="../../assets/images/vol_cap_wiki_view_control.png"/>
 </p>
 
 ### 4. Recording

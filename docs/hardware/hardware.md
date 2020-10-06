@@ -41,9 +41,9 @@ The assembly of each tripod unit, comprising the tripod, a mini-PC, and a sensor
 
 1. Initially, each sensor is mounted on its corresponding tripod (just like a normal digital camera), by screwing the sensor on the tripod's base.
 
-<p align="center">
-    <img width="400" src="../assets/images/RealSense2Tripod.jpg"/>
-</p>
+    <p align="center">
+        <img width="400" src="../assets/images/RealSense2Tripod.jpg"/>
+    </p>
 
 2. The Intel NUC mini-PCs also include a VESA 75/100 base mount.
 This should be screwed on the tripod bracket mount. 
@@ -51,27 +51,27 @@ In order to do this you will need 4 nuts of the same diameter as the screws (you
 Then the bracket mount can be mounted on the tripod's main column with the help of the allen screws that come with the bracket mount.
 Finally, the NUC is placed on the VESA mount with the help of the longer screws (included in the NUC package), and is then slided on the screw channels (yellow).
 
-<p align="center">
-    <img width=500 src="../assets/images/BracketMounts2Tripod.jpg"/>
-</p>
+    <p align="center">
+        <img width=500 src="../assets/images/BracketMounts2Tripod.jpg"/>
+    </p>
 
 3. Next, connect each sensor with its corresponding mini-PC, via the sensor's `USB3.0` cable.
 
-<p align="center">
-    <img width=500 src="../assets/images/RealSense2NUC.jpg"/>
-</p>
+    <p align="center">
+        <img width=500 src="../assets/images/RealSense2NUC.jpg"/>
+    </p>
 
 4. Then, connect each mini-PC to the network switch, with network `CAT5e` (or better) Ethernet cables.
 
-<p align="center">
-    <img width=500 src="../assets/images/NUC2Switch.jpg"/>
-</p>
+    <p align="center">
+        <img width=500 src="../assets/images/NUC2Switch.jpg"/>
+    </p>
 
 5. Finally, connect the network switch and the workstation with another network cable.
 
-<p align="center">
-    <img width=500 src="../assets/images/Switch2Work.jpg"/>
-</p>
+    <p align="center">
+        <img width=500 src="../assets/images/Switch2Work.jpg"/>
+    </p>
 
 The Capturing Station's setup is complete.
 

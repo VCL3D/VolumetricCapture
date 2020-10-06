@@ -11,7 +11,7 @@ To use the RabbitMQ messaging system, a user needs to be setup first.
 While the original **`guest/guest`** username/password is available, the **VolCap** and **Eyes** are preconfigured to a **`volumetric/capture`** username/password:
 
 1. Initially, RabbitMQ's management interface needs to be enabled, please follow the instructions [here](https://www.rabbitmq.com/management.html)
-2. When the management plugin is set up, you can use navigate to **`localhost:15672`** via the browser using the default username and password which are **guest** and **guest** respectively as aforementioned.
+2. When the management plugin is set up, you can use navigate to `localhost:15672` via the browser using the default username and password which are `guest` and `guest` respectively as aforementioned.
 3. In order to create a new user with username: **`volumetric`** and password: **`capture`** these steps are needed:
     * In your browser type: **`localhost:15672`**. 
     The RabbitMQ's sign in screen will appear.

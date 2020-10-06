@@ -15,7 +15,7 @@ Synchronization is achieved on play-back after:
 
 # Hardware Synchronization
 
-For the hardware aspects (assembling, cabling), see the respective sections for [Intel RealSense 2.0 D415](docs/hardware/rs2_hardware) and [Microsoft Kinect 4 Azure](docs/hardware/k4a_hardware).
+For the hardware aspects (assembling, cabling), see the respective sections for [Intel RealSense 2.0 D415](../hardware/rs2_hardware) and [Microsoft Kinect 4 Azure](../hardware/k4a_hardware).
 
 Once the synchronization cables have been assembled and connected to the sensors in a specific topology (daisy-chain or star), a `master` device needs to be setup that will trigger the other (`slave`) devices.
 This is achieved through the drop-down menu in the `Devices` widget, where a single device is selected as the master.
@@ -36,15 +36,15 @@ The Volumetric Capture system uses the IEEE 1588 precision time protocol (PTP) f
 * `PTPd` is a native daemon-like implementation that is triggered periodically while the main program runs, updating each mini-PC's offset automatically at each period.
 
 Note that pyPTP is not implementing the IEEE 1588 standard and works on a best effort basis
-{ .label .label-yellow }
+{: .label .label-yellow }
 
 Native (`nPTP` and `PTPd`) IEEE 1588 PTP requires allowing UDP connections on port `320` (both incoming and outgoing) on the workstation's firewall as well as port `321` on the mini-PCs.
-{ .label .label-yellow }
+{: .label .label-yellow }
 
 Synchronization is performed via the `Synchronization` Toolbar menu.
 
 <p align="center">
-    <img src="../../assets/iamges/toolbar_sync.png"/>
+    <img src="../../assets/images/toolbar_sync.png"/>
 </p>
 
 The options are the following:
