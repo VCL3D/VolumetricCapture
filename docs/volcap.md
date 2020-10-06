@@ -59,16 +59,16 @@ _If the devices' intrinsic parameters are not saved in the device repository you
         <img src="../../assets/images/vol_cap_wiki_widgets.png"/>
     </p>
 
-    1. Device Connection Manager Widget    
-    2. Device & Processing Parameters Widget
-    3. Recording Widget    
-    4. Visualization Widget
+    1. `Devices Widget`    
+    2. `Remote Eye Configuration Widget`
+    3. `Recording Widget`    
+    4. `Viewport Control Widget`
 
 ## Application Workflow
 
 ### 1. Connecting devices/sensors
     
-When you first start the application, each of the registered devices (in the `device_repository.json`) should appear on the **Connection Manager Widget** with its given user-friendly name.
+When you first start the application, each of the registered devices (in the `device_repository.json`) should appear on the `Devices Widget` with its given user-friendly name.
 From this widget you can connect all of the devices at once (`Connect All`), or connect each device separately (select, and `Connect`).
 In addition, you can modify the devices' connection stream profile (`Stream`), parameters preset (`Preset`), or configure the master device when using HW sync (toggle next to `Connect All`). Specifically:
 
@@ -97,7 +97,6 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
     <p align="center">
         <img src="../../assets/images/vol_cap_wiki_conn_man_profilepng.png"/>
     </p>
-
 
 * **Set the master device for HW device synchronization**
     
@@ -183,7 +182,7 @@ More specifically:
 
 ### 3. Configuring the application's viewport
 
-Various gizmos can be toggled (_i.e._ cropping bounding box, ground plane, etc.), as well as 3D stream visualization settings (device color or actual color for the point clouds, etc).
+Various gizmos can be toggled (_i.e._ cropping bounding box, ground plane, etc.), as well as 3D stream visualization settings (device color or actual color for the point clouds, etc) from the `Viewport Control` widget.
 
 <p align="center">
     <img src="../../assets/image/svol_cap_wiki_view_control.png"/>
@@ -191,9 +190,8 @@ Various gizmos can be toggled (_i.e._ cropping bounding box, ground plane, etc.)
 
 ### 4. Recording
 
-Multi-view recordings (`Start`/`Stop`) and snapshots (`Snapshot`) are possible from this widget.
+Multi-view recordings (`Start`/`Stop`) and snapshots (`Snapshot`) are possible from the `Recording` widget.
 You can select a name for the sequence or the snapshot you are going to capture, by typing the name that you desire in the text-field of each operation (`Record` or `Snapshot`) and by hitting `Enter`.
-
 
 <p align="center">
     <img src="../../assets/images/vol_cap_wiki_record.png"/>
@@ -235,137 +233,5 @@ Open "Calibration"->"Configure" to visualize the calibration parameters (set **i
 <p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_calib.png" alt="accessibility text"></p>
 
 Once the calibration is finished, you should be able to see the point-cloud of the calibration structure.
-
-## Hardware & Software Synchronization
-
-As mentioned above, you can use the Hardware synchronization feature if you have assembled the synchronization cables, by choosing the **Master** device from the drop-down menu of the **Connection Manager** Widget.
-
-While multi-device hardware synchronization is useful for acquiring synchronized frames on the device side (i.e. every device will acquire a frame at the peak of the master device's signal), the mini-PCs that control each device may not be in sync with the main-PC. 
-
-For this reason and in order to capture synchronized RGB-D sequences, software clock synchronization is useful for computing the offsets between the clocks of the mini-PCs and the main-PC, and synchronize the captured RGB-D sequences.
-
-The Volumetric Capture software provides three PTP-style software synchronization modes, **pyPTP**, **nPTP** and **PTPd**.
-
-* **pyPTP** is an external python compiled executable for calculating the clock offset of every mini-PC to the main-PC.
-* **nPTP** is a native implementation of the same functionality as pyPTP.
-* **PTPd** is a native implementation that is triggered periodically while the main program runs, updating each mini-PC's offset automatically at each period.
-
-Synchronization is enabled by the **Synchronization** Toolbar menu.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/toolbar_sync.png" alt="accessibility text"></p>
-
-The options are the following:
-* pyPTP: Runs pyPTP synchronization
-* nPTP: Runs native PTP synchronization
-* PTPd: Runs continuous nPTP synchronization
-* Load Latest: Loads the latest synchronization results
-* Configure PTP: Enables PTP parameter configuration
-
-### PTP Configuration
-Our PTP synchronization methods compute the average offset of the distributed mini-PC clocks with the main-PC. Through the configuration window you can modify the aggregation window size for nPTP and PTPd, the triggering period for PTPd, while pyPTP is not configurable. You can select which synchronization method you want to configure from the drop-down menu on the PTP configuration window.
-
-You can select which PTP configurations to modify by selecting the corresponding PTP method from the drop-down menu on the PTP-Synchronization Configuration widget.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptp_settings.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_settings.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_settings.png" alt="accessibility text"></p>
-
-### Running PTP synchronization
-#### pyPTP
-When pyPTP is running (by clicking the corresponding option on the Synchronization menu) a popup will appear on which the synchronization results will be displayed when the synchronization process finishes. You should click the "**Load Latest**" button in order to load the calculated synchronization results.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/pyPTP_syncing.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/pyPTP_load_latest.png" alt="accessibility text"></p>
-
-#### nPTP
-
-When nPTP is running (by clicking the corresponding option on the Synchronization menu) a popup will appear that will inform the user when the process is finished. Again, you should click the "**Load Latest**" button to load the calculated synchronization offsets.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_synchronization.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_completed.png" alt="accessibility text"></p>
-
-#### PTPd
-
-When the **PTPd** option is selected from the **Synchronization** menu, a pop-up will appear prompting the user to start the synchronization process.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_synchronization.png" alt="accessibility text"></p>
-
-Once the user clicks the "**Start**" button the synchronization will start and the calculated clock offsets will be loaded automatically. The calculation of the synchronization offsets will be triggered every 2 seconds by default (a parameter that can be modified from the **PTP-Synchronization Configuration** widget). In order to stop the process, the user must select **PTPd** from the **Synchronization** menu, and click the "**Stop**" button.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_stop.png" alt="accessibility text"></p>
- 
-Finally, the user can check if synchronization offsets are loaded for every device from the **Connected Devices** widget where a clock icon will be displayed under every device name if the synchronization offsets are loaded.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/sync_connection.png" alt="accessibility text"></p>
-
-## Hardware & Software Synchronization
-
-As mentioned above, you can use the Hardware synchronization feature if you have assembled the synchronization cables, by choosing the **Master** device from the drop-down menu of the **Connection Manager** Widget.
-
-While multi-device hardware synchronization is useful for acquiring synchronized frames on the device side (i.e. every device will acquire a frame at the peak of the master device's signal), the mini-PCs that control each device may not be in sync with the main-PC. 
-
-For this reason and in order to capture synchronized RGB-D sequences, software clock synchronization is useful for computing the offsets between the clocks of the mini-PCs and the main-PC, and synchronize the captured RGB-D sequences.
-
-The Volumetric Capture software provides three PTP-style software synchronization modes, **pyPTP**, **nPTP** and **PTPd**.
-
-* **pyPTP** is an external python compiled executable for calculating the clock offset of every mini-PC to the main-PC.
-* **nPTP** is a native implementation of the same functionality as pyPTP.
-* **PTPd** is a native implementation that is triggered periodically while the main program runs, updating each mini-PC's offset automatically at each period.
-
-Synchronization is enabled by the **Synchronization** Toolbar menu.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/toolbar_sync.png" alt="accessibility text"></p>
-
-The options are the following:
-* pyPTP: Runs pyPTP synchronization
-* nPTP: Runs native PTP synchronization
-* PTPd: Runs continuous nPTP synchronization
-* Load Latest: Loads the latest synchronization results
-* Configure PTP: Enables PTP parameter configuration
-
-### PTP Configuration
-Our PTP synchronization methods compute the average offset of the distributed mini-PC clocks with the main-PC. Through the configuration window you can modify the aggregation window size for nPTP and PTPd, the triggering period for PTPd, while pyPTP is not configurable. You can select which synchronization method you want to configure from the drop-down menu on the PTP configuration window.
-
-You can select which PTP configurations to modify by selecting the corresponding PTP method from the drop-down menu on the PTP-Synchronization Configuration widget.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptp_settings.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_settings.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_settings.png" alt="accessibility text"></p>
-
-### Running PTP synchronization
-#### pyPTP
-When pyPTP is running (by clicking the corresponding option on the Synchronization menu) a popup will appear on which the synchronization results will be displayed when the synchronization process finishes. You should click the "**Load Latest**" button in order to load the calculated synchronization results.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/pyPTP_syncing.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/pyPTP_load_latest.png" alt="accessibility text"></p>
-
-#### nPTP
-
-When nPTP is running (by clicking the corresponding option on the Synchronization menu) a popup will appear that will inform the user when the process is finished. Again, you should click the "**Load Latest**" button to load the calculated synchronization offsets.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_synchronization.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/nptp_completed.png" alt="accessibility text"></p>
-
-#### PTPd
-
-When the **PTPd** option is selected from the **Synchronization** menu, a pop-up will appear prompting the user to start the synchronization process.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_synchronization.png" alt="accessibility text"></p>
-
-Once the user clicks the "**Start**" button the synchronization will start and the calculated clock offsets will be loaded automatically. The calculation of the synchronization offsets will be triggered every 2 seconds by default (a parameter that can be modified from the **PTP-Synchronization Configuration** widget). In order to stop the process, the user must select **PTPd** from the **Synchronization** menu, and click the "**Stop**" button.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/ptpd_stop.png" alt="accessibility text"></p>
- 
-Finally, the user can check if synchronization offsets are loaded for every device from the **Connected Devices** widget where a clock icon will be displayed under every device name if the synchronization offsets are loaded.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/sync_connection.png" alt="accessibility text"></p>
 
 -->

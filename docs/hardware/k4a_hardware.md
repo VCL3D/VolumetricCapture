@@ -26,3 +26,6 @@ You can choose one of the following configuration for you multi-view setup.
 <img alt="Star" align="center" src="https://docs.microsoft.com/en-us/azure/kinect-dk/media/multicam-sync-star.png" width="45%" />
 
 For more information regarding the Kinect Azure Hardware Synchronization Cables consider visiting [Microsoft Docs Site](https://docs.microsoft.com/en-us/azure/kinect-dk/multi-camera-sync). The images for the aforementioned configurations were taken by the same link.
+
+Note that when using hardware sync with K4A sensors, we use the SDK to apply a cascaded **30 usec** triggering offset to minimize modulation frequency noise (_e.g._ **30**, **60**, **90 usec** for the 3 sensors of a 4-sensor setup).
+{ .label .label-yellow }

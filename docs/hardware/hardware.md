@@ -77,5 +77,5 @@ The Capturing Station's setup is complete.
 
 > **Note**: _If you require hardware synchronization, then the parts for assembling the hardware syncing cables are different for each sensor_: 
     
-> - [Intel RealSense 2.0 sensors](./rs2_hardware)
-> - [Microsoft Kinect 4 Azure sensors](./k4a_hardware)
+> - [Intel RealSense 2.0 sensors](docs/hardware/rs2_hardware)
+> - [Microsoft Kinect 4 Azure sensors](hardware/k4a_hardware)
