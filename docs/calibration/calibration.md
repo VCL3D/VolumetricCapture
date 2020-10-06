@@ -17,8 +17,8 @@ For that we rely on data-driven correspondence establishment for the inital matc
 
 The calibration software needs to be installed after setting up **VolCap**, with the necessary infomation available in the [StructureNet Installation](calibration/installation) section.
 Then, the structure needs to assembled, which is an one-time process as it can be easily re-used.
-The assembly process is described at the [Structure Assembly](calibration/assembly) section.
-Finally, the calibration process itself is explained in the [Multi-sensor Calibration](calibration/process) section.
+The assembly process is described at the [Structure Assembly](/calibration/assembly) section.
+Finally, the calibration process itself is explained in the [Multi-sensor Calibration](../calibration/process) section.
 
 
 <a name="StructureNetRepo"/>__[1]__ [StructureNet @ VCL3D](https://github.com/VCL3D/StructureNet/)
