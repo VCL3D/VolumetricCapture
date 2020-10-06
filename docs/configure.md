@@ -47,16 +47,13 @@ Device repository creator.
 Usage: device_repository.exe [OPTIONS]
 
 Options:
-  -h,--help                   Print this help message and exit
-  -a,--add TEXT Excludes: -r,--rename
-                              Add a device into the device repository.
-  -r,--rename TEXT ... Excludes: -d,--delete
-                              Rename a device.
-  -d,--delete TEXT Excludes: -l,--list
-                              Deletes a device from the repository
-  -l,--list                   List all devices in device repository.
-  -p,--path TEXT=.            Directory where to store "device_repository.json" file.
-  -c,--cam_type UINT          0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
+  -h,--help                                     Print this help message and exit
+  -a,--add TEXT Excludes: -r,--rename           Add a device into the device repository.
+  -r,--rename TEXT ... Excludes: -d,--delete    Rename a device.
+  -d,--delete TEXT Excludes: -l,--list          Deletes a device from the repository
+  -l,--list                                     List all devices in device repository.
+  -p,--path TEXT=.                              Directory where to store device_repository.json" file.
+  -c,--cam_type UINT                            0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
 ```
 
 The supported functionalities are:
