@@ -51,7 +51,7 @@ The Volumetric Capture has been used in various research and development activit
     ```
 
 4. [![XR360_Page](http://img.shields.io/badge/XR360-Toolkit-blueviolet.svg?style=plastic)](https://icme2020workshopxr.wordpress.com/)
-[![XR360_Conference](http://img.shields.io/badge/ICME-2020-blue.svg?style=plastic)](http://ieeevr.org/2020/)
+[![XR360_Conference](http://img.shields.io/badge/ICME-2020-blue.svg?style=plastic)](https://www.2020.ieeeicme.org/)
 [![XR360_Paper](http://img.shields.io/badge/paper-ieee-critical.svg?style=plastic)](https://vcl.iti.gr/vclNew/wp-content/uploads/2020/04/XR360_toolkit_for_mixed_360_3D_productions.pdf)
     ```python
     @inproceedings{karakottas2020xr360,
