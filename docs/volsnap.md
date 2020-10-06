@@ -43,3 +43,6 @@ After starting the application its main window opens, prompting the user to drag
 <p align="center">
     <img src="../../assets/images/volsnap/drag.png"/>
 </p>
+
+Work-in-progress
+{: .label .label-yellow }
