@@ -78,14 +78,18 @@ The following steps explain how to install and setup the RabbitMQ broker:
 * Additionally, you will have to open outbound connections to port: **`15672`**, (the same way as the previous step, but putting **`15672`** instead of **`5672`** as the port number), in order to use RabbitMQ's management interface. 
 This is done by following the steps described above. You just have to create a new **`Inbound Rule`** for port **`15672`**.
 
+<p align="center">
+    <img width=400 src="../../assets/images/release_dir_structure.png"/>
+</p>
+
 ## VolCap Setup
 
 To install the **VolCap** application you need to:
 
-* Download the latest release of **Volumetric Capture** from the [Releases](https://github.com/VCL3D/VolumetricCapture/releases) section.
-* Extract the zipped folder in a directory of your choosing (_e.g._ `C:/`). Avoid using paths that include `"spaces"`.
-* Create a shortcut of **volcap.exe** on your desktop if you want.
-* If RabbitMQ has been installed on the same machine, just double click the **volcap.exe** (or the shortcut if you created one), and you are ready to go.
+1. Download the latest release of **Volumetric Capture** from the [Releases](https://github.com/VCL3D/VolumetricCapture/releases) section.
+2. Extract the `main.zip` file in a directory of your choosing (_e.g._ `C:/`). Avoid using paths that include `"spaces"`.
+3. Create a shortcut of **volcap.exe** on your desktop if you want.
+4. If RabbitMQ has been installed on the same machine, just double click the **volcap.exe** (or the shortcut if you created one), and you are ready to go.
 
 
 ## Remote Eyes Setup
@@ -101,29 +105,29 @@ In order to use the **Eye**, some Windows settings have to be set to each sensor
 * Disable USB power management. ([how to](https://www.windowscentral.com/how-prevent-windows-10-turning-usb-devices))
 * Install remote-eye application and Remote Eye Windows Service. ([how to](https://github.com/VCL3D/VolumetricCapture/wiki/Remote-Service))
 
-### Eye
-**TODO**
-{: .label .label-red }
+### Service & Eye
 
-### Service
-**TODO**
-{: .label .label-red }
+This monitoring service is responsible for spawning and managing the lifecycle of the **Eye** application at each sensor processing unit.
 
-This monitoring service is responsible for spawning and managing the lifecycle of the **Remote Eye** application at each sensor processing unit.
 **No explicit configuration for a specific server is needed as the main application implicitly resolves that.** 
+{: .label }
 
-* Create the directory: **C:\Capturer**.
-* When you have downloaded the [release](https://github.com/VCL3D/VolumetricCapture/releases), extracting its content gives a batch of folders.
-* Copy the content of folder "remote_eye" (i.e. "bin" and "remote_eye_service") in **C:\Capturer** directory you have just created.
-* To install the **Remote Eye Windows Service**, you should run the *install_remote_eye_service.bat* in **C:\Capturer\remote_eye_service** with **Administrator** rights (right-click and choose "Run as administrator").
-* If you ever want to uninstall the **Remote Eye Windows Service**, again you must run *uninstall_remote_eye_service.bat* with **Administrator** rights.
+For each sensor processing unit:
+
+1. Create the directory: `C:\Capturer`.
+2. When you have downloaded the `remote.zip` file from the [release](https://github.com/VCL3D/VolumetricCapture/releases), extract its content in `C:\Capturer`.
+3. You should have a `\bin` folder which comprises the **Eye** application executables and in `\monitor` the service files.
+4. To install the **Monitor** service, you should run the `install_remote_eye_service.bat` in `C:\Capturer\monitor\` with **Administrator** rights (_right-click and choose "Run as administrator"_).
+5. If you ever need to uninstall the **Monitor** service, again you must run `uninstall_remote_eye_service.bat` with **Administrator** rights.
 
 <!--![](https://raw.githubusercontent.com/VCL3D/VolumetricCapture/master/doc/2018-07-16_13-53-07.gif)-->
 
-* In order to achieve initial communication between the _Volumetric Capture_ and _Remote Eye_ applications, we use the _Remote Eye_ Windows Service. This service runs in the background of the Capturer's mini-PCs, and listens to port: *11234* (UDP)
-in network's broadcast channel. Thus, you have to follow the steps above for creating inbound and outbound Windows Firewall rules, for all the PCs (workstation and mini-PCs) for port: *11234* (UDP). 
+> To achieve automatic sensor connection between the **VolCap** and **Eye** applications, we use the **Monitor** service. 
+This service runs in the background of the sensor processing unit, and listens to UDP port `11234` in the network's broadcast channel.
+Thus, you have to follow the steps above for creating inbound and outbound Windows Firewall rules, for all the processing units (workstation and sensor) for UDP port `11234`.
 
 ![](../assets/images/2018-07-16_14-54-43.gif)
+
 
 ## Synchronization
 Furthermore, for acquiring global timestamps aligned with the workstation (see the [Synchronization Section](../synchronization)) you should enable connections on port *320* (both incoming and outgoing) on the workstation pc, and port *321* on each NUC with the same procedure explained above.
