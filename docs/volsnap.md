@@ -5,10 +5,10 @@ nav_order: 9
 description: "Volumetric Player Application"
 ---
 
-# Playback and exporting with the VolSnap Application
+# Playback & exporting with the VolSnap Application
 
 __VolSnap__ is a mixed mode (GUI & CLI) application that can play recording files and export them.
-Using the GUI mode is mostly used for visualizing the captured data, seeing the files' metadata, and saving distinct frames of _color_ , _depth_ and _pointcloud_ data.
+Using the GUI mode is mostly used for visualizing the captured data, seeing the files' metadata, and saving distinct frames of _color_, _depth_ and _pointcloud_ data.
 On the other hand, the CLI mode is used for batch exporting purposes, essentially dumping the whole sequence in various formats.
 
 ```yaml
