@@ -15,10 +15,10 @@ We move beyond such tedious, error-prone processes and instead employ a structur
 Users simply need to assemble a structure out of commonly found packaging boxes and place it within the capturing area for all sensors to see.
 For that we rely on data-driven correspondence establishment for the inital matching __\[[1](#StructureNetRepo), [2](#StructureNetPaper)\]__, and global optimization for estimating a solution with respect to the coordinate system of the structure.
 
-The calibration software needs to be installed after setting up **VolCap**, with the necessary infomation available in the [StructureNet Installation](/calibration/installation) section.
+The calibration software needs to be installed after setting up **VolCap**, with the necessary infomation available in the [StructureNet Installation](calibration/installation) section.
 Then, the structure needs to assembled, which is an one-time process as it can be easily re-used.
-The assembly process is described at the [Structure Assembly](/calibration/assembly) section.
-Finally, the calibration process itself is explained in the [Multi-sensor Calibration](/calibration/process) section.
+The assembly process is described at the [Structure Assembly](calibration/assembly) section.
+Finally, the calibration process itself is explained in the [Multi-sensor Calibration](calibration/process) section.
 
 
 <a name="StructureNetRepo"/>__[1]__ [StructureNet @ VCL3D](https://github.com/VCL3D/StructureNet/)
