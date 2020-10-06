@@ -7,13 +7,38 @@ description: "The Distributed Remote Eye Application"
 
 # The Distributed Remote Eye Application
 
-## Sensor Selection
-**TODO**
-{: .label .label-red }
+The **Eye** is a sensor specific headless command line application that connects to the sensor, and to the broker.
+Through specific communication channels it streams the sensor acquired data to the broker and receives configuration commands.
+In addition, it also performs software synchronization with the **VolCap** application running on the workstation.
 
-## Manual Connection
-**TODO**
-{: .label .label-red }
+They currently come in two versions:
+- `k4a_eye.exe`: The Microsoft Kinect 4 Azure variant
+- `rs2_eye.exe`: The Intel RealSense 2.0 D415 variant
+
+It is also supported by a monitoring service, and an Intel NUC LED controller application (see [Software Setup](../software)).
+
+The **eyes** are distributed on sensor processing nodes (_e.g._ Intel NUCs for a highly portable setup) and serve sensor acquired data in an isolated manner (_except for when HW triggering is used_).
+
+![Sensor Data Flow](../assets/images/architecture/sensor_data_flow.jpg)
+
+Their parameterization is also facilitated through messages initiated by **VolCap**, with the **Eyes** acknowledging and replying with the result.
+This ensures a consistent state between the sensor nodes (**Eyes**) and the central GUI (**VolCap**).
+
+![Control Data Flow](../assets/images/architecture/control_data_flow.jpg)
+
+## Automatic Sensor Connection
+
+The monitoring service is responsible for automatic the sensor connection workflow.
+It is signaled every time **VolCap** starts, or everytime the `Refresh All` or `Refresh` buttons are pressed (_with the latter corresponding refreshing only the selected devices_).
+It then manages the lifetime of the **Eye** application by killing and (re-)spawning it.
+It additonally selects the appropriate sensor specific executable by polling the sensor processing unit's connected `USB3.0` devices.
+The **Eyes** then send a handshake message on the broker, through which they are made available for connection to **VolCap**.
+
+![Sensor Connection](../assets/images/architecture/sensor_connection.jpg)
+
+## Manual Sensor Connection
+
+In the case that automatic connection is not available, the **Eyes** can be connected manually via their command line interface:
 
 ```yaml
 Remote Eye: a Remote Viewpoint Streamer Command Line Interface
@@ -31,6 +56,13 @@ Options:
   -v,--verbose                                  Verbose flag
 ```
 
+Only this time, only the broker's username and password are already configured to the default values, and instead the broker's IP needs to be offered.
+
 ## Troubleshooting
-**TODO**
-{: .label .label-red }
+
+Some of the issues related to connectivity and/or sensor streaming are due to USB driver issues and clean up.
+Experience shows that when a device does not come up automatically, or no streams arrive after connecting it, a manual USB cable plug and re-plug to another USB controller resolves the issue.
+Switching USB controller is hardware specific, but for Intel NUCs, switching between the front and back USB ports usually accomplishes it.
+
+This list is a work-in-progress and will be updated as more issues are identified and resolved.
+{: .label .label-yellow }
