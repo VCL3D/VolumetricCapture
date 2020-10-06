@@ -126,7 +126,7 @@ in network's broadcast channel. Thus, you have to follow the steps above for cre
 ![](../assets/images/2018-07-16_14-54-43.gif)
 
 ## Synchronization
-Furthermore, for acquiring global timestamps aligned with the workstation (see the ![Synchronization Sectuib](https://github.com/VCL3D/VolumetricCapture/wiki/synchronization)) you should enable connections on port *320* (both incoming and outgoing) on the workstation pc, and port *321* on each NUC with the same procedure explained above.
+Furthermore, for acquiring global timestamps aligned with the workstation (see the [Synchronization Section](https://github.com/VCL3D/VolumetricCapture/wiki/synchronization)) you should enable connections on port *320* (both incoming and outgoing) on the workstation pc, and port *321* on each NUC with the same procedure explained above.
 
 ## Calibration
 **Redirect**
