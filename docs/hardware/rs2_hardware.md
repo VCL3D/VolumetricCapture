@@ -61,4 +61,4 @@ Cable length between each sensor should be about `5m` long.
 
 ### Assembly Video
 
-A more details assembly process video can be found on YouTube is this [link](https://youtu.be/E3PzERRZgHU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E3PzERRZgHU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

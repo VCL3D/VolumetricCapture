@@ -26,7 +26,7 @@ More specifically, its technical offerings are:
 - Efficient, scalable and low-resource multi-stream live sensor data acquisition and recording (see [Data Acquisition](docs/acquisition.md))
 - Integration (and mixing) of Kinect 4 Azure and Intel RealSense 2.0 D415 devices (see [Hardware Setup](docs/hardware/hardware.md) and [Configuration](docs/configure.md))
 - Combined hardware (device-specific) and software (IEEE 1588 PTP) multi-stream synchronization (see [Synchronization](docs/synchronization.md))
-- Data-driven and global optimized volumetric alignment (see [Calibration](docs/calibration.md))
+- Data-driven and global optimized volumetric alignment (see [Calibration](docs/calibration/calibration.md))
 
 For instructions on how to install it please see [Software Setup](docs/software.md).
 
