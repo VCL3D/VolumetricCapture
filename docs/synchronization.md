@@ -29,7 +29,7 @@ Therefore, while the frames are captured by the sensors at the same time (trigge
 As a result, we need to synchronize the clocks of the sensor processing units and the workstation.
 Then we can align them all to a single _global_ timeline (_i.e._ the workstation's) and perform grouping to guarantee the playback's synchronized state.
 
-The Volumetric Capture system uses the IEEE 1588 precision time protocol (PTP) for software synchronization and provides three PTP-style software synchronization modes:
+The Volumetric Capture system uses the [IEEE 1588 precision time protocol (PTP)](https://en.wikipedia.org/wiki/Precision_Time_Protocol) for software synchronization and provides three PTP-style software synchronization modes:
 
 * `pyPTP` is an external python compiled executable for calculating the clock offset of every mini-PC to the main-PC.
 * `nPTP` is a native implementation of the same functionality as pyPTP.

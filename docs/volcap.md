@@ -2,7 +2,7 @@
 layout: default
 title: Volumetric Capture
 nav_order: 5
-description: "The Volumetric Capture Application"
+description: "The Centralized Volumetric Capture Application"
 ---
 
 # The Centralized VolCap Application
@@ -24,7 +24,7 @@ Options:
 ## Running the application
 The application requires the availability of a `device repository file`, communication with the message broker (`broker_IP`, `broker_username`, `broker_password`) and additionally broadcasts a spawning message at a single network interface (`local_IP`).
 However, its default values are set to `localhost` and the `volumetric/capture` username/password.
-Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](docs/configure) section.
+Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](../configure) section.
 If the configuration has been set up as proposed, it will match the default arguments, and with the RabbitMQ installed on the workstation running **VolCap**, then a single `double-click` on the `volcap.exe` suffices.
 
 # Workflow
@@ -105,7 +105,7 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
     
     From the drop-down menu next to the `Connect All` Button, you can select which device will be the **Master** device in a Hardware sync scenario.
     _In order to use hardware synchronization, you need to have the HW sync cables assembled and connected to the sensors in either daisy-chain or star configuration.
-    More details can be found at the [Synchronization](../sychronization) section for the process itself, and for assembling the HW sync cables at the respective sections for the [Intel RealSense 2.0 D415](../hardware/rs2_hardware) and the [Microsoft Kinect 4 Azure](../hardware/k4a_hardware).
+    More details can be found at the [Synchronization](../synchronization) section for the process itself, and for assembling the HW sync cables at the respective sections for the [Intel RealSense 2.0 D415](../hardware/rs2_hardware) and the [Microsoft Kinect 4 Azure](../hardware/k4a_hardware).
 
     <p align="center">
         <img src="../../assets/images/vol_cap_wiki_hw_syncpng.png"/>
@@ -118,7 +118,9 @@ Finally, when all of the devices are connected, each device viewport as well as 
 </p>
 
 For each device, their real-time bandwidth consumption is displayed, along a color picker that sets that device's color.
-**Note**: Mousing over the names or icons in this widget displays a tooltip with the device's IP which is helpful when needing to access the mini-PC for troubleshooting (via remote desktop or TeamViewer)    
+
+**Note**: Mousing over the names or icons in this widget displays a tooltip with the device's IP which is helpful when needing to access the mini-PC for troubleshooting (via remote desktop or TeamViewer).
+{: .label .label-purple }
 
 <p align="center">
     <img src="../../assets/images/vol_cap_wiki_cenn_dev_color_pickerpng.png"/>

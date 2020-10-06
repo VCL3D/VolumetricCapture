@@ -12,9 +12,9 @@ permalink: /docs/hardware
 
 The following hardware is needed in order to deploy the **Volumetric Capture** system:
 
-- **`1 x`** workstation (desktop or laptop) (see [requirements](software.md#VolCap))
+- **`1 x`** workstation (desktop or laptop) (see [requirements](software#VolCap))
 - **`K x`** sensors (either [Intel RealSense D415](https://www.intelrealsense.com/depth-camera-d415/) or [Kinect 4 Azure](https://azure.microsoft.com/en-us/services/kinect-dk/))
-- **`K x`** sensor processing units ([Intel NUCs]((https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)) recommended, for requirements see [here](software.md#Eyes))
+- **`K x`** sensor processing units ([Intel NUCs]((https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)) recommended, for requirements see [here](software#Eyes))
 - **`K x`** Standard Camera Complete Tripod Units with max height of at least `1.6m`, (see [this](https://www.amazon.com/gp/product/B005KP473Q/ref=s9_acsd_top_hd_bw_b25tO_c_x_1_w?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-3&pf_rd_r=QRSR7NNHN6PCE8ESTKKP&pf_rd_t=101&pf_rd_p=738d674a-f2fe-58fd-ad11-57582fc76288&pf_rd_i=499310))
 - **`K x`** VESA 75/100 bracket mounts (see [this](http://cpc.farnell.com/pro-signal/psg02632b/bracket-pole-mount-vesa75-100/dp/ST02464))
 -  **`1 x`** non-blocking Network Switch with at least `1GBps` bandwidth
@@ -77,5 +77,5 @@ The Capturing Station's setup is complete.
 
 > **Note**: _If you require hardware synchronization, then the parts for assembling the hardware syncing cables are different for each sensor_: 
     
-> - [Intel RealSense 2.0 sensors](docs/hardware/rs2_hardware)
+> - [Intel RealSense 2.0 sensors](/hardware/rs2_hardware)
 > - [Microsoft Kinect 4 Azure sensors](hardware/k4a_hardware)
