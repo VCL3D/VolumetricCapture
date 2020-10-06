@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Multiview Player
-nav_order: 11
-description: "Multiview Player Application"
+title: Volumetric Snapshot
+nav_order: 9
+description: "Volumetric Player Application"
 ---
 
-# Replay files and Save data through VolSnap Application
+# Replay files and export data with the VolSnap Application
 
 ## The application
 Here we present our file reading and exporting tool, _VolSnap_. _VolSnap_ has 2 modes of operation __GUI__ and __COMMAND_LINE__. __GUI__ mode might be helpful for visualization of captured data, showing some metadata of the file and saving distinct frames of _color_ , _depth_ and _pointcloud_ data, while __COMMAND_LINE__ is used only for exporting purposes being a very suitable solution for batched operations. 

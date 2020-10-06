@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Acquisition
-nav_order: 9
+nav_order: 10
 description: "Recording and Extracting"
 ---
 
