@@ -2,7 +2,7 @@
 layout: default
 title: Multi-sensor Calibration
 parent: Calibration
-nav_order: 2
+nav_order: 3
 ---
 
 # Calibrating a Volumetric Setup
