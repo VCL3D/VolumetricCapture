@@ -9,6 +9,8 @@ description: "Recording and Extracting"
 **TODO**
 {: .label .label-red }
 
+![RecordActivity](../assets/images/usage/record_lr.png)
+
 # Recording Extraction
 **TODO**
 {: .label .label-red }

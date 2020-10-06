@@ -29,3 +29,29 @@ Specifically for Intel RealSense 2.0 D415 sensors, increasing the laser power at
 
 __DO NOT FORGET to revert the laser power value to its default in order to prevent device failure or damage__.
 {: .label .label-yellow }
+
+## Calibration Workflow
+
+After initially placing the structure, an iterative process of finetuning the sensors' placement and viewing angles should follow to ensure that the entire structure is visible from all sensors by inspecting the live feeds in **VolCap**.
+
+Then, the calibration process steps are:
+
+1. From the top menu, `Calibration`->`Configure` to check and set the calibration parameters (set **iterations** to maximum for optimal calibration).
+2. Then, `Calibration`->`Capture` to capture snapshots of the depth streams.
+3. When snapshot capturing is completed, `Calibration`->`Calibrate` starts the actual pose parameter estimation.
+4. Once the process has finished, use the `Load Latest` button on the down-left side of the calibration pop-up.
+5. (**alternative**) If the sensors have been already calibrated and not moved, the latest calibration is already available. Therefore, after connecting the sensors, `Calibration`->`Load Latest` will load them, bypassing the need to perform the calibration process again.
+
+<p align="center">
+    <img src="../../assets/images/vol_cap_wiki_calib_cap.png"/>
+</p>
+
+<p align="center">
+    <img src="../../assets/images/vol_cap_wiki_calib_cap_fin.png"/>
+</p>
+
+<p align="center">
+    <img src="../../assets/images/vol_cap_wiki_calib_calib.png"/>
+</p>
+
+Once the calibration is finished, you should be able to see the sensors live point-cloud streams forming the calibration structure's shape. Additional inspection/visualization aid is available by toggling the `Structure` tick box from the `Viewport Control` widget.

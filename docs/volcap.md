@@ -27,6 +27,8 @@ However, its default values are set to `localhost` and the `volumetric/capture` 
 Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](../configure) section.
 If the configuration has been set up as proposed, it will match the default arguments, and with the RabbitMQ installed on the workstation running **VolCap**, then a single `double-click` on the `volcap.exe` suffices.
 
+
+
 # Workflow
 
 ## Preparation
@@ -65,6 +67,8 @@ _If the devices' intrinsic parameters are not saved in the device repository you
     4. `Viewport Control Widget`
 
 ## Application Workflow
+
+![VolCapUsage](../assets/images/usage/usage_lr.png)
 
 ### 1. Connecting devices/sensors
     
@@ -211,32 +215,13 @@ By hitting the `Snapshot` button, only the current frame is saved.
 The captured sequences and snapshots are saved in the `/Data` folder, in the directory in which the **VolCap** application is installed, while snapshots are saved in the `/Snapshots` folder.
 Each recording/snapshot is saved in a folder with the current date/time encoded in `YY-MM-DD-hh-mm-ss` format.
 
-<!--
+### 5. Synchronization
 
-## System Calibration
-We provide an easy calibration method analyzed [here](https://github.com/VCL3D/VolumetricCapture/wiki/Calibration-&-Setup).
-In order to calibrate the system you have to assemble the calibration structure and put it in the middle of the capturing space. 
-Open "Calibration"->"Configure" to visualize the calibration parameters (set **iterations** to maximum for optimal calibration). Then from the top toolbar you must select "Calibration"->"Capture" in order to capture snapshots of the depth stream. When snapshot capturing is finished, you must select "Calibration"->"Calibrate". The you should wait until the Calibration is finished and hit the "Load Latest" Button on the down-left side of the calibration pop-up.
+Before recording the sensor processing units and the workstation need to be place on a common _global_ timeline.
+This ensures that even in this distributed sensor acquisition setting, we can replay the recordings without any desync issues.
+For more information on how to perform this inter-device synchronization step, please see the [Synchronization](../synchronization) section.
 
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_cap.png" alt="accessibility text"></p>
+### 6. Calibration
 
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_cap_fin.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_calib.png" alt="accessibility text"></p>
-
-Once the calibration is finished, you should be able to see the point-cloud of the calibration structure.
-
-## System Calibration
-We provide an easy calibration method analyzed [here](https://github.com/VCL3D/VolumetricCapture/wiki/Calibration-&-Setup-for-Kinect-Azure).
-In order to calibrate the system you have to assemble the calibration structure and put it in the middle of the capturing space. 
-Open "Calibration"->"Configure" to visualize the calibration parameters (set **iterations** to maximum for optimal calibration). Then from the top toolbar you must select "Calibration"->"Capture" in order to capture snapshots of the depth stream. When snapshot capturing is finished, you must select "Calibration"->"Calibrate". The you should wait until the Calibration is finished and hit the "Load Latest" Button on the down-left side of the calibration pop-up.
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_cap.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_cap_fin.png" alt="accessibility text"></p>
-
-<p align="center"><img src="https://github.com/VCL3D/VolumetricCapture/blob/master/doc/vol_cap_wiki_calib_calib.png" alt="accessibility text"></p>
-
-Once the calibration is finished, you should be able to see the point-cloud of the calibration structure.
-
--->
+Similarly, prior to recording, the positions of the sensors need to be spatially aligned to enable volumetric data acquisition.
+For more information on how to perform this inter-device calibration step, please see the [Calibration](../calibration/process) section.
