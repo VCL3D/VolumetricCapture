@@ -71,12 +71,15 @@ If you use this system in academic work please consider citing:
 # Disclaimers
 
 ## Caveats
-**We currently only ship binaries for the Windows platform, supporting Windows 10.**
+**We currently only ship _binaries_ for the Windows platform, supporting Windows 10.**
+{: .label .label-yellow }
+
+**There are no guarantees for the system's functionalities and operational status.**
 {: .label .label-yellow }
 
 **The software is being developed to support research workflows which are continuously evoling, therefore, backwards compatibility will often break.**
 {: .label .label-yellow }
 
 ## Maintenance & Support
-Unfortunately there are no commitments to maintaining and providing continuous technical support.
+The development of this system was made possible through H2020 research and development activities. A result of this project-based funding is that maintaining and providing continuous support is not possible after the project's lifetime. However, while there are no commitments or obligations, the developement team will try to provide support at its own discretion and free time.
 {: .label .label-red }
