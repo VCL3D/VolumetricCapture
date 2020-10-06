@@ -18,7 +18,7 @@ The following guidelines need to hold for successfully calibrating a volumetric 
 - Considering the specific field-of-view of the sensors and with a view to capturing a standing person at the center of the capturing space, all sensors must be positioned at a __distance from the structure ranging from 1.75 to 2.5 meters__.
 - Finally, the __distance from the ground of all sensors must be between 1.1 and 1.5 meter__.
 
-In cases where performance might seem subpar, please make sure that sensors are placed in ways that view `8` sides of the boxes to exploit the discriminative power of the model.
+In cases where performance might seem subpar, please make sure that sensors are placed in ways that view **8** sides of the boxes to exploit the discriminative power of the model.
 {: .label .label-purple }
 
 An outline of a good positioning of `4` sensors is depicted in the following figure.
