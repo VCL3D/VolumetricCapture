@@ -13,3 +13,6 @@ The following steps are needed to install the calibration software:
 
 - Navigate to `{path_to_volumetric_capture}/Data/Executables/Calibration/multisensor_calibration`
 - Execute the command `python.exe install.py`
+
+Work-in-progress
+{: .label .label-yellow }

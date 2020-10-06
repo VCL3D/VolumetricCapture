@@ -129,9 +129,11 @@ Thus, you have to follow the steps above for creating inbound and outbound Windo
 
 
 ## Synchronization
+
 Furthermore, for acquiring global timestamps aligned with the workstation (see the [Synchronization Section](../synchronization)) you should enable connections on port `320` (both incoming and outgoing) on the workstation pc, and port `321` on each NUC with the same procedure explained above.
 
 ## Calibration
-**Redirect**
-{: .label .label-yellow }
+
+The spatial (volumetric) alignment, or otherwise extrinsics calibration method that the Volumetric Capture system relies on is described in the respective [Calibration](../calibration) section.
+Details about its requirements and installation process can be found [here](../calibration/installation).
 

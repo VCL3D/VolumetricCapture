@@ -43,15 +43,15 @@ Then, the calibration process steps are:
 5. (**alternative**) If the sensors have been already calibrated and not moved, the latest calibration is already available. Therefore, after connecting the sensors, `Calibration`->`Load Latest` will load them, bypassing the need to perform the calibration process again.
 
 <p align="center">
-    <img src="../../assets/images/vol_cap_wiki_calib_cap.png"/>
+    <img src="../../../assets/images/vol_cap_wiki_calib_cap.png"/>
 </p>
 
 <p align="center">
-    <img src="../../assets/images/vol_cap_wiki_calib_cap_fin.png"/>
+    <img src="../../../assets/images/vol_cap_wiki_calib_cap_fin.png"/>
 </p>
 
 <p align="center">
-    <img src="../../assets/images/vol_cap_wiki_calib_calib.png"/>
+    <img src="../../../assets/images/vol_cap_wiki_calib_calib.png"/>
 </p>
 
 Once the calibration is finished, you should be able to see the sensors live point-cloud streams forming the calibration structure's shape. Additional inspection/visualization aid is available by toggling the `Structure` tick box from the `Viewport Control` widget.
