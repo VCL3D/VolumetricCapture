@@ -119,3 +119,5 @@ We currently only ship binaries for the Windows platform, supporting Windows 10.
 <a name="Denoising"/> __\[7\]__ Sterzentsenko V., Saroglou L., Chatzitofis A., Thermos S., Zioulis N., Doumanoglou A., Zarpalas D., Daras P., 2019. [Self-Supervised Deep Depth Denoising](https://www.iti.gr/iti/files/document/publications/190901193b.pdf), International Conference on Computer Vision (ICCV)
 
 <a name="StructureNet"/> __\[8\]__ Sterzentsenko V., Doumanoglou, A., Thermos S., Zioulis N., Zarpalas D., Daras P., 2020. [Deep Soft Procrustes for Markerless Volumetric Sensor Alignment](https://arxiv.org/pdf/2003.10176.pdf), IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
+
+<a name="HUMAN4D"/> __\[9\]__ Chatzitofis A., Saroglou, L., Boutis P., Drakoulis P., Zioulis N., Subramanyam S., Kevelham B., Charbonnier C., Cesar P., Zarpalas D., Kollias S., Daras P., 2020. [HUMAN4D: A Human-Centric Multimodal Dataset for Motions & Immersive Media](https://ieeexplore.ieee.org/iel7/6287639/8948470/09204617.pdf), IEEE Access Journal
