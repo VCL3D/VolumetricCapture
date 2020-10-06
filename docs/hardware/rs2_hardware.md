@@ -5,7 +5,7 @@ parent: Hardware Setup
 nav_order: 2
 ---
 
-# Hardware Sync
+# Hardware Sync <img src="https://eu.ui-avatars.com/api/?name=Antonis+Karakottas&size=32&font-size=.5&rounded=true&background=4D2219&color=D59386"/>
 {: .no_toc }
 
 The simultaneous triggering of all acquisition processes between different cameras is realized with external hardware synchronization cables.
