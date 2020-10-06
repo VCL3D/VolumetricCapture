@@ -170,7 +170,7 @@ if __name__ == "__main__":
             svc1 = Monitor()
             svc2 = Monitor()
             svc3 = Monitor()
-            svc4 = Monitor()
+            # svc4 = Monitor()
             with Cluster("NUC#1", direction="LR", graph_attr={
                 "shape": "box",
                 "style": "rounded",
@@ -201,33 +201,33 @@ if __name__ == "__main__":
             }):    
                 k4a3 = K4A()
                 rs3 = RS2()
-            with Cluster("NUC#4", direction="LR", graph_attr={
-                "shape": "box",
-                "style": "rounded",
-                "labeljust": "l",
-                "pencolor": "#AEB6BE",
-                "fontname": "Lucida-Sans",
-                "fontsize": "14",
-            }):
-                k4a4 = K4A()
-                rs4 = RS2()                        
+            # with Cluster("NUC#4", direction="LR", graph_attr={
+            #     "shape": "box",
+            #     "style": "rounded",
+            #     "labeljust": "l",
+            #     "pencolor": "#AEB6BE",
+            #     "fontname": "Lucida-Sans",
+            #     "fontsize": "14",
+            # }):
+            #     k4a4 = K4A()
+            #     rs4 = RS2()                        
         k4a_sensors = [
             k4a1,
             k4a2,
             k4a3,
-            k4a4
+            # k4a4
         ]
         rs2_sensors = [
             rs1,
             rs2,
             rs3,
-            rs4
+            # rs4
         ]
         services = [
             svc1,
             svc2,
             svc3,
-            svc4
+            # svc4
         ]
         switch = Switch("broadcast")
         message_queue = RabbitMQ()
@@ -239,11 +239,11 @@ if __name__ == "__main__":
         svc1 >> k4a1
         svc2 >> k4a2
         svc3 >> k4a3
-        svc4 >> k4a4
+        # svc4 >> k4a4
         svc1 >> rs1
         svc2 >> rs2
         svc3 >> rs3
-        svc4 >> rs4
+        # svc4 >> rs4
 
     with Diagram(
         # name="Installation", 
