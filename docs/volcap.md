@@ -180,7 +180,7 @@ Each widget is responsible for a different aspect of the application workflow.
     * **Temporal Filter** (Depth Stream Temporal Filter):        
         > _Parameters correspond to those of the RealSense 2.0 SDK_.
 
-3. **Configuring the application's viewport**
+3. Configuring the application's viewport
 
     Various gizmos can be toggled (_i.e._ cropping bounding box, ground plane, etc.), as well as 3D stream visualization settings (device color or actual color for the point clouds, etc).
 
@@ -188,7 +188,7 @@ Each widget is responsible for a different aspect of the application workflow.
         <img src="../../assets/imagesvol_cap_wiki_view_control.png"/>
     </p>
 
-4. **Recording**
+4. Recording
 
     Multi-view recordings (`Start`/`Stop`) and snapshots (`Snapshot`) are possible from this widget.
     You can select a name for the sequence or the snapshot you are going to capture, by typing the name that you desire in the text-field of each operation (`Record` or `Snapshot`) and by hitting `Enter`.
