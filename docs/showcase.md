@@ -86,14 +86,17 @@ Apart from facilitating R&D, the Volumetric Capture system has been deployed in 
 The Volumetric Capture system is a flexible, portable and scalable multi-sensor system.
 Our team set it up at the Future Zone of [IBC 2019](https://www.ibc.org/trends/welcome-to-ibc2019/4553.article).
 
+<!--
 <img align="left" width="49%" src="../../assets/images/IBC/IBC1.jpg"/>
 <img align="right" width="49%" src="../../assets/images/IBC/IBC2.jpg"/>
 <img align="left" width="49%" src="../../assets/images/IBC/IBC3.jpg"/>
 <img align="right" width="49%" src="../../assets/images/IBC/IBC4.jpg"/>
+-->
+<img src="../../assets/images/IBC/Setup_Collage.png"/>
 
 Over a period of six (`6`) days the system was running full-time and volumetrically captured over `200` users.
 
-<img src="../../assets/images/IBC/Collage.jpg"/>
+<img src="../../assets/images/IBC/Users_Collage.png"/>
 
 It was also featured in IBC's Future Zone Exclusive (at `2:35`):
 
