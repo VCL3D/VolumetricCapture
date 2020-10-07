@@ -108,7 +108,9 @@ Frame loss is based on the normal frame rate conditioned by the parameter <img s
 Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" width="70"/>, that toggles synchronized playback.
 Additionally, a qualitative result of the synchronization result is presented:
 
-<img src="../../assets/images/volsnap/synchronization/timeline.png" width="400"/>
+<p align="center">
+  <img src="../../assets/images/volsnap/synchronization/timeline.png" width="600"/>
+</p>
 
 which shows every frame's timestamps for each stream, distincted by color, as dots. 
 The more collinear are the dots in the vertical axis, the more precise is the synchronization.
@@ -166,6 +168,3 @@ Finally it also shows the progress of the exporting operation (`--show_progress`
 ### Output
 
 <img src="../../assets/images/volsnap/cmd_output.png"/>
-
-Work-in-progress
-{: .label .label-yellow }
