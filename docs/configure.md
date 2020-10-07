@@ -30,6 +30,9 @@ For quick and easy access to these parameters, as well as efficient sensor ident
 Devices are named and added into this `device_repository.json` along with their parameters.
 These parameters are entries containing data such as the [`camera intrinsic matrix`](http://ksimek.github.io/2013/08/13/intrinsic/) (for color and depth sensors), color-to-depth sensors relative pose (usually called `extrinsic camera matrix`), and a user-friendly name (specified by user at the time of insertion), etc. 
 
+The device repository file should be placed the **./Resources** folder.
+{: .label }
+
 ## *Why is it needed?*
 The existence of this file is necessary for calibrating, recording and extracting data.
 Having a handful of RGBD devices makes their management troublesome.
