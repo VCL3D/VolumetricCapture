@@ -108,7 +108,7 @@ FPS synchronization makes a group of frames that have the smallest deviation in 
 
 Frame loss is based on the normal frame rate conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" width="200"/> which is the nominal fps of the recording.
 
-Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" width="70"/>, that toggles synchronized playback.
+Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" width="200"/>, that toggles synchronized playback.
 Additionally, a qualitative result of the synchronization result is presented:
 
 <p align="center">
