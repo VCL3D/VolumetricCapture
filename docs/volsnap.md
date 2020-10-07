@@ -49,17 +49,17 @@ Further we break down and analyze the functionalities of each widget.
 ### Control Panel
 Files' playback and saving options are possible through the _Control_Panel_ widget, which is located at the bottom of the VolSnap window.
 <p align="center">
-    <img src="../../assets/images/volsnap/control_panel/control_panel.png "width="50"/>
+    <img src="../../assets/images/volsnap/control_panel/control_panel.png"/>
 </p>
 
 Functionalities:
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/play.png"/>
+    <img src="../../assets/images/volsnap/control_panel/play.png" "width="50"/>
     Starts the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/stop.png"/>
+    <img src="../../assets/images/volsnap/control_panel/stop.png" "width="50"/>
     Stops the streams
 </p>
 
@@ -77,7 +77,7 @@ Functionalities:
 <p align="left">
     <img src="../../assets/images/volsnap/control_panel/dump_button.png"/>
     Frames dump options which expands as 
-    <img src="../../assets/images/volsnap/control_panel/next.png"/>
+    <img src="../../assets/images/volsnap/control_panel/dumping_options.png"/>
 </p>
 where user can select which data she wants to save to the disk.
 
