@@ -16,9 +16,13 @@
 _______
 
 ![Volumetric Capture Banner](./assets/images/header.png)
-
-
 _______
+
+# Documentation
+[![Documentation](http://img.shields.io/badge/documentation-green.svg?style=plastic)](https://vcl3d.github.io/VolumetricCapture/)
+
+Updated documentation with assembly instructions, installation guides, examples and more are now available at the project's page: https://vcl3d.github.io/VolumetricCapture/.
+
 # News
 An early alpha release of the Kinect Azure is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/4.0.1).
 It also includes an updated multi-sensor calibration that allows for greater flexibility in terms of sensor numbers and placement. More information can be found [here](https://vcl3d.github.io/StructureNet/) __\[[8](#StructureNet)\]__.
