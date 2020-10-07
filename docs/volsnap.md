@@ -30,28 +30,28 @@ Files' playback and saving options are possible through the _Control_Panel_ widg
 
 Functionalities:
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" width="30"/>
     Starts the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" width="30"/>
     Stops the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/pause.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/pause.png" alt="drawing" width="30"/>
     Pauses the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/previous.png" alt="drawing" height="30"/>
-    <img src="../../assets/images/volsnap/control_panel/next.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/previous.png" alt="drawing" width="30"/>
+    <img src="../../assets/images/volsnap/control_panel/next.png" alt="drawing" width="30"/>
     Manual frame selection
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/dump_button.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/dump_button.png" alt="drawing" width="30"/>
     Frames dump options which expands as 
 </p>
 <p align="right">
@@ -61,12 +61,12 @@ where user can select which data she wants to save to the disk {color, depth, po
 Please note that the destination of the saved files is same with the source directory of dropped files.
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/rotated.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/rotated.png" alt="drawing" width="30"/>
     Rotates all streams 90 degrees counter-clockwise (only for visualization)
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" height="30"/>
+    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" width="70"/>
     Undistorts color and depth streams in files, if distortion coefficients are present in files. Highly recommended for Kinect Azure devices, which have very wide lens.
 </p>
 
@@ -78,6 +78,7 @@ Please note that the destination of the saved files is same with the source dire
 
 ### Synchronization Widget
 _Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="70"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**{: .label .label-yellow }. 
+
 There are 2 synchronization policies implemented and presented below.
 #### **Global Synchronization**
 Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="200"/>.
