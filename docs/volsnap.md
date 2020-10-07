@@ -54,40 +54,40 @@ Files' playback and saving options are possible through the _Control_Panel_ widg
 
 Functionalities:
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" width="50"/>
+    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" width="20"/>
     Starts the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" width="50"/>
+    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" width="20"/>
     Stops the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/pause.png"/>
+    <img src="../../assets/images/volsnap/control_panel/pause.png" alt="drawing" width="20"/>
     Pauses the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/previous.png"/>
-    <img src="../../assets/images/volsnap/control_panel/next.png"/>
+    <img src="../../assets/images/volsnap/control_panel/previous.png" alt="drawing" width="20"/>
+    <img src="../../assets/images/volsnap/control_panel/next.png" alt="drawing" width="20"/>
     Manual frame selection
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/dump_button.png"/>
+    <img src="../../assets/images/volsnap/control_panel/dump_button.png" alt="drawing" width="20"/>
     Frames dump options which expands as 
-    <img src="../../assets/images/volsnap/control_panel/dumping_options.png"/>
+    <img src="../../assets/images/volsnap/control_panel/dumping_options.png" alt="drawing" width="200"/>
 </p>
 where user can select which data she wants to save to the disk.
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/undistort.png"/>
+    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" width="60"/>
     Undistorts color and depth streams in files, if distortion coefficients are present in files. Highly recommended for Kinect Azure devices.
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/info.png"/>
+    <img src="../../assets/images/volsnap/control_panel/info.png" alt="drawing" width="40"/>
     Shows some basic info for each stream as 
     <img src="../../assets/images/volsnap/control_panel/information.png"/>
 </p>
