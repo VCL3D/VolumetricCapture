@@ -82,9 +82,12 @@ Files' playback and saving options are possible through the `Control_Panel` widg
 
 - <p align="left">
       <img src="../../assets/images/volsnap/control_panel/info.png" width="70"/>
-      Display basic stream info:  
-      <img src="../../assets/images/volsnap/control_panel/information.png" width="200"/>
+      Display basic stream info:        
   </p>
+
+<p align="center">
+  <img src="../../assets/images/volsnap/control_panel/information.png" width="200"/>
+</p>
 
 ### Synchronization Widget
 
