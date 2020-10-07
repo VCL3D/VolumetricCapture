@@ -119,6 +119,9 @@ For each sensor processing unit:
 4. To install the **Monitor** service, you should run the `install_remote_eye_service.bat` in `C:\Capturer\monitor\` with **Administrator** rights (_right-click and choose "Run as administrator"_).
 5. If you ever need to uninstall the **Monitor** service, again you must run `uninstall_remote_eye_service.bat` with **Administrator** rights.
 
+Specifically for the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
+{: .label .label-yellow }
+
 <!--![](https://raw.githubusercontent.com/VCL3D/VolumetricCapture/master/doc/2018-07-16_13-53-07.gif)-->
 
 > To achieve automatic sensor connection between the **VolCap** and **Eye** applications, we use the **Monitor** service. 
