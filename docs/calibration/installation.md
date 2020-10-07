@@ -7,10 +7,11 @@ nav_order: 1
 
 # Installing the Calibration Software
 
-To install the calibration software, please make sure that the default python of the system is one of versions `3.5`, `3.6`, `3.7`.
+In order the calibration module to work properly, some external libraries must be installed. The only prerequisites for the installation are
+* python version in (`3.5` , `3.6` , `3.7`}
+* connection to the Internet
 
-The following steps are needed to install the calibration software:
-
+If the above requirements are met, please
 - Navigate to `{path_to_volumetric_capture}/Data/Executables/Calibration/multisensor_calibration`
 - Execute the command `python.exe install.py`
 
