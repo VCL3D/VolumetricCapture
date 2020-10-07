@@ -104,7 +104,7 @@ It was also featured in IBC's Future Zone Exclusive (at `2:35`):
 
 ## Hyper360
 
-During its development phase, the system was set up multiple times during the Hyper360 project, at project meetings, reviews and conferences.
+During its development phase, the system was set up multiple times during the [Hyper360](https://www.hyper360.eu/) project, at project meetings, reviews and conferences.
 This greatly helped its maturation as actual deployments are a valuable knowledge resource for adapting, extending, improving and robustifying the Volumetric Capture system.
 
 <img src="../../assets/images/Hyper360/MWS_Fraunhofer.jpg"/>
