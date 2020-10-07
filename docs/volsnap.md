@@ -53,7 +53,7 @@ Files' playback and saving options are possible through the `Control_Panel` widg
       Frames dumping options, which expands as:
   </p>
 
-  - <p align="right">
+  - <p align="left">
       <img src="../../assets/images/volsnap/control_panel/dumping_options.png" width="200"/>
     </p>
 
