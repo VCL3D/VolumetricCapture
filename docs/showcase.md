@@ -82,3 +82,33 @@ The Volumetric Capture has been used in various research and development activit
 Apart from facilitating R&D, the Volumetric Capture system has been deployed in exhibitions, integrated with other systems and generally demonstrated its technology readiness.
 
 ## IBC2019
+
+The Volumetric Capture system is a flexible, portable and scalable multi-sensor system.
+Our team set it up at the Future Zone of [IBC 2019](https://www.ibc.org/trends/welcome-to-ibc2019/4553.article).
+
+<img align="left" width="49%" src="../../assets/images/IBC/IBC1.jpg"/>
+<img align="right" width="49%" src="../../assets/images/IBC/IBC2.jpg"/>
+<img align="left" width="49%" src="../../assets/images/IBC/IBC3.jpg"/>
+<img align="right" width="49%" src="../../assets/images/IBC/IBC4.jpg"/>
+
+Over a period of six (`6`) days the system was running full-time and volumetrically captured over `200` users.
+
+<img src="../../assets/images/IBC/Collage.jpg"/>
+
+It was also featured in IBC's Future Zone Exclusive (at `2:35`):
+
+<iframe src='//players.brightcove.net/3737230800001/PkY6G0HFf_default/index.html?videoId=6086249120001' allowfullscreen frameborder=0></iframe>
+
+## Hyper360
+
+During its development phase, the system was set up multiple times during the Hyper360 project, at project meetings, reviews and conferences.
+This greatly helped its maturation as actual deployments are a valuable knowledge resource for adapting, extending, improving and robustifying the Volumetric Capture system.
+
+<img src="../../assets/images/Hyper360/MWS_Fraunhofer.jpg"/>
+<img src="../../assets/images/Hyper360/RTI_Mediaset_Review01.jpg"/>
+<img src="../../assets/images/Hyper360/RTI_Mediaset02.jpg"/>
+
+We would be very glad to also feature your deployments, installations and work with the Volumetric Capture system !
+{: .label .label-purple }
+
+**[Please reach out !](/index#developers)**

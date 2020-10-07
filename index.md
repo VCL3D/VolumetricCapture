@@ -41,10 +41,10 @@ It has been used in various research and development activities:
 ### Showcase
 If you successfully deploy and use this system in your activities, we would love to hear from you, please reach out:
 - via [GitHub issue](https://github.com/VCL3D/VolumetricCapture/issues), or
-- through this [form](https://docs.google.com/forms/u/0/), or,
+- through this [form](https://forms.gle/DxA3yiumbbdwEcPSA), or,
 - via directly contacting the [team](#developers),
 
-so we can add you to our [showcase](docs/showcase.md).
+so we can add you to our [showcase](docs/showcase).
 
 ### Citation
 If you use this system in academic work please consider citing:
