@@ -54,7 +54,9 @@ Functionalities:
     <img src="../../assets/images/volsnap/control_panel/dump_button.png" alt="drawing" width="30"/>
     Frames dump options which expands as 
 </p>
+<p align="right">
 <img src="../../assets/images/volsnap/control_panel/dumping_options.png" alt="drawing" width="200"/>
+</p>
 where user can select which data she wants to save to the disk {color, depth, pointclouds, colored pointclouds} as well as the sampling period (i.e. save every T frames) of saving. Calibrated pointclouds option applies the calibration transformation to the saved pointclouds and should be used only if the streams where calibrated prior to recording see [#Calibration].
 Please note that the destination of the saved files is same with the source directory of dropped files.
 
@@ -75,11 +77,11 @@ Please note that the destination of the saved files is same with the source dire
 </p>
 
 ### Synchronization Widget
-_Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="70"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**. There are 2 synchronization policies implemented and presented below.
+_Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="70"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**{: .label .label-yellow }. There are 2 synchronization policies implemented and presented below.
 #### **Global Synchronization**
-Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="70"/>.
+Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="200"/>.
 #### **FPS Synchronization**
-FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially groups next frames based on the condition if a stream dropped a frame (if no streams dropped frames, group all next frames). Whether a stream lost a frame is conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" alt="drawing" width="70"/> which is the nominal fps of the recording.
+FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially groups next frames based on the condition if a stream dropped a frame (if no streams dropped frames, group all next frames). Whether a stream lost a frame is conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" alt="drawing" width="200"/> which is the nominal fps of the recording.
 
 Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" alt="drawing" width="70"/> which enforces that the playback of the frames is from group frames, as well as a qualitative result of the synchronization procedure as <img src="../../assets/images/volsnap/synchronization/timeline.png" alt="drawing" width="400"/> which shows every frame's timestamps for each stream, distincted by color, as dots. The more collinear are the dots in the vertical axis, the more precise is the synchronization.
 
@@ -130,7 +132,8 @@ OutputPath ^
 ```
 The above snippet with imports files specified by the `--files` arguments, `--synchronize`s the frames into groups and samples every `--sample_freq` (60) groups in order to `--undistort` frames and save `--depth` `--color` and calibrated (`--is_pcloud_calibrated`) `--pcloud` `--color_pcloud` into the `--output` directory with is created `--force_creation`. At the end the progress of the exporting is shown (`--show_progress`).
 
-Output: 
+Output:
+
 <img src="../../assets/images/volsnap/cmd_output.png"/>
 
 Work-in-progress
