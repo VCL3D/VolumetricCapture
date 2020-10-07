@@ -49,12 +49,12 @@ Further we break down and analyze the functionalities of each widget.
 ### Control Panel
 Files' playback and saving options are possible through the _Control_Panel_ widget, which is located at the bottom of the VolSnap window.
 <p align="center">
-    <img src="../../assets/images/volsnap/control_panel/control_panel.png"/>
+    <img src="../../assets/images/volsnap/control_panel/control_panel.png "width="50"/>
 </p>
 
 Functionalities:
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/start.png"/>
+    <img src="../../assets/images/volsnap/control_panel/play.png"/>
     Starts the streams
 </p>
 
