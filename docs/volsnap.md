@@ -20,75 +20,102 @@ After starting the application its main window opens, prompting the user to drag
     <img src="../../assets/images/volsnap/dropped.png"/>
 </p>
 
-Further we break down and analyze the functionalities of each widget.
+Hereafter we break down and analyze the functionalities of each widget.
 
 ### Control Panel Widget
-Files' playback and saving options are possible through the _Control_Panel_ widget, which is located at the bottom of the VolSnap window.
+Files' playback and saving options are possible through the `Control_Panel` widget, which is located at the bottom of the **VolSnap** window.
+
 <p align="center">
     <img src="../../assets/images/volsnap/control_panel/control_panel.png"/>
 </p>
 
-Functionalities:
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" width="30"/>
-    Starts the streams
-</p>
+#### Functionalities:
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" width="30"/>
-    Stops the streams
-</p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/play.png" width="30"/>
+      Starts streams playback.
+  </p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/stop.png" width="30"/>
+      Stops streams playback.
+  </p>
+- <p lign="left">
+      <img src="../../assets/images/volsnap/control_panel/pause.png" width="30"/>
+      Pauses streams playback.
+  </p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/previous.png" width="30"/>
+      <img src="../../assets/images/volsnap/control_panel/next.png" width="30"/>
+      Next/previous frame buttons.
+  </p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/dump_button.png" width="30"/>
+      Frames dumping options, which expands as:
+  </p>
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/pause.png" alt="drawing" width="30"/>
-    Pauses the streams
-</p>
+  - <p align="right">
+      <img src="../../assets/images/volsnap/control_panel/dumping_options.png" width="200"/>
+    </p>
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/previous.png" alt="drawing" width="30"/>
-    <img src="../../assets/images/volsnap/control_panel/next.png" alt="drawing" width="30"/>
-    Manual frame selection
-</p>
+    with the user able to select which data to export to the disk:
+    - `color`,
+    - `depth`,
+    - `pointclouds`,
+    - `colored pointclouds`,
+    
+    as well as the exporting sampling period (_i.e._ save every `T` frames). 
+    Calibrated pointclouds option applies the calibration transformation to the saved pointclouds and should be used only if the streams were calibrated prior to recording see [Calibration](../calibrate/calibrate).
+    
+    Please note that the destination of the exported files is the source directory of the input files.
+    {: .label .label-yellow }
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/dump_button.png" alt="drawing" width="30"/>
-    Frames dump options which expands as 
-</p>
-<p align="right">
-<img src="../../assets/images/volsnap/control_panel/dumping_options.png" alt="drawing" width="200"/>
-</p>
-where user can select which data she wants to save to the disk {color, depth, pointclouds, colored pointclouds} as well as the sampling period (i.e. save every T frames) of saving. Calibrated pointclouds option applies the calibration transformation to the saved pointclouds and should be used only if the streams where calibrated prior to recording see [#Calibration].
-Please note that the destination of the saved files is same with the source directory of dropped files.
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/rotated.png" width="30"/>
+      Rotates all streams 90 degrees counter-clockwise for visualization purposes.
+  </p>
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/rotated.png" alt="drawing" width="30"/>
-    Rotates all streams 90 degrees counter-clockwise (only for visualization)
-</p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/undistort.png" width="70"/>
+      Undistorts the `color` and `depth` streams, **if** distortion coefficients are present in files. 
+      Highly recommended for Kinect 4 Azure devices, which have very wide lenses.
+  </p>
 
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" width="70"/>
-    Undistorts color and depth streams in files, if distortion coefficients are present in files. Highly recommended for Kinect Azure devices, which have very wide lens.
-</p>
-
-<p align="left">
-    <img src="../../assets/images/volsnap/control_panel/info.png" alt="drawing" width="70"/>
-    Shows some basic info for each stream as 
-    <img src="../../assets/images/volsnap/control_panel/information.png" alt="drawing" width="200"/>
-</p>
+- <p align="left">
+      <img src="../../assets/images/volsnap/control_panel/info.png" width="70"/>
+      Display basic stream info:  
+      <img src="../../assets/images/volsnap/control_panel/information.png" width="200"/>
+  </p>
 
 ### Synchronization Widget
-_Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="70"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**{: .label .label-yellow }. 
+
+The `Synchronization Widget` is responsible for the temporal grouping of the recorded frames. 
+The operation starts when the <img src="../../assets/images/volsnap/synchronization/synchronize.png" width="70"/> button is pressed. 
+**ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**{: .label .label-yellow }. 
 
 There are 2 synchronization policies implemented and presented below.
+
 #### **Global Synchronization**
-Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="200"/>.
+
+Global synchronization is the by-default operation mode of the synchronization module. 
+It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" width="200"/>.
+
 #### **FPS Synchronization**
-FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially groups next frames based on the condition if a stream dropped a frame (if no streams dropped frames, group all next frames). Whether a stream lost a frame is conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" alt="drawing" width="200"/> which is the nominal fps of the recording.
 
-Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" alt="drawing" width="70"/> which enforces that the playback of the frames is from group frames, as well as a qualitative result of the synchronization procedure as <img src="../../assets/images/volsnap/synchronization/timeline.png" alt="drawing" width="400"/> which shows every frame's timestamps for each stream, distincted by color, as dots. The more collinear are the dots in the vertical axis, the more precise is the synchronization.
+FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially greedily groups all next frames taking into account frame drops (if no streams dropped frames, group all next frames). 
 
-## Command Line (CL) Mode
-When dealing with multiple recordings, or batched operations are required, CL mode might be more suitable. 
+Frame loss is based on the normal frame rate conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" width="200"/> which is the nominal fps of the recording.
+
+Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" width="70"/>, that toggles synchronized playback.
+Additionally, a qualitative result of the synchronization result is presented:
+
+<img src="../../assets/images/volsnap/synchronization/timeline.png" width="400"/>
+
+which shows every frame's timestamps for each stream, distincted by color, as dots. 
+The more collinear are the dots in the vertical axis, the more precise is the synchronization.
+
+## Command Line Interface (CLI) Mode
+
+When dealing with multiple recordings, or batched operations are required, CLI mode should be used. 
 
 ```yaml
 Multiview player. Manage your .cdv files easily.
@@ -114,10 +141,10 @@ Options:
   --sample_freq INT Excludes: -g,--gui                        Exporting frequency, i.e. save every "sample_freq" frames. (default: 1)
 ```
 
-As with GUI mode, CL mode has the same functionality from the commandline with arguments described above.
+As with GUI mode, CLI mode has the same functionality from the commandline with arguments described above.
 
-Example:
-```
+### Example
+```yaml
 volsnap.exe ^
 --files ^
 RecordingsPath\KA03.cdv ^
@@ -132,9 +159,11 @@ OutputPath ^
 --depth --color --pcloud --color_pcloud --is_pcloud_calibrated ^
 --undistort --sample_freq 60 --show_progress --synchronize
 ```
-The above snippet with imports files specified by the `--files` arguments, `--synchronize`s the frames into groups and samples every `--sample_freq` (60) groups in order to `--undistort` frames and save `--depth` `--color` and calibrated (`--is_pcloud_calibrated`) `--pcloud` `--color_pcloud` into the `--output` directory with is created `--force_creation`. At the end the progress of the exporting is shown (`--show_progress`).
 
-Output:
+The above snippet with imports files specified by the `--files` arguments, `--synchronize`s the frames into groups and samples every `--sample_freq` (`60`) groups in order to `--undistort` frames, and save `--depth` `--color` and calibrated (`--is_pcloud_calibrated`) `--pcloud` `--color_pcloud` into the `--output` directory with is created `--force_creation`.
+Finally it also shows the progress of the exporting operation (`--show_progress`).
+
+### Output
 
 <img src="../../assets/images/volsnap/cmd_output.png"/>
 
