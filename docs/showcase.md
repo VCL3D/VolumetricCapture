@@ -111,4 +111,4 @@ This greatly helped its maturation as actual deployments are a valuable knowledg
 We would be very glad to also feature your deployments, installations and work with the Volumetric Capture system !
 {: .label .label-purple }
 
-**[Please reach out !](/index#developers)**
+**[Please reach out !](../index#developers)**
