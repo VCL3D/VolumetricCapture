@@ -82,29 +82,29 @@ Functionalities:
 where user can select which data she wants to save to the disk {color, depth, pointclouds, colored pointclouds} as well as the sampling period (i.e. save every T frames) of saving. Calibrated pointclouds option applies the calibration transformation to the saved pointclouds and should be used only if the streams where calibrated prior to recording see [#Calibration].
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/rotate.png" alt="drawing" width="30"/>
+    <img src="../../assets/images/volsnap/control_panel/rotated.png" alt="drawing" width="30"/>
     Rotates all streams 90 degrees counter-clockwise (only for visualization)
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" width="60"/>
+    <img src="../../assets/images/volsnap/control_panel/undistort.png" alt="drawing" width="70"/>
     Undistorts color and depth streams in files, if distortion coefficients are present in files. Highly recommended for Kinect Azure devices, which have very wide lens.
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/info.png" alt="drawing" width="40"/>
+    <img src="../../assets/images/volsnap/control_panel/info.png" alt="drawing" width="70"/>
     Shows some basic info for each stream as 
     <img src="../../assets/images/volsnap/control_panel/information.png" alt="drawing" width="200"/>
 </p>
 
 ### Synchronization Widget
-_Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="30"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**. There are 2 synchronization policies implemented and presented below.
+_Synchronization Widget_ is responsible for the temporal grouping of the recorded frames. The operation starts when <img src="../../assets/images/volsnap/synchronization/synchronize.png" alt="drawing" width="70"/> button is pressed. **ATTENTION: APPLICATION MAY SEEM TO NOT RESPOND, DO NOT TERMINATE IT, IT IS OPERATING**. There are 2 synchronization policies implemented and presented below.
 #### Global Synchronization
-Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="30"/>.
+Global synchronization is the by-default operation mode of the synchronization module. It groups frames so that the minimum and the maximum timestamp difference in a group is not bigger than <img src="../../assets/images/volsnap/synchronization/valid_offset.png" alt="drawing" width="70"/>.
 #### FPS Synchronization
-FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially groups next frames based on the condition if a stream dropped a frame (if no streams dropped frames, group all next frames). Whether a stream lost a frame is conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" alt="drawing" width="30"/> which is the nominal fps of the recording.
+FPS synchronization makes a group of frames that have the smallest deviation in terms of timestamps and subsequentially groups next frames based on the condition if a stream dropped a frame (if no streams dropped frames, group all next frames). Whether a stream lost a frame is conditioned by the parameter <img src="../../assets/images/volsnap/synchronization/nominal_fps.png" alt="drawing" width="70"/> which is the nominal fps of the recording.
 
-Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" alt="drawing" width="30"/> which enforces that the playback of the frames is from group frames, as well as a qualitative result of the synchronization procedure as <img src="../../assets/images/volsnap/synchronization/timeline.png" alt="drawing" width="200"/> which shows every frame's timestamps for each stream, distincted by color, as dots. The more collinear are the dots in the vertical axis, the more precise is the synchronization.
+Once synchronization is complete, a new option is made availabe <img src="../../assets/images/volsnap/synchronization/playback_synced.png" alt="drawing" width="70"/> which enforces that the playback of the frames is from group frames, as well as a qualitative result of the synchronization procedure as <img src="../../assets/images/volsnap/synchronization/timeline.png" alt="drawing" width="400"/> which shows every frame's timestamps for each stream, distincted by color, as dots. The more collinear are the dots in the vertical axis, the more precise is the synchronization.
 
 
 Work-in-progress
