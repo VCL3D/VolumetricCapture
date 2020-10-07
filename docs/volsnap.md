@@ -38,10 +38,58 @@ Options:
 ## Graphical User Interface (GUI) Mode
 
 **VolSnap** can be run in GUI mode to playback and inspect recorded files. 
-After starting the application its main window opens, prompting the user to drag and drop files.
+After starting the application its main window opens, prompting the user to drag and drop files, resulting in a window like this.
 
 <p align="center">
-    <img src="../../assets/images/volsnap/drag.png"/>
+    <img src="../../assets/images/volsnap/dropped.png"/>
+</p>
+
+Further we break down and analyze the functionalities of each widget.
+
+### Control Panel
+Files' playback and saving options are possible through the _Control_Panel_ widget, which is located at the bottom of the VolSnap window.
+<p align="center">
+    <img src="../../assets/images/volsnap/control_panel/control_panel.png"/>
+</p>
+
+Functionalities:
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/start.png"/>
+    Starts the streams
+</p>
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/stop.png"/>
+    Stops the streams
+</p>
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/pause.png"/>
+    Pauses the streams
+</p>
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/previous.png"/>
+    <img src="../../assets/images/volsnap/control_panel/next.png"/>
+    Manual frame selection
+</p>
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/dump_button.png"/>
+    Frames dump options which expands as 
+    <img src="../../assets/images/volsnap/control_panel/next.png"/>
+</p>
+where user can select which data she wants to save to the disk.
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/undistort.png"/>
+    Undistorts color and depth streams in files, if distortion coefficients are present in files. Highly recommended for Kinect Azure devices.
+</p>
+
+<p align="left">
+    <img src="../../assets/images/volsnap/control_panel/info.png"/>
+    Shows some basic info for each stream as 
+    <img src="../../assets/images/volsnap/control_panel/information.png"/>
 </p>
 
 Work-in-progress
