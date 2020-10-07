@@ -54,12 +54,12 @@ Files' playback and saving options are possible through the _Control_Panel_ widg
 
 Functionalities:
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/play.png" width="50"/>
+    <img src="../../assets/images/volsnap/control_panel/play.png" alt="drawing" width="50"/>
     Starts the streams
 </p>
 
 <p align="left">
-    <img src="../../assets/images/volsnap/control_panel/stop.png" width="50"/>
+    <img src="../../assets/images/volsnap/control_panel/stop.png" alt="drawing" width="50"/>
     Stops the streams
 </p>
 
