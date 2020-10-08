@@ -23,5 +23,4 @@ description: "Recording and Extracting"
 
 # Recording Extraction
 **TODO**
-
 {: .label .label-red }
