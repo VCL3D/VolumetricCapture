@@ -63,9 +63,11 @@ It used to be that when running an `eye` together with `volcap` there would be a
 
 ## Troubleshooting
 
-Some of the issues related to connectivity and/or sensor streaming are due to USB driver issues and clean up.
+> Some of the issues related to connectivity and/or sensor streaming are due to USB driver issues and clean up.
 Experience shows that when a device does not come up automatically, or no streams arrive after connecting it, a manual USB cable plug and re-plug to another USB controller resolves the issue.
 Switching USB controller is hardware specific, but for Intel NUCs, switching between the front and back USB ports usually accomplishes it.
+
+> To use the Intel NUC LED controller, you need to first run it once the `{k4a|rs2}_eye.exe` manually to connect it to `volcap.exe`. Then once the `intel_nuc_led_controller.exe` is triggered a Windows pop up will come up and request approval. Once this is performed, it will never ask it again, even when run from the `monitor` service.
 
 This list is a work-in-progress and will be updated as more issues are identified and resolved.
 {: .label .label-yellow }

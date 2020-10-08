@@ -16,6 +16,7 @@ description: "Recording and Extracting"
 * Volumetric Capturing - Mixed devices (both kinect and realsense)
 * Volumetric Capturing - Modifying Depth Units issue [Crash When Changing Depth Units Value #31](https://github.com/VCL3D/VolumetricCapture/issues/31)
 * Volumetric Capture - Remote Eye on the same PC  - issue [Azure Kinect mis-identified as Intel camera #22](https://github.com/VCL3D/VolumetricCapture/issues/22)
+* Showcase NUC LEDs at each step !!
 -->
 
 ![RecordActivity](../assets/images/usage/record_lr.png)
