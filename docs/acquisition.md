@@ -9,6 +9,23 @@ description: "Recording and Extracting"
 **TODO**
 {: .label .label-red }
 
+## 4 Kinect Azure Devices (issue: [#25](https://github.com/VCL3D/VolumetricCapture/issues/25))
+
+Initialization
+<p align="center">
+     <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
+</p>
+
+Calibration
+<p align="center">
+     <img src="../../assets/images/data_acq/4xk4a_calib.gif">
+</p>
+
+Preparing and Recording
+<p align="center">
+     <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
+</p>
+
 <!--
 * Volumetric Capturing - 4 k4as - issues [Fail to stream with Kinect Azure #25](https://github.com/VCL3D/VolumetricCapture/issues/25)
 * Volumetric Capturing - 6 k4as
