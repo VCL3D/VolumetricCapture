@@ -12,18 +12,20 @@ description: "Recording and Extracting"
 This section describes how to use volcap for acquiring RGB-D data in various sensor placement settings, and at the same time responds to issues identified in the previous version.
 
 ## Standard Case: 4 Kinect Azure Devices (issue: [#25](https://github.com/VCL3D/VolumetricCapture/issues/25))
-
-When starting volcap all the available devices should be automatically be displayed on the *Devices* widget. The user should just check the devices to be connected (select a device as the master for hardware synchronization) and hit the connect button. Each device stream should be displayed in a dedicated window.
+### Initialization
+When starting volcap all the available devices should be automatically be displayed on the *Devices* widget. The user should just check the devices to be connected, (select a device as the master for hardware synchronization) and hit the connect button. Each device stream should be displayed in a dedicated window.
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
 </p>
 
-Calibration
+### Calibration
+Before recording a sequence the system must be calibrated. The user should assemble the calibration structure in the middle of the capturing space, (change the calibration settings if needed, we usually use 25 inner and 20 outer iterations), capture RGB-D frames, and hit the *Process* option in the *Calibration* menu.
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_calib.gif">
 </p>
 
-Preparing and Recording
+### Preparing and Recording
+After calibrating the system, the user should synchronize the devices with the main workstation (see [synchronization section]()). Additionally, it is a good practice to reset the *Exposure* and the Ccolor Gain* settings for all the devices, in order to get consistent results betweeen the devices.
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
 </p>
