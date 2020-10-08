@@ -44,7 +44,3 @@ _Depth_ images can be previewed any program supporting *pgm* file format visuali
 Here we show the **calibrated** merged views of **colored** _Pointclouds_, as exported by our software.
 
 <img src="../../assets/images/volsnap/colored_pcloud_result.png" width="900"/> 
-
-
-**TODO**
-{: .label .label-red }
