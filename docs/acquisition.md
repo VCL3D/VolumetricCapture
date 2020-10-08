@@ -31,13 +31,20 @@ depending on the exporting options selected.
 
 These folders contain the corresponding data, with the _groupID_, _deviceName_ and _frameID_ contained in the filename.
 
-<p align="left">
-     <img src="../../assets/images/volsnap/color_dumped.png" width="300"/> 
-     <img src="../../assets/images/volsnap/depth_dumped.png" width="300"/> 
-     <img src="../../assets/images/volsnap/pcloud_dumped.png" width="300"/> 
+<p align="center">
+     <img src="../../assets/images/volsnap/color_dumped.png" width="600"/> 
+     <img src="../../assets/images/volsnap/depth_dumped.png" width="600"/> 
+     <img src="../../assets/images/volsnap/pcloud_dumped.png" width="600"/> 
 </p> 
 
 _Color_, _Depth_ and _Pontcloud_ data from the first group for a recording.
+
+_Depth_ images can be previewed any program supporting *pgm* file format visualization (we use [InfranView](https://www.irfanview.com/)) and _Pointclouds_ can be shown by any 3D visualization program (we use [Meshlab](https://www.meshlab.net/)).
+
+Here we show the **calibrated** merged views of **colored** _Pointclouds_, as exported by our software.
+
+<img src="../../assets/images/volsnap/colored_pcloud_result.png" width="900"/> 
+
 
 **TODO**
 {: .label .label-red }
