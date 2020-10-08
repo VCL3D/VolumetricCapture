@@ -51,14 +51,16 @@ _If the devices' intrinsic parameters are not saved in the device repository you
     The application's GUI when the application starts:
 
     <p align="center">
-        <img src="../../assets/images/volumetric_capture_2019-01-21_10-33-19.png"/>
+        <!--<img src="../../assets/images/volumetric_capture_2019-01-21_10-33-19.png"/>-->
+        <img src="../../assets/images/App/idle.png"/>
     </p>
 
     The GUI is divided in widgets. 
     Each widget is responsible for a different aspect of the application workflow.
 
     <p align="center">
-        <img src="../../assets/images/vol_cap_wiki_widgets.png"/>
+        <!--<img src="../../assets/images/vol_cap_wiki_widgets.png"/>-->
+        <img src="../../assets/images/idle_annotated.jpg"/>
     </p>
 
     1. `Devices Widget`    
@@ -118,7 +120,7 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
 Finally, when all of the devices are connected, each device viewport as well as the parameters of all the other widgets should appear on screen.
 
 <p align="center">
-    <img src="../../assets/images/vol_cap_connected.png"/>
+    <img src="../../assets/images/App/connected.png"/>
 </p>
 
 For each device, their real-time bandwidth consumption is displayed, along a color picker that sets that device's color.
