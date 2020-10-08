@@ -102,6 +102,25 @@ It was also featured in IBC's Future Zone Exclusive (at `2:35`):
 
 <iframe src='//players.brightcove.net/3737230800001/PkY6G0HFf_default/index.html?videoId=6086249120001' allowfullscreen frameborder=0></iframe>
 
+## AVoidX
+
+**AVoidX** is an [AugmentedVR](https://www.youtube.com/watch?v=7O_TrhtmP5Q&ab_channel=IEEEVirtualRealityConference) game where users pose their body to avoid incoming obstacles.
+It was made possible by using the Volumetric Capture system to blend the real and virtual worlds.
+More information can be found at the respective [page](https://vcl3d.github.io/AVoidX/).
+While it was meant to be demonstrated live at [IEEE VR 2020](http://ieeevr.org/2020/), this was unfortunately cancelled due to travel restrictions and the conference going virtual.
+However, the team deployed it at a local IT conference:
+
+![FITCE2019](../../assets/images/FITCE/1.JPG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jt9EFqwH3Zg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Deep Depth Denoising
+
+Apart from 360 volumetric captures, the system can also be used for multi-view stereo captures.
+This was the case when acquiring the data for the ICCV19 paper ["Self-supervised Deep Depth Denoising"](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sterzentsenko_Self-Supervised_Deep_Depth_Denoising_ICCV_2019_paper.pdf), with the setup depicted below:
+
+![DDD1](../../assets/images/DDD/1.JPG)
+
 ## Hyper360
 
 During its development phase, the system was set up multiple times during the [Hyper360](https://www.hyper360.eu/) project, at project meetings, reviews and conferences.
