@@ -58,7 +58,7 @@ Options:
 
 Only this time, only the broker's username and password are already configured to the default values, and instead the broker's IP needs to be offered.
 
-It used to be that when running an `eye` together with `volcap` there would be a port conflict and it would crash. This is not the case anymore and thus, an `eye` can be hosted on the same workstation that `volcap` runs.
+It used to be that when running an **Eye** together with **VolCap** there would be a port conflict and it would crash. This is not the case anymore and thus, an **Eye** can be hosted on the same workstation that **VolCap** runs.
 {: .label .label-purple }
 
 ## Troubleshooting
