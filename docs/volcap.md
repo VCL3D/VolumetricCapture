@@ -60,7 +60,7 @@ _If the devices' intrinsic parameters are not saved in the device repository you
 
     <p align="center">
         <!--<img src="../../assets/images/vol_cap_wiki_widgets.png"/>-->
-        <img src="../../assets/images/idle_annotated.jpg"/>
+        <img src="../../assets/images/App/idle_annotated.jpg"/>
     </p>
 
     1. `Devices Widget`    
