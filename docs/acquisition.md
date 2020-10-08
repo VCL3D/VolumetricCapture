@@ -22,5 +22,22 @@ description: "Recording and Extracting"
 ![RecordActivity](../assets/images/usage/record_lr.png)
 
 # Recording Extraction
+After the recording session is completed (as described above), the user can save data from distrinct frames of each recorded file (furtherly described in [VolSnap Tool](../volsnap)). User can save _depth_ and _color_ data (undistorted if such option is selected before exporting starts), _pointclouds_ with and without color per vertex (again, pointclouds will be undistorted if such option is enabled) and at last if calibration option is selected, pointclouds with be saved in a global coordinate system.
+Once exporting is complete, output directory should look similar to
+<p align="center">
+     <img src="../../assets/images/volsnap/folder.png" width="900"/> 
+</p> 
+depending on the exporting options selected.
+
+These folders contain the corresponding data, with the _groupID_, _deviceName_ and _frameID_ contained in the filename.
+
+<p align="left">
+     <img src="../../assets/images/volsnap/color_dumped.png" width="300"/> 
+     <img src="../../assets/images/volsnap/depth_dumped.png" width="300"/> 
+     <img src="../../assets/images/volsnap/pcloud_dumped.png" width="300"/> 
+</p> 
+
+_Color_, _Depth_ and _Pontcloud_ data from the first group for a recording.
+
 **TODO**
 {: .label .label-red }
