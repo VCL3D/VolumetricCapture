@@ -9,9 +9,11 @@ description: "Recording and Extracting"
 **TODO**
 {: .label .label-red }
 
-## 4 Kinect Azure Devices (issue: [#25](https://github.com/VCL3D/VolumetricCapture/issues/25))
+This section describes how to use volcap for acquiring RGB-D data in various sensor placement settings, and at the same time responds to issues identified in the previous version.
 
-Initialization
+## Standard Case: 4 Kinect Azure Devices (issue: [#25](https://github.com/VCL3D/VolumetricCapture/issues/25))
+
+When starting volcap all the available devices should be automatically be displayed on the *Devices* widget. The user should just check the devices to be connected (select a device as the master for hardware synchronization) and hit the connect button. Each device stream should be displayed in a dedicated window.
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
 </p>
