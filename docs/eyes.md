@@ -69,5 +69,23 @@ Switching USB controller is hardware specific, but for Intel NUCs, switching bet
 
 > To use the Intel NUC LED controller, you need to first run it once the `{remote_eye_k4a|rs2}_eye.exe` manually to connect it to `volcap.exe`. Then once the `intel_nuc_led_utils.exe` is triggered a Windows pop up will come up and request approval. Once this is performed, it will never ask it again, even when run from the `remote_eye_service`.
 
+> If when connecting the **Eyes** through **VolCap** results in connection error and the monitoring service stops check the `remote_eye_service.log` of that mini-PC in `C:/Capturer/bin`. If the last log is the following:
+```
+Exception: System.ComponentModel.Win32Exception: Access is denied.
+System.Diagnostics.Process.Kill()
+remote_eye_service.UDPListener.Listen()
+```
+You should open the Windows `Task Manager`, go to `Services` Tab and find the `remote_eye_service`. Right-click on it and select `Open-Services`. Find again the `remote_eye_service`, right-click on it and select `Properties`. Go to `Log On` tab and check the `Interact with Desktop` option. 
+
+<p align="center">
+    <img  src="../../assets/images/service-props.gif"/>
+</p>
+
+Additionally, you should go to `C:/Capturer/remote_eye_service` directory in the mini-PC, right-click the `remote_eye_service.exe` and select `Properties`. Go to `Compatibility` tab and check the `Run as administrator` option at the end.
+
+<p align="center">
+    <img  src="../../assets/images/service-admin.gif"/>
+</p>
+
 This list is a work-in-progress and will be updated as more issues are identified and resolved.
 {: .label .label-yellow }
