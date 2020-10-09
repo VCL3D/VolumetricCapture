@@ -125,10 +125,15 @@ Further, mousing over this icon shows the offsets in a human readable format.
 </p>
 
 ## Hardware Synchronization Showcase
-In order to showcase the importance of hardware synchronization in performance capture context, we've made two distinct recordings, one using hardware synchronization and another one without, both of a fast moving actor. 
+
+To showcase the benefits of hardware synchronization in a performance capture context with fast actions, two distinct recordings are presented below, one using hardware synchronization and another one without, both from very fast performances. 
+
 <p align="center">
-    <img src="../../assets/images/hw_sync.png"/>
-    <img src="../../assets/images/no_hw_sync.png"/>
+    <img width="49%" src="../../assets/images/hw_sync.png"/>
+    <img width="49%" src="../../assets/images/no_hw_sync.png"/>
 </p>
 
-On the left side of the image, we have _hardware synchronization_ enabled, with all the point clouds being close to each other, while the left one shows point clouds being apart on another rapid movement.
+On the left side, we have _hardware synchronization_ enabled, where it is apparent that the volume of the fast moving limbs are better preserved compared to the right side which has _no hardware synchronization_ where each partial view is split.
+
+Note that these recordings were conducted with K4A which due to its time-of-flight principle, integrates 4 measurements. This adds an inherent error factor during fast motions.
+{: .label .label-purple }
