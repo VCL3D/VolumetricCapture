@@ -77,7 +77,7 @@ It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just fo
 
 <a name="issue29"/>
 
-Admittedly, it is difficult to calibrate with `N = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
+Admittedly, it is harder to calibrate with `N = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
 However, with a little effort it is still possible.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +88,7 @@ You can connect more devices if you need, however you should consider bandwidth 
 
 <iframe width="560" height="315" src="https://youtube.com/embed/Z50RgbjKFFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Eight (8) Mixed devices with six (6) Kinect 4 Azure and two (2) Intel Realsense D415 Devices
+## Eight (8) mixed devices with six (6) Kinect 4 Azure and two (2) Intel RealSense D415 Devices
 
 You will observe differences between the different types of sensors, so care should be taken when recording in mixed mode. You should modify each device settings (and maybe the environment's lighting) in order to achieve
 similar color response results between each view.
