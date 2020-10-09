@@ -31,22 +31,26 @@ If the sensor processing units are Intel NUCs and the installation has also conf
 
 ### Initialization
 
-When starting **VolCap** all the available devices should be automatically be displayed on the `Devices` widget.
+When starting **VolCap** all the available devices should be automatically displayed on the `Devices` widget.
 The user should just check the devices to be connected, (_optionally_, select a device as the master for hardware synchronization) and hit the connect button. 
 Each device stream will be displayed in a dedicated window with a distinct color.
 
-<p align="center">
+<iframe width="560" height="315" src="https://youtube.com/embed/R_sUDt6PBK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
-</p>
+</p> -->
 
 ### Calibration
 
 Before recording a sequence the system must be calibrated.
 The user should assemble the calibration structure in the middle of the capturing space, (_optionally_, change the calibration settings if needed, we usually use `25` inner and `20` outer iterations), capture RGB-D frames, and hit the `Process` option in the `Calibration` menu.
 
-<p align="center">
+<!-- <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_calib.gif">
-</p>
+</p> -->
+<iframe width="560" height="315" src="https://youtube.com/embed/AHnmfK7nDu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 ### Preparing and Recording
 
@@ -56,9 +60,12 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 <a name="issue30"/>
 <a name="issue25"/>
 
-<p align="center">
+
+<!-- <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
-</p>
+</p> -->
+
+<iframe width="560" height="315" src="https://youtube.com/embed/Oo2FmV7F-1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Three (3) Kinect 4 Azure Devices
 
@@ -68,6 +75,14 @@ It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just fo
 
 <a name="issue29"/>
 
+Admittedly, it is difficult to calibrate with `N = 3` device in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>.
+However with a little effort it is possible to calbrate in this setting.
+
+<iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Six (6) Kinect 4 Azure Devices
+
+You can connect more devices if you need, however you should consider bandwidth issues that may appear due 
 <!--
 <p align="center">
      <img src="../../assets/images/data_acq/3k4a_set1.gif">
