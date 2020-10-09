@@ -87,7 +87,7 @@ To install the **VolCap** application you need to:
 3. Create a shortcut of **volcap.exe** on your desktop if you want.
 4. If RabbitMQ has been installed on the same machine, just double click the **volcap.exe** (or the shortcut if you created one), and you are ready to go.
 
-For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
+For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). The appropriate version is `2.0`.
 {: .label .label-yellow }
 
 <p align="center">
@@ -125,7 +125,7 @@ For each sensor processing unit:
 For the Intel RealSense 2.0 D415 eye, we have tested with, and thus, recommend, the `05.11.15.00` firmware version.
 {: .label .label-yellow }
 
-For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
+For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). The appropriate version is `2.0`.
 {: .label .label-yellow }
 
 <!--![](https://raw.githubusercontent.com/VCL3D/VolumetricCapture/master/doc/2018-07-16_13-53-07.gif)-->
