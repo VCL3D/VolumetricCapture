@@ -47,7 +47,7 @@ In addition, having these data offline allows for their easy re-use in third par
 The Device Repository Tool is a command line interface:
 ```yaml
 Device repository creator.
-Usage: device_repository.exe [OPTIONS]
+Usage: dev_repo.exe [OPTIONS]
 
 Options:
   -h,--help                                     Print this help message and exit
@@ -59,11 +59,14 @@ Options:
   -c,--cam_type UINT                            0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
 ```
 
+The following images will be replaced, they use a different executable name and output the `device_repository.json` in the same directory, while it should be in `./Resources`.
+{: .label .label-yellow }
+
 The supported functionalities are:
 * **Adding** a device to the repository.
 In order to add a device to the repository, one just need to connect **a single** device (otherwise an error will be logged) to the computer and run the command:
 
-     `device_repository.exe --add device_name`
+     `dev_repo.exe --add device_name`
 
 <p align="center">
      <img src="../../assets/images/dev_repo_tool/add_device.gif" width="900"/> 
@@ -75,7 +78,7 @@ If device_name already exists, the error with be logged to the console.
 * **Renaming** a device in the repository.
 In order to change the name of the device simply execute:
 
-     `device_repository.exe --rename old_name new_name`
+     `dev_repo.exe --rename old_name new_name`
 
 <p align="center"> 
      <img src="../../assets/images/dev_repo_tool/rename_device.gif" width="900"/> 
@@ -84,7 +87,7 @@ In order to change the name of the device simply execute:
 * **Deleting** a device from the repository.
 To delete a device from the device repository, execute:
 
-     `device_repository.exe --delete device_name`
+     `dev_repo.exe --delete device_name`
 
 <p align="center"> 
      <img src="../../assets\images/dev_repo_tool/delete_device.gif" width="900"/> 
@@ -93,7 +96,7 @@ To delete a device from the device repository, execute:
 * **Listing** all devices in the repository.
 In order to peek into the file from the console to determine which devices are already added, execute:
 
-     `device_repository.exe --list`
+     `dev_repo.exe --list`
 
 <p align="center">
      <img src="../../assets\images/dev_repo_tool/list_devices.gif" width="900"/> 
@@ -104,10 +107,10 @@ In order to peek into the file from the console to determine which devices are a
 
 ## Examples
 * Adding a Kinect 4 Azure device:
-> `device_repository.exe --add device_name --cam_type 0`
+> `dev_repo.exe --add device_name --cam_type 0`
 * Adding an Intel RealSense 2.0 D415 device:
-> `device_repository.exe --add device_name --cam_type 1`
+> `device_dev_reporepository.exe --add device_name --cam_type 1`
 * List of saved devices inside device_repository.json: 
-> `device_repository.exe --list`
+> `dev_repo.exe --list`
 * Remove a device: 
-> `device_repository.exe --delete device_name`
+> `dev_repo.exe --delete device_name`

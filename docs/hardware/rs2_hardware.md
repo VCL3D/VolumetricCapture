@@ -48,7 +48,7 @@ First, the pins that need to be connected are pins #1, #5, and #9.
 
 The schematic for the RC-filters is described in Intel's [white paper](https://realsense.intel.com/wp-content/uploads/sites/63/Intel_RealSense_Multi-camera_Webinar.pdf). 
 
-In order to avoid ESD events (electro-static discharge events)* a simple passive low-pass RC filter is needed.
+In order to avoid ESD events (electro-static discharge events) a simple passive low-pass RC filter is needed.
 {: .label .label-yellow }
 
 A simple breadboard illustration is presented bellow:

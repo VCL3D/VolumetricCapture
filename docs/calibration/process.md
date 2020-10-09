@@ -27,8 +27,9 @@ An outline of a good positioning of `4` sensors is depicted in the following fig
 
 Specifically for Intel RealSense 2.0 D415 sensors, increasing the laser power at its maximum value during calibration image acquisition is beneficial to the process, as the better depth accuracy improves the final pose estimates.
 
-__DO NOT FORGET to revert the laser power value to its default in order to prevent device failure or damage__.
-{: .label .label-yellow }
+While this is set to be automatic, (_i.e._ switching to maximum laser power when capturing for calibration, and then reverting it back to the default value once finished), please always check
+__to revert the laser power value to its default in order to prevent device failure or damage__.
+{: .label .label-purple }
 
 ## Calibration Workflow
 
