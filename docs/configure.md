@@ -58,6 +58,7 @@ Options:
   -p,--path TEXT=.                              Directory where to store device_repository.json" file.
   -c,--cam_type UINT                            0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
 ```
+<a name="issue22"/>
 
 The supported functionalities are:
 * **Adding** a device to the repository.
@@ -71,6 +72,8 @@ In order to add a device to the repository, one just need to connect **a single*
 
 > **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the `./Resources` directory), it with create one in the `./Resources` directory. 
 If device_name already exists, the error with be logged to the console.
+
+<a name="issue21"/>
 
 * **Renaming** a device in the repository.
 In order to change the name of the device simply execute:

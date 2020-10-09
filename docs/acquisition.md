@@ -53,6 +53,9 @@ The user should assemble the calibration structure in the middle of the capturin
 After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../synchronization) section).
 Additionally, it is a good practice to reset the `Exposure` and the `Color Gain` settings for all the devices, in order to get consistent results betweeen the devices.
 
+<a name="issue30"/>
+<a name="issue25"/>
+
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
 </p>
@@ -62,6 +65,8 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A7pOEdZ11nQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<a name="issue29"/>
 
 <!--
 <p align="center">
@@ -106,5 +111,7 @@ These folders contain the corresponding data, with the `group_id`, `device_name`
 `Depth` images can be previewed on any program supporting the `.pgm` file format visualization (_e.g._ [InfranView](https://www.irfanview.com/)), and `pointclouds` can be visualized on any 3D visualization program supporting `.ply` file format (_e.g._ [Meshlab](https://www.meshlab.net/)).
 
 Here we show the **calibrated** merged views of **colored** `pointclouds`, as exported by `volsnap.exe`.
+
+<a name="issue33"/>
 
 <img src="../../assets/images/volsnap/colored_pcloud_result.png" width="900"/>
