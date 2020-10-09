@@ -54,7 +54,7 @@ The user should assemble the calibration structure in the middle of the capturin
 
 ### Preparing and Recording
 
-After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../synchronization) section).
+After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](doc/synchronization) section).
 Additionally, it is a good practice to reset the `Exposure` and the `Color Gain` settings for all the devices, in order to get consistent results betweeen the devices.
 
 <a name="issue30"/>
@@ -75,14 +75,21 @@ It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just fo
 
 <a name="issue29"/>
 
-Admittedly, it is difficult to calibrate with `N = 3` device in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>.
-However with a little effort it is possible to calbrate in this setting.
+Admittedly, it is difficult to calibrate with `N = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
+However, with a little effort it is still possible.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Six (6) Kinect 4 Azure Devices
 
-You can connect more devices if you need, however you should consider bandwidth issues that may appear due 
+You can connect more devices if you need, however you should consider bandwidth issues that may appear (and choose a lower quality profile when connecting the devices)
+
+<iframe width="560" height="315" src="https://youtube.com/embed/Z50RgbjKFFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Eight (8) Mixed devices with six (6) Kinect 4 Azure and two (2) Intel Realsense D415 Devices
+
+<iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!--
 <p align="center">
      <img src="../../assets/images/data_acq/3k4a_set1.gif">
