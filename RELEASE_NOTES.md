@@ -33,4 +33,4 @@ Please make the effort to go through it when setting everything up and even cont
 - K4A shader issue
 - Depth units are now fixed for the two supported devices (`100um` for D415 and `1mm` for K4A)
 
-A new showcase section is now also available in the documentation where your deployments and works with the system can be hosted !
+A new [showcase](https://vcl3d.github.io/VolumetricCapture/docs/showcase/#demonstrations) section is now also available in the documentation where your deployments and works with the system can be hosted !
