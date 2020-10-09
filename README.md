@@ -61,7 +61,7 @@ _______
 * Quick and easy volumetric sensor alignment
 * Hardware and software (IEEE 1588 PTP) synchronization
 
-![Intro](.assets/images/App/intro1.jpg)
+![Intro](./assets/images/App/intro1.jpg)
 
 ## Download
 
