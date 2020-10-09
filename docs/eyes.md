@@ -81,7 +81,7 @@ You should open the Windows `Task Manager`, go to `Services` Tab and find the `r
     <img  src="../../assets/images/service_props.gif"/>
 </p>
 
-> Additionally, you should go to `C:/Capturer/remote_eye_service` directory in the mini-PC, right-click the `remote_eye_service.exe` and select `Properties`. Go to `Compatibility` tab and check the `Run as administrator` option at the end.
+> Additionally, you should go to `C:/Capturer/remote_eye_service` directory in the mini-PC, right-click the `remote_eye_service.exe` and select `Properties`. Go to `Compatibility` tab, check the `Run as administrator` option at the end and restart the mini-PC.
 
 <p align="center">
     <img  src="../../assets/images/service_admin.gif"/>
