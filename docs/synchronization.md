@@ -123,3 +123,12 @@ Further, mousing over this icon shows the offsets in a human readable format.
 <p align="center">
     <img src="../../assets/images/sync_connection.png"/>
 </p>
+
+## Hardware Synchronization Showcase
+In order to showcase the importance of hardware synchronization in performance capture context, we've made two distinct recordings, one using hardware synchronization and another one without, both of a fast moving actor. 
+<p align="center">
+    <img src="../../assets/images/hw_sync.png"/>
+    <img src="../../assets/images/no_hw_sync.png"/>
+</p>
+
+On the left side of the image, we have _hardware synchronization_ enabled, with all the point clouds being close to each other, while the left one shows point clouds being apart on another rapid movement.
