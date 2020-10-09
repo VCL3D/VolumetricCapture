@@ -59,9 +59,6 @@ Options:
   -c,--cam_type UINT                            0 for Microsoft Kinect 4 Azure, 1 for Intel RealSense 2.0 D415
 ```
 
-The following images will be replaced, they use a different executable name and output the `device_repository.json` in the same directory, while it should be in `./Resources`.
-{: .label .label-yellow }
-
 The supported functionalities are:
 * **Adding** a device to the repository.
 In order to add a device to the repository, one just need to connect **a single** device (otherwise an error will be logged) to the computer and run the command:
@@ -72,7 +69,7 @@ In order to add a device to the repository, one just need to connect **a single*
      <img src="../../assets/images/dev_repo_tool/add_device.gif" width="900"/> 
 </p>
 
-> **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the local directory), it with create one in the local directory. 
+> **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the `./Resources` directory), it with create one in the `./Resources` directory. 
 If device_name already exists, the error with be logged to the console.
 
 * **Renaming** a device in the repository.
