@@ -37,18 +37,13 @@ Each device stream will be displayed in a dedicated window with a distinct color
 
 <iframe width="560" height="315" src="https://youtube.com/embed/R_sUDt6PBK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- <p align="center">
-     <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
-</p> -->
 
 ### Calibration
 
 Before recording a sequence the system must be calibrated.
 The user should assemble the calibration structure in the middle of the capturing space, (_optionally_, change the calibration settings if needed, we usually use `25` inner and `20` outer iterations), capture RGB-D frames, and hit the `Process` option in the `Calibration` menu.
 
-<!-- <p align="center">
-     <img src="../../assets/images/data_acq/4xk4a_calib.gif">
-</p> -->
+
 
 <iframe width="560" height="315" src="https://youtube.com/embed/AHnmfK7nDu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,10 +58,6 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 <a name="issue25"/>
 
 
-<!-- <p align="center">
-     <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
-</p> -->
-
 <iframe width="560" height="315" src="https://youtube.com/embed/Oo2FmV7F-1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Three (3) Kinect 4 Azure Devices
@@ -80,36 +71,21 @@ It is also possible to connect and calibrate `K` devices, with `K >= 3`. Just fo
 Admittedly, it is harder to calibrate with `K = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
 However, with a little effort it is still possible.
 
-<iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_0MIxWAE6bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Six (6) Kinect 4 Azure Devices
 
 You can connect more devices if you need, however you should consider bandwidth issues that may appear (and choose a lower quality profile when connecting the devices)
 
-<iframe width="560" height="315" src="https://youtube.com/embed/Z50RgbjKFFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z50RgbjKFFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Eight (8) mixed devices with six (6) Kinect 4 Azure and two (2) Intel RealSense D415 Devices
 
 You will observe differences between the different types of sensors, so care should be taken when recording in mixed mode. You should modify each device settings (and maybe the environment's lighting) in order to achieve
 similar color response results between each view.
 
-<iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!--
-<p align="center">
-     <img src="../../assets/images/data_acq/3k4a_set1.gif">
-</p>
--->
-
-<!--
-* Volumetric Capturing - 4 k4as - issues [Fail to stream with Kinect Azure #25](https://github.com/VCL3D/VolumetricCapture/issues/25)
-* Volumetric Capturing - 6 k4as
-* Volumetric Capturing - 3 K4as - (pay attention to setups in issue [Calibration Fails #29](https://github.com/VCL3D/VolumetricCapture/issues/29) / [Bad/Inconsistent Framerate with Three Kinects #30](https://github.com/VCL3D/VolumetricCapture/issues/30)
-* Volumetric Capturing - Mixed devices (both kinect and realsense)
-* Volumetric Capturing - Modifying Depth Units issue [Crash When Changing Depth Units Value #31](https://github.com/VCL3D/VolumetricCapture/issues/31)
-* Volumetric Capture - Remote Eye on the same PC  - issue [Azure Kinect mis-identified as Intel camera #22](https://github.com/VCL3D/VolumetricCapture/issues/22)
-* Showcase NUC LEDs at each step !!
--->
 
 # Recording Extraction
 
