@@ -103,7 +103,7 @@ These folders contain the corresponding data, with the `group_id`, `device_name`
 
 > `Color`, `depth` and `pointcloud` data from the first group (`0`) of a dumped recording.
 
-`Depth` images can be previewed on any program supporting the `.pgm` file format visualization (we use [InfranView](https://www.irfanview.com/)), and `pointclouds` can be visualized on any 3D visualization program supporting `.ply` file format (we use [Meshlab](https://www.meshlab.net/)).
+`Depth` images can be previewed on any program supporting the `.pgm` file format visualization (_e.g._ [InfranView](https://www.irfanview.com/)), and `pointclouds` can be visualized on any 3D visualization program supporting `.ply` file format (_e.g._ [Meshlab](https://www.meshlab.net/)).
 
 Here we show the **calibrated** merged views of **colored** `pointclouds`, as exported by `volsnap.exe`.
 
