@@ -56,7 +56,7 @@ The user should assemble the calibration structure in the middle of the capturin
 
 ### Preparing and Recording
 
-After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../docs/synchronization) section).
+After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../synchronization) section).
 Additionally, it is a good practice to reset the `Exposure` and the `Color Gain` settings for all the devices, in order to get consistent results betweeen the devices.
 
 <a name="issue30"/>
