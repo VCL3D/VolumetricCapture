@@ -1,17 +1,16 @@
 # A Portable, Flexible and Facile Volumetric Capture System
+
 > Moving beyond green screens as well as stationary, expensive and hard to use setups  
 
 [![Project Page](http://img.shields.io/badge/Volumetric-Capture-blueviolet.svg?style=plastic)](https://vcl3d.github.io/VolumetricCapture/)
 [![Conference](http://img.shields.io/badge/SITIS-2018-blue.svg?style=plastic)]()
 [![Paper](http://img.shields.io/badge/paper-arxiv.1909.01207-critical.svg?style=plastic)](https://arxiv.org/pdf/1909.01207.pdf)
 
-
 [![Project Page](http://img.shields.io/badge/Volumetric-Calibration-blueviolet.svg?style=plastic)](https://vcl3d.github.io/StructureNet/)
 [![Conference](http://img.shields.io/badge/IEEEVR-2020-blue.svg?style=plastic)](http://ieeevr.org/2020/)
 [![Paper](http://img.shields.io/badge/paper-arxiv.2003.10176-critical.svg?style=plastic)](https://arxiv.org/pdf/2003.10176.pdf)
 [![Conference](http://img.shields.io/badge/WSCG-2018-blue.svg?style=plastic)]()
 [![Paper](http://img.shields.io/badge/paper-iti-critical.svg?style=plastic)](https://www.iti.gr/iti/files/document/publications/S05-Markerless%20Structure-based%20Calibration.pdf)
-
 
 _______
 
@@ -24,14 +23,14 @@ _______
 Updated documentation with assembly instructions, installation guides, examples and more are now available at the project's page: https://vcl3d.github.io/VolumetricCapture/.
 
 # News
-An early alpha release of the Kinect Azure is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/4.0.1).
-It also includes an updated multi-sensor calibration that allows for greater flexibility in terms of sensor numbers and placement. More information can be found [here](https://vcl3d.github.io/StructureNet/) __\[[8](#StructureNet)\]__.
-
+The latest release supporting both Kinect 4 Azure and Intel RealSense 2.0 D415 is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/5.0.0) with various fixes and feedback integrated.
+It comes with an improved multi-sensor calibration that allows for greater flexibility in terms of sensor numbers and placement and higher accuracy.
+More information can be found [here](https://vcl3d.github.io/StructureNet/) __\[[8](#StructureNet)\]__.
 
 _______
 ## Overview
 
-This repository contains [VCL](https://vcl.iti.gr)'s evolving toolset for (multi-) RGB-D sensor 3D capturing, streaming and recording, initially presented in __\[[1](#VolCap)\]__.
+This repository contains [VCL](https://vcl.iti.gr)'s evolving toolset for volumetric (multi-RGB-D sensor) capturing and recording, initially presented in __\[[1](#VolCap)\]__.
 It is a research oriented but flexible and optimized software that can be / has been used in the context of:
 
 * Live Tele-presence __\[[2](#Integrated)\]__ in [Augmented VR](https://www.youtube.com/watch?v=7O_TrhtmP5Q) or Mixed/Augmented Reality settings
@@ -39,7 +38,6 @@ It is a research oriented but flexible and optimized software that can be / has 
 * Free Viewpoint Video (FVV)
 * Immersive Applications (_i.e._ [events](https://www.youtube.com/watch?v=J3zJmMNxV0k) and/or [gaming](https://www.youtube.com/watch?v=nK7pC41YjZY)) __\[[4](#Platform)\]__
 * Motion Capture __\[[5](#DeepMoCap)\]__
-
 
 ## Design
 
@@ -49,45 +47,23 @@ Communication is handled by a broker, typically co-hosted with the controlling a
 
 ## Sensors
 
-We now support [Intel RealSense D415](https://www.intelrealsense.com/) and [Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) sensors.
+We now support both (and mixed !) [Intel RealSense D415](https://www.intelrealsense.com/) and [Azure Kinect DK](https://azure.microsoft.com/en-in/services/kinect-dk/) sensors.
 
 | Intel RealSense D415  |  Microsoft Kinect Azure |
 |:-------------------------:|:-------------------------:|
-| <img alt="Intel RealSense D415" src="./assets/images/stereo_DT_d415_front-crop1a-1.png" width="100"> | <img alt="Azure Kinect DK" src="./assets/images/k4a.png" width="100"> |
+| <img alt="Intel RealSense D415" src="./assets/images/stereo_DT_d415_front-crop1a-1.png" width="100"> | <img alt="Azure Kinect DK" src="./assets/images/icons/k4a_actual.png" width="100"> |
 
+_______
 
 ## Highlights
 
-* Multi-sensor live streaming and recording (no actual restriction of number of sensors apart from the available resources, _i.e_ system processing and/or switch bandwidth)
-
-![Intro Gif](./assets/images/intro.gif)
-
-_______
-
-* Multi-sensor spatial alignment (currently supporting only __4__ sensors via an adaptation of __\[[6](#Markerless)\]__)
-
-![Live Calibration Gif](./assets/images/live_calibration.gif)
-
-_______
-
-* Multi-sensor temporal alignment via the LAN-based [Precision Time Protocol](https://en.wikipedia.org/wiki/Precision_Time_Protocol) (PTP -- IEEE 1588-2002)
-
-![Synchronization Gif](./assets/images/synchronization.gif)
-
-_______
-
+* Multi-sensor streaming and recording
+* Quick and easy volumetric sensor alignment
+* Hardware and software (IEEE 1588 PTP) synchronization
 
 ## Download
 
-Check our [releases](https://github.com/VCL3D/VolumetricCapture/releases), __an early alpha release is now available__ with:
-
-- __Kinect Azure support__, and
-- The [StructureNet](https://vcl3d.github.io/StructureNet/) volumetric alignment method that can support a flexible number of sensor .
-
-## Usage
-
-Please use the [Wiki](https://github.com/VCL3D/VolumetricCapture/wiki) on instructions on how to assemble, deploy and use the Volumetric Capture system.
-
+Check our latest [releases](https://github.com/VCL3D/VolumetricCapture/releases).
 
 ## Citation
 
@@ -105,7 +81,6 @@ If you used the system or found this work useful, please cite:
 
 ## Caveats
 We currently only ship binaries for the Windows platform, supporting Windows 10.
-
 
 # References
 <a name="VolCap"/> __\[1\]__ Sterzentsenko, V., Karakottas, A., Papachristou, A., Zioulis, N., Doumanoglou, A., Zarpalas, D. and Daras, P., 2018, November. [A low-cost, flexible and portable volumetric capturing system](https://www.iti.gr/iti/files/document/publications/low-cost-flexible.pdf). In 2018 14th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS) (pp. 200-207). IEEE.
