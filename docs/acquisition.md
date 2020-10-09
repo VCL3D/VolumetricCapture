@@ -36,6 +36,7 @@ The user should just check the devices to be connected, (_optionally_, select a 
 Each device stream will be displayed in a dedicated window with a distinct color.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/R_sUDt6PBK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!-- <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
 </p> -->
@@ -48,6 +49,7 @@ The user should assemble the calibration structure in the middle of the capturin
 <!-- <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_calib.gif">
 </p> -->
+
 <iframe width="560" height="315" src="https://youtube.com/embed/AHnmfK7nDu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -69,7 +71,7 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 
 ## Three (3) Kinect 4 Azure Devices
 
-It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps.
+It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps (described above and in Section [Volumetric Capture](doc/volcap)).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A7pOEdZ11nQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -87,6 +89,9 @@ You can connect more devices if you need, however you should consider bandwidth 
 <iframe width="560" height="315" src="https://youtube.com/embed/Z50RgbjKFFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Eight (8) Mixed devices with six (6) Kinect 4 Azure and two (2) Intel Realsense D415 Devices
+
+You will observe differences between the different types of sensors, so care should be taken when recording in mixed mode. You should modify each device settings (and maybe the environment's lighting) in order to achieve
+similar color response results between each view.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
