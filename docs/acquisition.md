@@ -13,7 +13,8 @@ This section describes how to use VolCap for acquiring RGB-D data in various sen
 
 ## Standard Case: 4 Kinect Azure Devices (issue: [#25](https://github.com/VCL3D/VolumetricCapture/issues/25))
 ### Initialization
-When starting VolCap all the available devices should be automatically be displayed on the *Devices* widget. The user should just check the devices to be connected, (select a device as the master for hardware synchronization) and hit the connect button. Each device stream should be displayed in a dedicated window.
+When starting VolCap all the available devices should be automatically be displayed on the *Devices* widget (see [Volumetric Capture](./volcap) Section). The user should just check the devices to be connected, (select a device as the master for hardware synchronization) and hit the connect button. Each device stream should be displayed in a dedicated window.
+
 <p align="center">
      <img src="../../assets/images/data_acq/4xk4a_init_connection.gif">
 </p>
@@ -30,12 +31,11 @@ After calibrating the system, the user should synchronize the devices with the m
      <img src="../../assets/images/data_acq/4xk4a_prep_n_rec.gif">
 </p>
 
-## Connecting and Calibrating 3 Kinect Azure Devices (issue: [#29](https://github.com/VCL3D/VolumetricCapture/issues/29))
+## Connecting and Calibrating 3 Kinect Azure Devices
 
-With VolCap it is possible to connect and calibrate *N* devices, with *N >= 3*. Just follow all the standard steps.
-<p align="center">
-     <img src="../../assets/images/data_acq/3k4a_set1.gif">
-</p>
+With VolCap it is possible to connect and calibrate *N* devices, with *N >= 3* (issue: [#29](https://github.com/VCL3D/VolumetricCapture/issues/29)). Just follow all the standard steps.
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=A7pOEdZ11nQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!--
 * Volumetric Capturing - 4 k4as - issues [Fail to stream with Kinect Azure #25](https://github.com/VCL3D/VolumetricCapture/issues/25)
 * Volumetric Capturing - 6 k4as
