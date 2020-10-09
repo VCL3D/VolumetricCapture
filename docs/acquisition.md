@@ -71,13 +71,13 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 
 ## Three (3) Kinect 4 Azure Devices
 
-It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps (described above and in Section [Volumetric Capture](docs/volcap)).
+It is also possible to connect and calibrate `K` devices, with `K >= 3`. Just follow all the standard steps (described above and in Section [Volumetric Capture](docs/volcap)).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A7pOEdZ11nQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a name="issue29"/>
 
-Admittedly, it is harder to calibrate with `N = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
+Admittedly, it is harder to calibrate with `K = 3` devices (in the first setting of issue <a href="https://github.com/VCL3D/VolumetricCapture/issues/29">#29</a>).
 However, with a little effort it is still possible.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/OnwwRxiuemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
