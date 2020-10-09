@@ -56,7 +56,7 @@ The user should assemble the calibration structure in the middle of the capturin
 
 ### Preparing and Recording
 
-After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](docs/synchronization) section).
+After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../docs/synchronization) section).
 Additionally, it is a good practice to reset the `Exposure` and the `Color Gain` settings for all the devices, in order to get consistent results betweeen the devices.
 
 <a name="issue30"/>
@@ -71,7 +71,7 @@ Additionally, it is a good practice to reset the `Exposure` and the `Color Gain`
 
 ## Three (3) Kinect 4 Azure Devices
 
-It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps (described above and in Section [Volumetric Capture](docs/volcap)).
+It is also possible to connect and calibrate `K` devices, with `N >= 3`. Just follow all the standard steps (described above and in Section [Volumetric Capture](../docs/volcap)).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A7pOEdZ11nQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
