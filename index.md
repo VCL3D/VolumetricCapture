@@ -30,6 +30,8 @@ More specifically, its technical offerings are:
 
 For instructions on how to install it please see [Software Setup](docs/software.md).
 
+![Intro](assets/images/App/intro2.jpg)
+
 # Usage
 It has been used in various research and development activities:
 - Live tele-presence in Augmented VR or Mixed/Augmented Reality settings
