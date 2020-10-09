@@ -13,10 +13,10 @@ Volumetric Capture ships various binaries to be deployed at the workstation and 
 1. The **VolCap** GUI application [`volcap.exe`]
 2. The **Device Repository** CLI application [`dev_repo.exe`]
 3. The **VolSnap** mixed mode (GUI & CLI) application [`volsnap.exe`]
-4. The Intel RealSense 2.0 **Eye** CLI application [`remote_eye_rs2.exe`] (optional - depending on the sensor of choice)
-5. The Microsoft Kinect 4 Azure **Eye** CLI application [`remote_eye_k4a.exe`] (optional - depending on the sensor of choice)
-6. The Windows Eye **Monitor** Service [`remote_eye_service`] (optional - can resort to manual sensor connection mode)
-7. The Intel NUC **LED Controller** application [`intel_nuc_led_utils.exe`] (optional - depends on Intel NUC mini-PC availability)
+4. The Intel RealSense 2.0 **Eye** CLI application [`remote_eye_rs2.exe`] (_optional_ - depending on the sensor of choice)
+5. The Microsoft Kinect 4 Azure **Eye** CLI application [`remote_eye_k4a.exe`] (_optional_ - depending on the sensor of choice)
+6. The Windows Eye **Monitor** Service [`remote_eye_service`] (_optional_ - can resort to manual sensor connection mode)
+7. The Intel NUC **LED Controller** application [`intel_nuc_led_utils.exe`] (_optional_ - depends on Intel NUC mini-PC availability)
 
 Items _`4.-7`._ are deployed on the sensor processing units.
 An Intel NUC is a minimal processing unit that can accomodate each sensor, although it is not strictly necessary, and even standard desktop computers can be used.

@@ -25,7 +25,7 @@ If the sensor processing units are Intel NUCs and the installation has also conf
 
 | IDLE | CONNECTED | CALIBRATING | RECORDING |
 |:----:|:----:|:----:|:----:|
-| <img src="../assets/images/NUCLEDS/NUCLEDS_idle.png"> | <img src="../assets/images/NUCLEDS/NUCLEDS_connected.png"> | <img src="../assets/images/NUCLEDS/NUCLEDS_calib.png"> | <img src="../assets/images/NUCLEDS/NUCLEDS_rec.png"> |
+| <img src="../../assets/images/NUCLEDS/NUCLEDS_idle.png"> | <img src="../../assets/images/NUCLEDS/NUCLEDS_connected.png"> | <img src="../../assets/images/NUCLEDS/NUCLEDS_calib.png"> | <img src="../../assets/images/NUCLEDS/NUCLEDS_rec.png"> |
 
 ## Four (4) Kinect 4 Azure Devices
 
