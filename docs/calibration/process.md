@@ -39,7 +39,7 @@ Then, the calibration process steps are:
 
 1. From the top menu, `Calibration`->`Configure` to check and set the calibration parameters (set **iterations** to maximum for optimal calibration).
 2. Then, `Calibration`->`Capture` to capture snapshots of the depth streams.
-3. When snapshot capturing is completed, `Calibration`->`Calibrate` starts the actual pose parameter estimation.
+3. When snapshot capturing is completed, `Calibration`->`Process` starts the actual pose parameter estimation.
 4. Once the process has finished, use the `Load Latest` button on the down-left side of the calibration pop-up.
 5. (**alternative**) If the sensors have been already calibrated and not moved, the latest calibration is already available. Therefore, after connecting the sensors, `Calibration`->`Load Latest` will load them, bypassing the need to perform the calibration process again.
 

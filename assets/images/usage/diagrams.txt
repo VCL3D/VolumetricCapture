@@ -18,8 +18,8 @@
 # Recording
 
 (start)-volcap>|a|-maybe>(Configure Sensors)->|b|
-|a|-maybe>(Configure Workflow)->|b|
+|a|-maybe>(Configure Processing)->|b|
 |b|->(Synchronize)->|d|
 |b|-><c>[calibrated]->(Load Extrinsics)->|d|
-<c>[uncalibrated]->(Calibration Capture)->(Calibration Calibrate)->(Load Extrinsics)
+<c>[uncalibrated]->(Calibration Capture)->(Calibration Process)->(Load Extrinsics)
 |d|-maybe>(Tag)-record>(end)
