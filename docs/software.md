@@ -73,7 +73,7 @@ The following steps explain how to install and setup the RabbitMQ broker:
     * Repeat all the steps in order to create an **`Outbound Rule`** too, for the same port
     * *The same rules for port **`5672`** must be applied to each capturer processing unit (e.g. Intel-NUC) hosting the **Remote Eyes** also.*
 
-![RabbitMQ_Port_Setup](../assets/images/2018-07-16_14-29-34.gif)
+    ![RabbitMQ_Port_Setup](../assets/images/2018-07-16_14-29-34.gif)
 
 * Additionally, you will have to open outbound connections to port: **`15672`**, (the same way as the previous step, but putting **`15672`** instead of **`5672`** as the port number), in order to use RabbitMQ's management interface. 
 This is done by following the steps described above. You just have to create a new **`Inbound Rule`** for port **`15672`**.
@@ -91,7 +91,7 @@ For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, 
 {: .label .label-yellow }
 
 <p align="center">
-    <img width=200 src="../../assets/images/release_dir_structure.png"/>
+    <img width=200 src="../../assets/images/icons/release_dir_structure.png"/>
 </p>
 
 ## Remote Eyes Setup
@@ -125,7 +125,7 @@ For each sensor processing unit:
 For the Intel RealSense 2.0 D415 eye, we have tested with, and thus, recommend, the `05.11.15.00` firmware version.
 {: .label .label-yellow }
 
-For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). The appropriate version is `2.0`.
+For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [**here**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [**link**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). The appropriate version is `2.0`.
 {: .label .label-yellow }
 
 <!--![](https://raw.githubusercontent.com/VCL3D/VolumetricCapture/master/doc/2018-07-16_13-53-07.gif)-->

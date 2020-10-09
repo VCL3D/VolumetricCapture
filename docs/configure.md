@@ -109,7 +109,7 @@ In order to peek into the file from the console to determine which devices are a
 * Adding a Kinect 4 Azure device:
 > `dev_repo.exe --add device_name --cam_type 0`
 * Adding an Intel RealSense 2.0 D415 device:
-> `device_dev_reporepository.exe --add device_name --cam_type 1`
+> `dev_repo.exe --add device_name --cam_type 1`
 * List of saved devices inside device_repository.json: 
 > `dev_repo.exe --list`
 * Remove a device: 

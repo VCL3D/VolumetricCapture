@@ -35,7 +35,7 @@ The Volumetric Capture system uses the [IEEE 1588 precision time protocol (PTP)]
 * `nPTP` is a native implementation of the same functionality as pyPTP.
 * `PTPd` is a native daemon-like implementation that is triggered periodically while the main program runs, updating each mini-PC's offset automatically at each period.
 
-Note that pyPTP is not implementing the IEEE 1588 standard and works on a best effort basis
+Note that `pyPTP` is not implementing the IEEE 1588 standard and works on a best effort basis
 {: .label .label-yellow }
 
 Native (`nPTP` and `PTPd`) IEEE 1588 PTP requires allowing UDP connections on port `320` (both incoming and outgoing) on the workstation's firewall as well as port `321` on the mini-PCs.
@@ -101,7 +101,7 @@ Again, you should click the `Load Latest` button to load the calculated synchron
     <img src="../../assets/images/nptp_completed.png">
 </p>
 
-## PTPd
+### PTPd
 
 When the `PTPd` option is selected from the `Synchronization` menu, a pop-up will appear prompting the user to start the synchronization process.
 
@@ -124,7 +124,7 @@ Further, mousing over this icon shows the offsets in a human readable format.
     <img src="../../assets/images/sync_connection.png"/>
 </p>
 
-## Hardware Synchronization Showcase
+## Hardware Synchronization Result
 
 To showcase the benefits of hardware synchronization in a performance capture context with fast actions, two distinct recordings are presented below, one using hardware synchronization and another one without, both from very fast performances. 
 
