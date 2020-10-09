@@ -66,7 +66,7 @@ In order to add a device to the repository, one just need to connect **a single*
      `device_repository.exe --add device_name`
 
 <p align="center">
-     <img src="../../assets/images/add_device.gif" width="900"/> 
+     <img src="../../assets/images/dev_repo_tool/add_device.gif" width="900"/> 
 </p>
 
 > **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the local directory), it with create one in the local directory. 
@@ -78,7 +78,7 @@ In order to change the name of the device simply execute:
      `device_repository.exe --rename old_name new_name`
 
 <p align="center"> 
-     <img src="../../assets/images/rename_device.gif" width="900"/> 
+     <img src="../../assets/images/dev_repo_tool/rename_device.gif" width="900"/> 
 </p>
 
 * **Deleting** a device from the repository.
@@ -87,7 +87,7 @@ To delete a device from the device repository, execute:
      `device_repository.exe --delete device_name`
 
 <p align="center"> 
-     <img src="../../assets\images/delete_device.gif" width="900"/> 
+     <img src="../../assets\images/dev_repo_tool/delete_device.gif" width="900"/> 
 </p>
 
 * **Listing** all devices in the repository.
@@ -96,7 +96,7 @@ In order to peek into the file from the console to determine which devices are a
      `device_repository.exe --list`
 
 <p align="center">
-     <img src="../../assets\images/list_devices.gif" width="900"/> 
+     <img src="../../assets\images/dev_repo_tool/list_devices.gif" width="900"/> 
 </p>
 
 **IMPORTANT**: Old **device_repository.json** files are not compatible with this release, please re-create it.
@@ -111,25 +111,3 @@ In order to peek into the file from the console to determine which devices are a
 > `device_repository.exe --list`
 * Remove a device: 
 > `device_repository.exe --delete device_name`
-
-### _Adding a Kinect 4 Azure device_
-
-<p align="left">
-     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_Kinect.gif" width="795"/> 
-</p>
-
-_____
-
-### _Adding an Intel RealSense 2.0 D415 device_
-
-<p align="left">
-     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/add_realsense.gif" width="795"/>
-</p>
-
-_____
-
-### _Removing a device_
-
-<p align="left">
-     <img src="../../assets/images/device_repository_tool_WikiRelease_4.0/remove_device.gif" width="795"/>
-</p>
