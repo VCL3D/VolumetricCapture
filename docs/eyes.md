@@ -12,8 +12,8 @@ Through specific communication channels it streams the sensor acquired data to t
 In addition, it also performs software synchronization with the **VolCap** application running on the workstation.
 
 They currently come in two versions:
-- `k4a_eye.exe`: The Microsoft Kinect 4 Azure variant
-- `rs2_eye.exe`: The Intel RealSense 2.0 D415 variant
+- `remote_eye_k4a.exe`: The Microsoft Kinect 4 Azure variant
+- `remote_eye_rs2.exe`: The Intel RealSense 2.0 D415 variant
 
 It is also supported by a monitoring service, and an Intel NUC LED controller application (see [Software Setup](../software)).
 
@@ -67,7 +67,7 @@ It used to be that when running an **Eye** together with **VolCap** there would 
 Experience shows that when a device does not come up automatically, or no streams arrive after connecting it, a manual USB cable plug and re-plug to another USB controller resolves the issue.
 Switching USB controller is hardware specific, but for Intel NUCs, switching between the front and back USB ports usually accomplishes it.
 
-> To use the Intel NUC LED controller, you need to first run it once the `{k4a|rs2}_eye.exe` manually to connect it to `volcap.exe`. Then once the `intel_nuc_led_controller.exe` is triggered a Windows pop up will come up and request approval. Once this is performed, it will never ask it again, even when run from the `monitor` service.
+> To use the Intel NUC LED controller, you need to first run it once the `{remote_eye_k4a|rs2}_eye.exe` manually to connect it to `volcap.exe`. Then once the `intel_nuc_led_utils.exe` is triggered a Windows pop up will come up and request approval. Once this is performed, it will never ask it again, even when run from the `remote_eye_service`.
 
 This list is a work-in-progress and will be updated as more issues are identified and resolved.
 {: .label .label-yellow }

@@ -27,8 +27,6 @@ However, its default values are set to `localhost` and the `volumetric/capture` 
 Details about the installation of the RabbitMQ message broker and the registration of the sensors in the device repository can be found at the [Configuration](../configure) section.
 If the configuration has been set up as proposed, it will match the default arguments, and with the RabbitMQ installed on the workstation running **VolCap**, then a single `double-click` on the `volcap.exe` suffices.
 
-
-
 # Workflow
 
 ## Preparation
@@ -46,7 +44,7 @@ _If the devices' intrinsic parameters are not saved in the device repository you
     * When you first start the **VolCap** application (`volcap.exe`) it should connect automatically to the RabbitMQ broker running on the workstation (`localhost`).
     If that is not the case, or if the RabbitMQ broker is set up on a different IP, you can start **VolCap** using the respective command-line arguments:
 
-    > ``volumetric_capture.exe -b <rabbit_mq_broker_local_ip> -u <rabbit_mq_username> -p <rabbit_mq_password>``
+    > ``volcap.exe -b <rabbit_mq_broker_local_ip> -u <rabbit_mq_username> -p <rabbit_mq_password>``
 
     The application's GUI when the application starts:
 
@@ -110,7 +108,7 @@ In addition, you can modify the devices' connection stream profile (`Stream`), p
 * **Set the master device for HW device synchronization**
     
     From the drop-down menu next to the `Connect All` Button, you can select which device will be the **Master** device in a Hardware sync scenario.
-    _In order to use hardware synchronization, you need to have the HW sync cables assembled and connected to the sensors in either daisy-chain or star configuration.
+    In order to use hardware synchronization, you need to have the HW sync cables assembled and connected to the sensors in either daisy-chain or star configuration.
     More details can be found at the [Synchronization](../synchronization) section for the process itself, and for assembling the HW sync cables at the respective sections for the [Intel RealSense 2.0 D415](../hardware/rs2_hardware) and the [Microsoft Kinect 4 Azure](../hardware/k4a_hardware).
 
     <p align="center">
@@ -125,7 +123,7 @@ Finally, when all of the devices are connected, each device viewport as well as 
 
 For each device, their real-time bandwidth consumption is displayed, along a color picker that sets that device's color.
 
-**Note**: Mousing over the names or icons in this widget displays a tooltip with the device's IP which is helpful when needing to access the mini-PC for troubleshooting (via remote desktop or TeamViewer).
+**Note**: Mousing over the names or icons in this widget displays a tooltip with the device's IP which is helpful when needing to access the mini-PC for troubleshooting (via remote desktop or TeamViewer). In addition, pressing `CTRL+C` when mousing over will copy the IP in the clipboard.
 {: .label .label-purple }
 
 <p align="center">

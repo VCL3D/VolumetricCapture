@@ -10,13 +10,13 @@ description: "Installing Volumetric Capture"
 
 Volumetric Capture ships various binaries to be deployed at the workstation and the sensor processing units:
 
-1. The **VolCap** GUI application
-2. The **Device Repository** CLI application
-3. The **VolSnap** mixed mode (GUI & CLI) application
-4. The Intel RealSense 2.0 **Eye** CLI application (optional - depending on the sensor of choice)
-5. The Microsoft Kinect 4 Azure **Eye** CLI application (optional - depending on the sensor of choice)
-6. The Windows Eye **Monitor** Service (optional - can resort to manual sensor connection mode)
-7. The Intel NUC **LED Controller** application (optional - depends on Intel NUC mini-PC availability)
+1. The **VolCap** GUI application [`volcap.exe`]
+2. The **Device Repository** CLI application [`dev_repo.exe`]
+3. The **VolSnap** mixed mode (GUI & CLI) application [`volsnap.exe`]
+4. The Intel RealSense 2.0 **Eye** CLI application [`remote_eye_rs2.exe`] (optional - depending on the sensor of choice)
+5. The Microsoft Kinect 4 Azure **Eye** CLI application [`remote_eye_k4a.exe`] (optional - depending on the sensor of choice)
+6. The Windows Eye **Monitor** Service [`remote_eye_service`] (optional - can resort to manual sensor connection mode)
+7. The Intel NUC **LED Controller** application [`intel_nuc_led_utils.exe`] (optional - depends on Intel NUC mini-PC availability)
 
 Items _`4.-7`._ are deployed on the sensor processing units.
 An Intel NUC is a minimal processing unit that can accomodate each sensor, although it is not strictly necessary, and even standard desktop computers can be used.
@@ -87,6 +87,9 @@ To install the **VolCap** application you need to:
 3. Create a shortcut of **volcap.exe** on your desktop if you want.
 4. If RabbitMQ has been installed on the same machine, just double click the **volcap.exe** (or the shortcut if you created one), and you are ready to go.
 
+For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [link](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
+{: .label .label-yellow }
+
 <p align="center">
     <img width=200 src="../../assets/images/release_dir_structure.png"/>
 </p>
@@ -115,8 +118,8 @@ For each sensor processing unit:
 
 1. Create the directory: `C:\Capturer`.
 2. When you have downloaded the `remote.zip` file from the [release](https://github.com/VCL3D/VolumetricCapture/releases), extract its content in `C:\Capturer`.
-3. You should have a `\bin` folder which comprises the **Eye** application executables and in `\monitor` the service files.
-4. To install the **Monitor** service, you should run the `install_remote_eye_service.bat` in `C:\Capturer\monitor\` with **Administrator** rights (_right-click and choose "Run as administrator"_).
+3. You should have a `\bin` folder which comprises the **Eye** application executables and in `\remote_eye_service` the service files.
+4. To install the **Monitor** service, you should run the `install_remote_eye_service.bat` in `C:\Capturer\remote_eye_service\` with **Administrator** rights (_right-click and choose "Run as administrator"_).
 5. If you ever need to uninstall the **Monitor** service, again you must run `uninstall_remote_eye_service.bat` with **Administrator** rights.
 
 For the Intel RealSense 2.0 D415 eye, we have tested with, and thus, recommend, the `05.11.15.00` firmware version.

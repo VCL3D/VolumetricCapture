@@ -66,7 +66,7 @@ Files' playback and saving options are possible through the `Control_Panel` widg
     as well as the exporting sampling period (_i.e._ save every `T` frames). 
     Calibrated pointclouds option applies the calibration transformation to the saved pointclouds and should be used only if the streams were calibrated prior to recording see [Calibration](../calibrate/calibrate).
     
-    Please note that the destination of the exported files is the source directory of the input files.
+    Please note that the destination of the exported files is the source directory of the input files when using the `GUI` mode.
     {: .label .label-yellow }
 
 - <p align="left">
