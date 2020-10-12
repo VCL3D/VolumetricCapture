@@ -54,7 +54,6 @@ The user should assemble the calibration structure in the middle of the capturin
 After calibrating the system, the user should synchronize the devices with the main workstation (see the [Synchronization](../synchronization) section).
 Additionally, it is a good practice to reset the `Exposure` and the `Color Gain` settings for all the devices, in order to get consistent results betweeen the devices.
 
-<a name="issue30"/>
 <a name="issue25"/>
 
 
@@ -72,6 +71,8 @@ Admittedly, it is harder to calibrate with `K = 3` devices (in the first setting
 However, with a little effort it is still possible.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_0MIxWAE6bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<a name="issue30"/>
 
 ## Six (6) Kinect 4 Azure Devices
 
