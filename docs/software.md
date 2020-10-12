@@ -125,7 +125,10 @@ For each sensor processing unit:
 For the Intel RealSense 2.0 D415 eye, we have tested with, and thus, recommend, the `05.11.15.00` firmware version.
 {: .label .label-yellow }
 
-For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. More details can be found [**here**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [**link**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). The appropriate version is `2.0`.
+For the Kinect 4 Azure eye, you also need to download the **Depth Engine DLL**, which should be placed next to `k4a.dll`. 
+More details can be found [**here**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/depthengine.md), with the MSI downloaders available at this [**link**](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md). 
+The appropriate version is `2.0`. 
+You also need to download and install the [**Microsoft Visual C++ Redistributable for Visual Studio 2019 (x64)**](https://aka.ms/vs/16/release/VC_redist.x64.exe).
 {: .label .label-yellow }
 
 <!--![](https://raw.githubusercontent.com/VCL3D/VolumetricCapture/master/doc/2018-07-16_13-53-07.gif)-->
