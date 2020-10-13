@@ -122,6 +122,11 @@ For each sensor processing unit:
 4. To install the **Monitor** service, you should run the `install_remote_eye_service.bat` in `C:\Capturer\remote_eye_service\` with **Administrator** rights (_right-click and choose "Run as administrator"_).
 5. If you ever need to uninstall the **Monitor** service, again you must run `uninstall_remote_eye_service.bat` with **Administrator** rights.
 
+If you have already installed the `remote_eye_service` from a previous version, you first need to uninstall it by running the `uninstall_remote_eye_service.bat` script with **Administrator** rights. Then you should
+delete all the contents from the `remote_eye_service` folder, and replace them with the ones from the current version. Finally, you should run the `install_remote_eye_service.bat` script with **Administrator**
+rights, in order to install the current version of the service.
+{ : .labal .label-yellow }
+
 For the Intel RealSense 2.0 D415 eye, we have tested with, and thus, recommend, the `05.11.15.00` firmware version.
 {: .label .label-yellow }
 
