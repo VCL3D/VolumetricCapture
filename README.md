@@ -31,13 +31,15 @@ _______
 ## Overview
 
 This repository contains [VCL](https://vcl.iti.gr)'s evolving toolset for volumetric (multi-RGB-D sensor) capturing and recording, initially presented in __\[[1](#VolCap)\]__.
-It is a research oriented but flexible and optimized software that can be / has been used in the context of:
+It is a research oriented, but flexible and optimized, software with integrated multi-sensor alignment research results (__\[[6](#Markerless)\]__, __\[[8](#StructureNet)\]__), that can be / has been used in the context of:
 
 * Live Tele-presence __\[[2](#Integrated)\]__ in [Augmented VR](https://www.youtube.com/watch?v=7O_TrhtmP5Q) or Mixed/Augmented Reality settings
 * Performance Capture __\[[3](#PerfCap)\]__
 * Free Viewpoint Video (FVV)
 * Immersive Applications (_i.e._ [events](https://www.youtube.com/watch?v=J3zJmMNxV0k) and/or [gaming](https://www.youtube.com/watch?v=nK7pC41YjZY)) __\[[4](#Platform)\]__
 * Motion Capture __\[[5](#DeepMoCap)\]__
+* Post-production __\[[9](#XR360)\]__
+* Data Collection __\[[7](#Denoising)\]__, __\[[10](#HUMAN4D)\]__
 
 ## Design
 
@@ -101,4 +103,6 @@ We currently only ship binaries for the Windows platform, supporting Windows 10.
 
 <a name="StructureNet"/> __\[8\]__ Sterzentsenko V., Doumanoglou, A., Thermos S., Zioulis N., Zarpalas D., Daras P., 2020. [Deep Soft Procrustes for Markerless Volumetric Sensor Alignment](https://arxiv.org/pdf/2003.10176.pdf), IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
 
-<a name="HUMAN4D"/> __\[9\]__ Chatzitofis A., Saroglou, L., Boutis P., Drakoulis P., Zioulis N., Subramanyam S., Kevelham B., Charbonnier C., Cesar P., Zarpalas D., Kollias S., Daras P., 2020. [HUMAN4D: A Human-Centric Multimodal Dataset for Motions & Immersive Media](https://ieeexplore.ieee.org/iel7/6287639/8948470/09204617.pdf), IEEE Access Journal
+<a name="XR360"/> __\[9\]__ Karakottas, A., Zioulis, N., Doumanglou, A., Sterzentsenko, V., Gkitsas, V., Zarpalas, D. and Daras, P., 2020, July. [XR360: A Toolkit for Mixed 360 and 3d Productions](https://www.iti.gr/iti/files/document/publications/ICME2020_XRWorkshop.pdf). In 2020 IEEE International Conference on Multimedia & Expo Workshops (ICMEW) (pp. 1-6). IEEE.
+
+<a name="HUMAN4D"/> __\[10\]__ Chatzitofis A., Saroglou, L., Boutis P., Drakoulis P., Zioulis N., Subramanyam S., Kevelham B., Charbonnier C., Cesar P., Zarpalas D., Kollias S., Daras P., 2020. [HUMAN4D: A Human-Centric Multimodal Dataset for Motions & Immersive Media](https://ieeexplore.ieee.org/iel7/6287639/8948470/09204617.pdf), IEEE Access Journal
