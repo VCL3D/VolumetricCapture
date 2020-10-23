@@ -15,7 +15,7 @@ ___
 - Built to use low-cost commodity hardware
 - Quick to setup by offering automatic and scalable sensor connectivity
 - Easy to deploy due to a markerless and facile volumetric calibration
-- Documented across its multiple aspects, deployment, setup, harware, etc.
+- Documented across its multiple aspects, deployment, setup, hardware, etc.
 
 # Summary
 The toolset is designed as a distributed system where a number of processing units each manage and collect data from a single sensor using a headless application, an **Eye** (see [Remote Eyes](docs/eyes.md)). 
