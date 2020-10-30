@@ -12,6 +12,10 @@
 [![Conference](http://img.shields.io/badge/WSCG-2018-blue.svg?style=plastic)]()
 [![Paper](http://img.shields.io/badge/paper-iti-critical.svg?style=plastic)](https://www.iti.gr/iti/files/document/publications/S05-Markerless%20Structure-based%20Calibration.pdf)
 
+[![Project Page](http://img.shields.io/badge/Volumetric-Data-blueviolet.svg?style=plastic)](https://vcl.iti.gr/dataset/human4d/)
+[![Journal](http://img.shields.io/badge/IEEE-Access-blue.svg?style=plastic)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)
+[![Paper](http://img.shields.io/badge/paper-ieee.9204617-critical.svg?style=plastic)](https://ieeexplore.ieee.org/document/9204617)
+
 _______
 
 ![Volumetric Capture Banner](./assets/images/header.png)
