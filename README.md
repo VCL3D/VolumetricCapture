@@ -18,7 +18,7 @@
 
 _______
 
-![Volumetric Capture Banner](./assets/images/header.png)
+![Volumetric Capture Banner](./assets/images/header2.png)
 _______
 
 # Documentation
