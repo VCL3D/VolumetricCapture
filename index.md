@@ -63,7 +63,7 @@ If you use this system in academic work please consider citing:
 
 # Team
 
-- *Technical Lead*: [Nikolaos](https://github.com/zokin) [Zioulis] __*__ (https://github.com/zuru)
+- *Technical Lead*: [Nikolaos](https://github.com/zokin) [Zioulis](https://github.com/zuru) __*__ 
 <img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>
 - *Design & Architecture*: [Nikolaos](https://github.com/zokin) [Zioulis](https://github.com/zuru) <img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Alexandros Doumanoglou](https://github.com/alexd314) <img src="https://eu.ui-avatars.com/api/?name=Alexandros+Doumanoglou&size=16&font-size=.5&rounded=true&background=114091&color=D0D6D9"/>
 - *Core*: [Nikolaos](https://github.com/zokin) [Zioulis](https://github.com/zuru) <img src="https://eu.ui-avatars.com/api/?name=Nikolaos+Zioulis&size=16&font-size=.5&rounded=true&background=0D8ABC&color=fff"/>, [Vladimiros Sterzentsenko](https://github.com/vladster) <img src="https://eu.ui-avatars.com/api/?name=Vladimiros+Sterzentsenko&size=16&font-size=.5&rounded=true&background=353633&color=FAF9F7"/>, [Antonis Karakottas](https://github.com/ankarako) <img src="https://eu.ui-avatars.com/api/?name=Antonis+Karakottas&size=16&font-size=.5&rounded=true&background=4D2219&color=D59386"/>, [Alexandros Doumanoglou](https://github.com/alexd314) <img src="https://eu.ui-avatars.com/api/?name=Alexandros+Doumanoglou&size=16&font-size=.5&rounded=true&background=114091&color=D0D6D9"/>
