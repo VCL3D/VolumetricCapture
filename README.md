@@ -26,6 +26,8 @@ _______
 
 Updated documentation with assembly instructions, installation guides, examples and more are now available at the project's page: https://vcl3d.github.io/VolumetricCapture/.
 
+> As volumetric capture requires the deployment of a complex system spanning multiple hardware and distributed software, please refer to the [online documentation](https://vcl3d.github.io/VolumetricCapture/) first, and then the [closed issues](https://github.com/VCL3D/VolumetricCapture/issues?q=is%3Aissue+is%3Aclosed) as most problems would have been addressed there.
+
 # News
 The latest release supporting both Kinect 4 Azure and Intel RealSense 2.0 D415 is now available for [download](https://github.com/VCL3D/VolumetricCapture/releases/tag/5.0.0) with various fixes and feedback integrated.
 It comes with an improved multi-sensor calibration that allows for greater flexibility in terms of sensor numbers and placement and higher accuracy.
