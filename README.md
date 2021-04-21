@@ -16,6 +16,9 @@
 [![Journal](http://img.shields.io/badge/IEEE-Access-blue.svg?style=plastic)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)
 [![Paper](http://img.shields.io/badge/paper-ieee.9204617-critical.svg?style=plastic)](https://ieeexplore.ieee.org/document/9204617)
 
+[![Project Page](http://img.shields.io/badge/Volumetric-Applications-blueviolet.svg?style=plastic)](https://vcl3d.github.io/AVoidX/)
+[![Journal](http://img.shields.io/badge/IEEEVR-2020-blue.svg?style=plastic)](http://ieeevr.org/2020/)
+[![Abstract](http://img.shields.io/badge/paper-ieee.9090597-critical.svg?style=plastic)](https://ieeexplore.ieee.org/document/9090597)
 _______
 
 ![Volumetric Capture Banner](./assets/images/header2.png)
