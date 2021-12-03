@@ -70,8 +70,15 @@ In order to add a device to the repository, one just need to connect **a single*
      <img src="../../assets/images/dev_repo_tool/add_device.gif" width="900"/> 
 </p>
 
+
+> **Note:** After registering all devices, the generated `device_repository.json` should be placed in the `./Resources` directory. 
+If device_name already exists, the error with be logged to the console.
+
+
+<!--
 > **Note:** If `device_repository.json` does not exist in the path specified (defaulted to the `./Resources` directory), it with create one in the `./Resources` directory. 
 If device_name already exists, the error with be logged to the console.
+-->
 
 It should be noted that you should not use underscores `_` in the device names, see [issue#53](https://github.com/VCL3D/VolumetricCapture/issues/53#issuecomment-834313689).
 {: .label .label-yellow }
