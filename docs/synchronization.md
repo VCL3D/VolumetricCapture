@@ -9,8 +9,8 @@ description: "Multi-sensor Temporal Alignment"
 The Volumetric Capture system offers synchronized recording for multiple.
 Synchronization is achieved on play-back after:
 
-1. Assuming intra-device color & depth stream synchronization (or best effort in some devices, allowing for a small `ms` desync offset)
-2. Configuring inter-sensor hardware synchronization (optional - best required for best results when capturing fast performances)
+1. Assuming intra-device color & depth stream synchronization (or best effort in some devices, allowing for a small `ms` desync offset),
+2. Configuring inter-sensor hardware synchronization (optional - best required for best results when capturing fast performances),
 3. Placing all sensors on the same _global_ timeline
 
 # Hardware Synchronization
