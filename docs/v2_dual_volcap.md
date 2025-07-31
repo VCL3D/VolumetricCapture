@@ -80,7 +80,7 @@ rabbitmq-plugins enable rabbitmq_management
 7. Click on the new user → **Set Permissions** on virtual host
 8. Log out and log in again with your new credentials
 
-<img src="./assets/rabbitmq_user.gif" alt="Description" width="800">
+<img src="../assets/rabbitmq_user.gif" alt="Description" width="800">
 
 ### Step 4: Set Firewall Rules
 
@@ -100,7 +100,7 @@ rabbitmq-plugins enable rabbitmq_management
 7. In the next window you can add a name for the rule and a description, so as to know that you created that rule, and it’s not a Windows default rule.
 Repeat all the steps in order to create an Outbound Rule too.
 
-<img src="./assets/firewall.gif" alt="Description" width="800">
+<img src="../assets/firewall.gif" alt="Description" width="800">
 
 ## Volcap Installation
 
@@ -177,11 +177,11 @@ After running these commands, cameras should appear in the Volcap available devi
 
 After successful connection you should be seeing pointclouds on the volcap scene.
 
-<img src="./assets/connected.png" alt="Description" width="850">
+<img src="../assets/connected.png" alt="Description" width="850">
 
 ## Calibration Instructions
 
-<img src="./assets/calibration.png" alt="Description" width="400">
+<img src="../assets/calibration.png" alt="Description" width="400">
 
 ### Initial Calibration
 1. **Start Calibration Process**
@@ -199,7 +199,7 @@ After successful connection you should be seeing pointclouds on the volcap scene
    - Each camera should see 2 sides of the boxes
    - Ensure correct box structure orientation
 
-<img src="./assets/boxes.png" alt="Description" width="400">
+<img src="../assets/boxes.png" alt="Description" width="400">
 
 ### Save and Load Calibration
 1. **Save Calibration**
@@ -228,11 +228,11 @@ After successful connection you should be seeing pointclouds on the volcap scene
 
    Below is an example of a calibration process. In this case, you can observe that one of the cameras—specifically the one with serial number 2300293812—shows a calibration error greater than 0.02. Such a high error indicates that the calibration for this camera is not accurate.
 
-   <img src="./assets/calibration_example.png" alt="Calibration error example" width="400">
+   <img src="../assets/calibration_example.png" alt="Calibration error example" width="400">
 
    The following animation demonstrates the impact of inaccurate calibration. Notice that the point cloud rendered in blue is misaligned; this corresponds to the camera with serial number 2300293812 identified earlier as having a high error.
 
-   <img src="./assets/calibration_evaluation.gif" alt="False calibration example" width="850">
+   <img src="../assets/calibration_evaluation.gif" alt="False calibration example" width="850">
 
    This visual discrepancy confirms that the calibration for this camera is incorrect and should be addressed to ensure overall system accuracy.
 
@@ -248,7 +248,7 @@ After successful connection you should be seeing pointclouds on the volcap scene
    - Connect microphone to computer
    - Compatible with webcam microphones and separate microphones
 
-   <img src="./assets/audio.gif" alt="False calibration example" width="600">
+   <img src="../assets/audio.gif" alt="False calibration example" width="600">
 
 2. **Audio Configuration**
    - Note microphone name in Windows sound settings
@@ -286,7 +286,7 @@ After successful connection you should be seeing pointclouds on the volcap scene
 3. **Preview**
    - Stream data to Unity for reconstruction visualization (Streaming workflow)
 
-<img src="./assets/reconstruction.gif" alt="False calibration example" width="850">
+<img src="../assets/reconstruction.gif" alt="False calibration example" width="850">
 
 ## Unity Streaming Setup
 
@@ -319,7 +319,7 @@ Before streaming, ensure you have completed:
 
 **Result:** Unity should render reconstruction and play audio. Audio may be choppy depending on network and FPS but should remain audible.
 
-<img src="./assets/stream.gif" alt="False calibration example" width="850">
+<img src="../assets/stream.gif" alt="False calibration example" width="850">
 
 ### Troubleshooting
 - If any step fails, restart the process.
