@@ -86,5 +86,5 @@ __*__: Contact points
 {: .label .label-yellow }
 
 ## Maintenance & Support
-The development of this system was made possible through H2020 research and development activities. A result of this project-based funding is that maintaining and providing continuous support is not possible after the project's lifetime. However, while there are no commitments or obligations, the developement team will try to provide support at its own discretion and free time.
+The development of this system was made possible through H2020 research and development activities. A result of this project-based funding is that maintaining and providing continuous support is not possible after the project's lifetime. However, while there are no commitments or obligations, the development team will try to provide support at its own discretion and free time.
 {: .label .label-red }
